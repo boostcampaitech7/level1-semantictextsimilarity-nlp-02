@@ -7,20 +7,23 @@ import torch
 import torchmetrics
 import pytorch_lightning as pl
 
+from pytorch_lightning.callbacks import ModelCheckpoint
 from data_loaders.lightning_loader import Dataloader
 from models.lightning_model import Model
-from utils.utils import load_config
+from utils.util import load_config
+import os
 
 # seed 고정
 torch.manual_seed(0)
 torch.cuda.manual_seed(0)
 torch.cuda.manual_seed_all(0)
 random.seed(0)
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 
 if __name__ == '__main__':
     # 하이퍼 파라미터 등 각종 설정값을 입력받습니다
-    config = load_config('config.yaml')
+    config = load_config('configs/deberta_base_120.yaml')
 
     # dataloader와 model을 생성합니다.
     dataloader = Dataloader(config['model_name'], config['batch_size'], config['shuffle'], config['train_path'],
@@ -36,4 +39,4 @@ if __name__ == '__main__':
     trainer.test(model=model, datamodule=dataloader)
 
     # 학습이 완료된 모델을 저장합니다.
-    torch.save(model, 'saves/model.pt')
+    torch.save(model, 'saves/'+config['model_nick']+'.pt')
