@@ -63,6 +63,7 @@ class CNNWithEmbedding(nn.Module) :
 
         # Fully connected layer
         output = self.fc(combined).unsqueeze(1)
+        output = 5 * F.sigmoid(output)
         # (batch, num_filters * len(filter_sizes)) -> (batch, 1)
 
         return output
