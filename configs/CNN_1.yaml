@@ -1,0 +1,35 @@
+# dataset path 
+train_path : "../../data/train.csv"
+val_path : "../../data/dev.csv"
+test_path : "../../data/test.csv"
+
+# trainer 
+trainer : "CNN"
+criterion : "MSE"
+optimizer : 
+  type : "Adam"
+  params :
+    lr : 0.001
+    weight_decay : 0.01
+
+early_stopping_patience : 50
+save_intervals : 50
+epochs : 1000
+batch_size : 128 
+attention_based : True
+
+
+# model
+pre_trained_model_path : "monologg/kobert"
+dataloader : "CNN"
+architecture : "CNN"
+num_filters : 100
+filter_sizes :
+  - 3
+  - 4
+  - 5
+fc_sizes :
+  - 300
+  - 150
+  - 1
+dropout_rate : 0.5
