@@ -1,20 +1,33 @@
-from base.pytorch_base_dataloader import SemanticTextSimilarityDataset
+from base.pytorch_base_dataloader import BaseDataset, BaseDataloader
 import torch
 from torch.utils.data import DataLoader
 from transformers import PreTrainedTokenizerBase
 import warnings
-
 warnings.filterwarnings("ignore")
 
+class CustomDataloader(BaseDataloader) :
+    def get_dataloader(self):
+        dataset = self.get_dataset()
+        if self.dataloader_type == "CNN" :
+            # batch is returned as a tuple with dictionary 
+            # each dictionary is composed 'input_ids', 'attention_mask'
+            # if train mode, last element is composed 'target', 'binary-target'
+            collator = CNNCollator(tokenizer=dataset.tokenizer)
+            return DataLoader(dataset, batch_size = self.batch_size,
+                              collate_fn = collator, shuffle = self.train)
+        else :
+            raise ValueError(f"Unknown dataloader : {self.dataloader_type}")
 
-def get_dataloader(data_path, config, train = True) :
-    dataloader_type = config['dataloader']
-    if dataloader_type == "CNN" :
-        return get_CNNDataloader(data_path, config['pre_trained_model_path'], config['batch_size'], train = train)
-    else :
-        raise ValueError(f"Unknown dataloader : {dataloader_type}")
+    def get_dataset(self):
+        if self.dataset_type == "CNN" :
+            return CNNDataset(self.data_path, 
+                              self.pre_trained_model_path,
+                              self.train)
+        else :
+            raise ValueError(f"Unknown dataset : {self.dataset_type}")
 
-class CNNDataset(SemanticTextSimilarityDataset) :     
+
+class CNNDataset(BaseDataset) :     
     def __getitem__(self, index) :
         origin_data = self.origin_data.iloc[index,:]
 
@@ -80,14 +93,3 @@ class CNNCollator :
 
         return batch_1, batch_2, targets
 
-def get_CNNDataloader(data_path, pre_trained_model_path, batch_size, train = True) : 
-    dataset = CNNDataset(data_path = data_path, 
-                         pre_trained_model_path = pre_trained_model_path,
-                         train = train)
-    collator = CNNCollator(tokenizer = dataset.tokenizer)
-    dataloader = DataLoader(dataset, batch_size = batch_size, collate_fn = collator, shuffle = train)
-
-    return dataloader
-    # batch is returned as a tuple with dictionary 
-    # each dictionary is composed 'input_ids', 'attention_mask'
-    # if train mode, last element is composed 'target', 'binary-target'

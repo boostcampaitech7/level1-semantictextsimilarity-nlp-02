@@ -13,7 +13,8 @@ class Middleman :
         self.log_dir = log_dir
         self.train_loader = train_loader
         self.val_loader = val_loader
-        self.model = GetModel(config)
+        self.modeler = GetModel()
+        self.model = self.modeler(config)
         self.optimizer = Optimizer(config['optimizer'], self.model)
         self.criterion = Criterion(config['criterion'])
         self.metric = Metric(config['metric'])
