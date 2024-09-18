@@ -1,4 +1,4 @@
-from utils.util import load_config
+from utils.utils import load_config
 from data_loaders.lightning_loader import Dataloader
 import pytorch_lightning as pl
 import torch
