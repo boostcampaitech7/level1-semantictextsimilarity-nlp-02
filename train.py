@@ -9,7 +9,7 @@ import pytorch_lightning as pl
 
 from data_loaders.lightning_loader import Dataloader
 from models.lightning_model import Model
-from utils.util import load_config
+from utils.utils import load_config
 
 # seed 고정
 torch.manual_seed(0)
