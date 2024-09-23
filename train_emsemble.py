@@ -9,7 +9,7 @@ import pytorch_lightning as pl
 
 from pytorch_lightning.callbacks import ModelCheckpoint
 from data_loaders.lightning_loader import Dataloader
-from models.lightning_model import Model
+from models.debert_large_ensemble_avg import Model
 from utils.util import load_config
 import os
 
@@ -23,7 +23,7 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 if __name__ == '__main__':
     # 하이퍼 파라미터 등 각종 설정값을 입력받습니다
-    config = load_config('configs/deberta_large_80.yaml')
+    config = load_config('configs/deberta_large_120.yaml')
 
 
     # dataloader와 model을 생성합니다.
@@ -34,7 +34,7 @@ if __name__ == '__main__':
     
     # checkpoint settings
     checkpoint_callback = ModelCheckpoint(
-    save_top_k=3,
+    save_top_k=1,
     monitor="val_pearson",
     mode="max",
     dirpath="saves/models/",
@@ -49,4 +49,4 @@ if __name__ == '__main__':
     trainer.test(model=model, datamodule=dataloader)
 
     # 학습이 완료된 모델을 저장합니다.
-    torch.save(model, 'saves/'+config['model_nick']+'.pt')
+    torch.save(model, 'saves/debert_large_ensemble.pt')
