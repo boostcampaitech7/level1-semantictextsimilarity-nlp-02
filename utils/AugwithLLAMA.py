@@ -4,13 +4,11 @@ import os
 from tqdm import tqdm
 import transformers
 import torch
-######## 본인 huggingface Access Token 입력 아마 안넣어도 상관없을듯? original llama 실헝때 사용했음. ######
-#os.environ['HF_TOKEN'] = '' 
-########################################################################################################
+
 
 #sent1, sent2 laod
-sent1 = pd.read_csv("../data/sent1.csv", header = None).iloc[:, 1]
-sent2 = pd.read_csv("../data/sent2.csv", header = None).iloc[:, 1]
+sent1 = pd.read_csv("../data/Augmented/sent1.csv", header = None).iloc[:, 1]
+sent2 = pd.read_csv("../data/Augmented/sent2.csv", header = None).iloc[:, 1]
 
 # 한국어 기반으로 LLama3 fine-tuning한 모델
 model_id = "MLP-KTLim/llama-3-Korean-Bllossom-8B"
@@ -62,7 +60,7 @@ for sentence in tqdm(sent1) :
 
     tl_sent1.append(outputs[0]["generated_text"][len(prompt):])
 
-pd.DataFrame(tl_sent1).to_csv("../data/augmented/tl_sent1.csv",header = False )
+pd.DataFrame(tl_sent1).to_csv("../data/Augmented/tl_sent1.csv",header = False )
 
 
 ######### Sent2을 입력으로 받아 prompt에서 지정된 명령을 수행한 후 new_sent2.csv를 저장하는 부분#######
@@ -97,4 +95,4 @@ for sentence in tqdm(sent2) :
 
     tl_sent2.append(outputs[0]["generated_text"][len(prompt):])
 
-pd.DataFrame(tl_sent2).to_csv("../data/augmented/tl_sent2.csv",header = False)
+pd.DataFrame(tl_sent2).to_csv("../data/Augmented/tl_sent2.csv",header = False)
