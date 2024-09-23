@@ -22,18 +22,18 @@ if __name__ == '__main__':
     # 하이퍼 파라미터 등 각종 설정값을 입력받습니다
     config = load_config('config.yaml')
 
-
     # dataloader와 model을 생성합니다.
-    dataloader = Dataloader(config['model_name'], config['batch_size'], config['shuffle'], config['train_path'], 
-                            config['dev_path'], config['test_path'], config['predict_path'], config['max_length'])
+    dataloader = Dataloader(config['model_name'], config['batch_size'], config['shuffle'], config['train_path'],
+                            config['dev_path'], config['test_path'], config['predict_path'], config['max_length'], num_workers=7)
     model = Model(config['model_name'], config['learning_rate'])
 
     # gpu가 없으면 accelerator="cpu"로 변경해주세요, gpu가 여러개면 'devices=4'처럼 사용하실 gpu의 개수를 입력해주세요
-    trainer = pl.Trainer(accelerator="gpu", devices=1, max_epochs=config['max_epoch'], log_every_n_steps=1)
+    trainer = pl.Trainer(accelerator="gpu", devices=1,
+                         max_epochs=config['max_epoch'], log_every_n_steps=1, callbacks=[checkpoint_callback])
 
     # Train part
     trainer.fit(model=model, datamodule=dataloader)
     trainer.test(model=model, datamodule=dataloader)
 
     # 학습이 완료된 모델을 저장합니다.
-    torch.save(model, 'saves/model.pt')
+    torch.save(model, 'saves/'+config['model_nick']+'.pt')
