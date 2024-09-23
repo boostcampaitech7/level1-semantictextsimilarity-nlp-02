@@ -1,0 +1,13 @@
+#config.yaml
+
+model_name  : "team-lucid/deberta-v3-base-korean"
+model_nick : "deberta_base_120"
+batch_size : 16
+max_epoch : 20
+shuffle : True   
+learning_rate : !!float 1e-5
+train_path : "./data/train.csv"
+dev_path : "./data/dev.csv"
+test_path : "./data/dev.csv"
+predict_path : "./data/test.csv"
+max_length : 120
