@@ -23,7 +23,7 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 if __name__ == '__main__':
     # 하이퍼 파라미터 등 각종 설정값을 입력받습니다
-    config = load_config('configs/deberta_base_120.yaml')
+    config = load_config('configs/deberta_large_80.yaml')
 
     # dataloader와 model을 생성합니다.
     dataloader = Dataloader(config['model_name'], config['batch_size'], config['shuffle'], config['train_path'],
