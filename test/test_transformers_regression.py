@@ -1,6 +1,6 @@
 
 from utils.util import load_config
-from data_loaders.transformers_bertForRegression_loader import BertDataLoader, BertForRegression
+from data_loaders.transformers_bertForRegression_loader import BertDataLoader
 
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 import pytorch_lightning as pl
@@ -45,7 +45,7 @@ if __name__ == '__main__':
         for batch in test_dataloader:
             input_ids = batch['input_ids'].to(device)
             attention_mask = batch['attention_mask'].to(device)
-            labels = batch['labels'][0].to(device)
+            labels = batch['labels'].to(device)
 
             outputs = model(input_ids=input_ids, attention_mask=attention_mask)
             preds = outputs.squeeze().cpu().numpy()  # 예측 값
