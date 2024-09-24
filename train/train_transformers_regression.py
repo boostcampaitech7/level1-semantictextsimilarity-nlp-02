@@ -43,7 +43,7 @@ if __name__ == '__main__':
     # 예제 학습 과정
     model.train()
     print(train_dataloader)
-    for epoch in range(3):  # 3 에포크 학습
+    for epoch in range(config['max_epoch']):  # 3 에포크 학습
         for batch in train_dataloader:
             print(batch.keys())
             print(batch.values())
