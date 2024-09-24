@@ -64,7 +64,7 @@ class TextDataset(Dataset):
             'attention_mask': encoding['attention_mask'].squeeze(),
         }
         if len(self.labels) != 0:
-            returnOutput['labels'] = self.labels[idx]
+            returnOutput['labels'] = self.labels[idx][0]
 
         return returnOutput
 
