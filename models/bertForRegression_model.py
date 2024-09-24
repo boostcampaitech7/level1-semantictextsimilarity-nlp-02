@@ -1,4 +1,5 @@
 from transformers import BertModel, BertPreTrainedModel
+import torch.nn as nn
 
 
 class BertForRegression(BertPreTrainedModel):
