@@ -64,7 +64,7 @@ class RegressionDataset(Dataset):
 class TextDataset(Dataset):
     def __init__(self, texts, labels, tokenizer, max_length=128):
         print(f"len(texts) = {len(texts)}, len(labels) = {len(labels)}")
-        assert len(texts) == len(labels), "texts와 labels의 길이가 다릅니다."
+        # assert len(texts) == len(labels), "texts와 labels의 길이가 다릅니다."
 
         self.texts = texts
         self.labels = labels
@@ -80,7 +80,6 @@ class TextDataset(Dataset):
                 f"Index {idx} is out of range for texts list with length {len(self.texts)}")
 
         text = self.texts[idx]
-        label = self.labels[idx]
 
         # 토크나이저를 사용하여 input_ids와 attention_mask 생성
         encoding = self.tokenizer(
@@ -92,13 +91,16 @@ class TextDataset(Dataset):
         )
 
         # 반환할 때 딕셔너리 형태로 반환
-        return {
+        returnOutput = {
             # (1, max_length) -> (max_length,)
             'input_ids': encoding['input_ids'].squeeze(),
             # (1, max_length) -> (max_length,)
             'attention_mask': encoding['attention_mask'].squeeze(),
-            'labels': label
         }
+        if len(self.labels) != 0:
+            returnOutput['labels'] = self.labels[idx]
+
+        return returnOutput
 
 
 class BertForRegression(BertPreTrainedModel):
