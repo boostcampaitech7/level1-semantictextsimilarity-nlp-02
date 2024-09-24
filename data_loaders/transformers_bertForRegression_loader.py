@@ -27,40 +27,6 @@ class Dataset(torch.utils.data.Dataset):
         return len(self.inputs)
 
 
-class RegressionDataset(Dataset):
-    def __init__(self, texts, labels, tokenizer, max_length=128):
-        self.texts = texts
-        self.labels = labels
-        self.tokenizer = tokenizer
-        self.max_length = max_length
-
-    def __len__(self):
-        return len(self.texts)
-
-    def __getitem__(self, idx):
-        text = self.texts[idx]
-        label = self.labels[idx]
-
-        # 텍스트 토크나이징
-        inputs = self.tokenizer(
-            text,
-            max_length=self.max_length,
-            padding='max_length',
-            truncation=True,
-            return_tensors='pt'
-        )
-
-        input_ids = inputs['input_ids'].squeeze(0)  # [1, seq_len] -> [seq_len]
-        attention_mask = inputs['attention_mask'].squeeze(
-            0)  # [1, seq_len] -> [seq_len]
-
-        return {
-            'input_ids': input_ids,
-            'attention_mask': attention_mask,
-            'labels': torch.tensor(label, dtype=torch.float)
-        }
-
-
 class TextDataset(Dataset):
     def __init__(self, texts, labels, tokenizer, max_length=128):
         print(f"len(texts) = {len(texts)}, len(labels) = {len(labels)}")
