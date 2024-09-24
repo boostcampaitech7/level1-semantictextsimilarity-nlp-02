@@ -6,7 +6,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error
 import pytorch_lightning as pl
 import torch
 import pandas as pd
-
+import torchmetrics
 
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 
@@ -68,8 +68,12 @@ if __name__ == '__main__':
     test_mae = mean_absolute_error(test_actuals, test_predictions)
     print(f"Test MSE: {test_mse:.3f}")
     print(f"Test MAE: {test_mae:.3f}")
+    pearson_corrcoef = torchmetrics.functional.pearson_corrcoef(
+        torch.tensor(test_predictions), torch.tensor(test_actuals))
+    print("test_pearson", pearson_corrcoef)
     test_predictions = list(round(float(i), 1) for i in test_predictions)
     print(test_predictions)
+
     # 예측된 결과를 형식에 맞게 반올림하여 준비합니다.
 
     predictions = list(round(float(i), 1) for i in predictions)
