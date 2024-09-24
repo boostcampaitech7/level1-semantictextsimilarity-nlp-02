@@ -86,4 +86,8 @@ if __name__ == '__main__':
     print(f"Validation MSE: {val_mse:.3f}")
     print(f"Validation MAE: {val_mae:.3f}")
 
+    pearson_corrcoef = torchmetrics.functional.pearson_corrcoef(
+        torch.tensor(val_predictions), torch.tensor(val_actuals))
+    print("test_pearson", pearson_corrcoef)
+
     torch.save(model, 'saves/transformers_regression_model.pt')
