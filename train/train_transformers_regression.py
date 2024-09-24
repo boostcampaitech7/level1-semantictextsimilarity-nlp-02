@@ -23,7 +23,7 @@ device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 
 if __name__ == '__main__':
     # 하이퍼 파라미터 등 각종 설정값을 입력받습니다
-    config = load_config('configs/config_bert_regression.yaml')
+    config = load_config('configs/config_bert_base-uncased.yaml')
 
     # 모델 초기화
 
