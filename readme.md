@@ -28,7 +28,8 @@ test/test_transforemers_regression.py
 
 
 ## Installation
-
+* sftp 사용할 경우 ignore 목록에 saves, python_venv 추가
+  
 1. 타겟 폴더에 sftp 파일 업로드 진행
 2. 가상환경 생성
 
