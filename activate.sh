@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 activate(){
-  . chw_env/bin/activate
+  . python_venv/bin/activate
 }
 
 activate
