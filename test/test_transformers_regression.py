@@ -33,7 +33,8 @@ if __name__ == '__main__':
 
     # Inference part
     # 저장된 모델로 예측을 진행합니다.
-    model = torch.load('saves/transformers_regression_model.pt').to(device)
+    model = torch.load(
+        'saves/bert_base_advanced_model.pt').to(device)
 
     # predictions = trainer.predict(model=model, datamodule=dataloader)
 
