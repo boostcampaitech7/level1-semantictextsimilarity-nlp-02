@@ -146,21 +146,21 @@ class BertDataLoader(pl.LightningDataModule):
 
             # train 데이터만 shuffle을 적용해줍니다, 필요하다면 val, test 데이터에도 shuffle을 적용할 수 있습니다
             self.train_dataset = TextDataset(
-                train_inputs, train_targets, self.tokenizer)
+                train_inputs, train_targets, self.tokenizer, max_length=self.max_length)
             self.val_dataset = TextDataset(
-                val_inputs, val_targets, self.tokenizer)
+                val_inputs, val_targets, self.tokenizer, max_length=self.max_length)
 
         else:
             # 평가데이터 준비
             test_data = pd.read_csv(self.test_path)
             test_inputs, test_targets = self.preprocessing(test_data)
             self.test_dataset = TextDataset(
-                test_inputs, test_targets, self.tokenizer)
+                test_inputs, test_targets, self.tokenizer, max_length=self.max_length)
 
             predict_data = pd.read_csv(self.predict_path)
             predict_inputs, predict_targets = self.preprocessing(predict_data)
             self.predict_dataset = TextDataset(
-                predict_inputs, [], self.tokenizer)
+                predict_inputs, [], self.tokenizer, max_length=self.max_length)
 
     def train_dataloader(self):
         return torch.utils.data.DataLoader(self.train_dataset, batch_size=self.batch_size, shuffle=self.shuffle)
