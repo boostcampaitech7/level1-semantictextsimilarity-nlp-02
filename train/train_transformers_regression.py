@@ -39,7 +39,8 @@ if __name__ == '__main__':
 
     # 손실 함수와 옵티마이저 설정
     loss_fn = MSELoss()
-    optimizer = torch.optim.AdamW(model.parameters(), lr=5e-5)
+    optimizer = torch.optim.AdamW(
+        model.parameters(), lr=config['learning_rate'])
 
     # 예제 학습 과정
     model.train()
@@ -90,4 +91,4 @@ if __name__ == '__main__':
         torch.tensor(val_predictions), torch.tensor(val_actuals))
     print("test_pearson", pearson_corrcoef)
 
-    torch.save(model, 'saves/transformers_regression_model.pt')
+    torch.save(model, 'saves/bert_base_advanced_model.pt')
