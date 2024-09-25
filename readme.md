@@ -73,6 +73,10 @@ python test/test_transformers_regression.py
 
 saves/bert_base_advanced_model.pt
 
+### 모델 성능
+본 프로젝트에서 사용된 bert-base-uncased 모델과 configs 파라미터 기준
+
+테스트 데이터셋을 바탕으로 피어슨 상관계수 0.71 측정
 
 ## Notice
 1. 로그 출력
@@ -85,4 +89,4 @@ saves/bert_base_advanced_model.pt
 
 4. 에포크 혹은 스텝마다 측정된 지표들(mse, mae) 등등을 그래프화 예정
 
-5. optuna 혹은 pytorch scheduler를 이용한 하이퍼파라미터 튜닝 자동화 추가 예정 
+5. optuna 혹은 pytorch scheduler를 이용한 하이퍼파라미터 튜닝 자동화 추가 예정  
