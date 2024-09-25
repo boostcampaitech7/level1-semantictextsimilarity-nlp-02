@@ -47,14 +47,14 @@ if __name__ == '__main__':
     model.train()
     print(train_dataloader)
     for epoch in range(config['max_epoch']):  # 3 에포크 학습
-        for batch in train_dataloader:
+        for batch in tqdm(train_dataloader, desc="Processing", unit="item"):
             # print(batch.keys())
             # print(batch.values())
             optimizer.zero_grad()
             input_ids = batch['input_ids'].to(device)
             attention_mask = batch['attention_mask'].to(device)
             labels = batch['labels'].to(device)
-            print("labels - ", labels, type(labels), len(labels))
+            # print("labels - ", labels, type(labels), len(labels))
 
             # if isinstance(labels, list):
             #     labels = torch.tensor(labels).to('gpu')
