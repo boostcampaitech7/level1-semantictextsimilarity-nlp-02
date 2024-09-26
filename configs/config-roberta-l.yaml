@@ -1,0 +1,12 @@
+#config.yaml
+
+model_name  : "klue/roberta-large"
+batch_size : 64
+max_epoch : 20
+shuffle : True   
+learning_rate : !!float 5e-5
+train_path : "./data/train.csv"
+dev_path : "./data/dev.csv"
+test_path : "./data/dev.csv"
+predict_path : "./data/test.csv"
+max_length : 160
