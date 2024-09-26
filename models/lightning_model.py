@@ -2,6 +2,7 @@ import transformers
 import torchmetrics
 import torch
 import pytorch_lightning as pl
+#from transformers import GPTNeoForCausalLM, AutoTokenizer
 
 class Model(pl.LightningModule):
     def __init__(self, model_name, lr):
@@ -14,8 +15,10 @@ class Model(pl.LightningModule):
         # 사용할 모델을 호출합니다.
         self.plm = transformers.AutoModelForSequenceClassification.from_pretrained(
             pretrained_model_name_or_path=model_name, num_labels=1)
+        # self.plm = transformers.GPTNeoXForCausalLM.from_pretrained(
+        #      pretrained_model_name_or_path=model_name, num_labels=1)
         # Loss 계산을 위해 사용될 L1Loss를 호출합니다.
-        self.loss_func = torch.nn.L1Loss()
+        self.loss_func = torch.nn.MSELoss()
 
     def forward(self, x):
         x = self.plm(x)['logits']
@@ -54,4 +57,11 @@ class Model(pl.LightningModule):
 
     def configure_optimizers(self):
         optimizer = torch.optim.AdamW(self.parameters(), lr=self.lr)
-        return optimizer
+        #ExponentialLR -> 학습률 어떻게 줄일지
+        #gamma -> 학습률을 줄이는 비율 
+        scheduler = torch.optim.lr_scheduler.ExponentialLR(optimizer, gamma=0.9)
+        return {
+            'optimizer': optimizer,
+            'lr_scheduler': scheduler,
+            'monitor': 'val_loss'  # 스케줄러를 업데이트할 기준 지표 (optional)
+        }
