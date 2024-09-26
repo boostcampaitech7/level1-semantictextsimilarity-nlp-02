@@ -50,6 +50,7 @@ class TextDataset(Dataset):
         # 토크나이저를 사용하여 input_ids와 attention_mask 생성
         encoding = self.tokenizer(
             text,
+            add_special_tokens=True,
             max_length=self.max_length,
             padding='max_length',
             truncation=True,
@@ -122,15 +123,15 @@ class BertDataLoader(pl.LightningDataModule):
         print('preprocessing targets', targets)
         return inputs, targets
 
-    def load_dataset(self, path):
-        # CSV 파일을 불러와서 텍스트와 레이블 분리
-        data = pd.read_csv(path)
-        texts = self.tokenizing(data)
-        try:
-            targets = data[self.target_column].tolist()
-        except KeyError:
-            targets = []
-        return texts, targets
+    # def load_dataset(self, path):
+    #     # CSV 파일을 불러와서 텍스트와 레이블 분리
+    #     data = pd.read_csv(path)
+    #     texts = self.tokenizing(data)
+    #     try:
+    #         targets = data[self.target_columns].tolist()
+    #     except KeyError:
+    #         targets = []
+    #     return texts, targets
 
     def setup(self, stage=None):
         if stage == 'fit':
