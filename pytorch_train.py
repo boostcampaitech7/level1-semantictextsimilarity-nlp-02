@@ -1,10 +1,9 @@
 import os
 import sys
 import shutil
-from utils.util import load_config
-from utils.trainer import get_trainer
-from data_loaders.pytorch_loader import get_dataloader
-
+from utils.utils import load_config
+from utils.train_utils import Middleman
+from data_loaders.pytorch_loader import CustomDataloader
 
 if __name__ == "__main__" : 
     config_path = sys.argv[1]
@@ -18,8 +17,16 @@ if __name__ == "__main__" :
     shutil.copy(config_path, os.path.join(log_dir, 'config.yaml'))
     
     # get dataloader
-    train_loader = get_dataloader(config['train_path'], config, train = True)
-    val_loader = get_dataloader(config['val_path'], config, train = True)
-
-    trainer = get_trainer(config['trainer'], config, log_dir, train_loader, val_loader)
+    train = CustomDataloader(config['train_path'], config['dataset_type'], config['dataloader_type'],
+                                    config['batch_size'], config['pre_trained_model_path'],train=True)
+    val = CustomDataloader(config['val_path'], config['dataset_type'], config['dataloader_type'],
+                                    config['batch_size'], config['pre_trained_model_path'],train=True)
+    
+    train_loader = train.get_dataloader()
+    val_loader = val.get_dataloader()
+    
+    # get trainer and start train
+    middleman = Middleman(config['trainer'], config, log_dir,
+                          train_loader, val_loader)
+    trainer = middleman.get_trainer()
     trainer.train()

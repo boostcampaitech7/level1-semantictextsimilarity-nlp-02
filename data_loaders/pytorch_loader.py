@@ -12,25 +12,96 @@ class CustomDataloader(BaseDataloader) :
             # batch is returned as a tuple with dictionary 
             # each dictionary is composed 'input_ids', 'attention_mask'
             # if train mode, last element is composed 'target', 'binary-target'
-            collator = CNNCollator(tokenizer=dataset.tokenizer)
-            return DataLoader(dataset, batch_size = self.batch_size,
-                              collate_fn = collator, shuffle = self.train)
+            collator = SepearteTwoSentenceDatasetCollator(tokenizer=dataset.tokenizer)
+        elif self.dataloader_type == "CNNCat" :
+            # batch is returned as a tuple with dictionary
+            # one is composed 'input_ids', 'attention_mask'
+            # another one is target composed 'target', 'binary-target' if train mode
+            collator = CNNCatCollator(tokenizer=dataset.tokenizer)
+        elif self.dataloader_type == "CLSDiffMul" :
+            # batch is returned as a tuple with dictionary
+            # one is composed 'input_ids', 'attention_mask', 'token_type_ids'
+            # another one is target composed 'target', 'binary-target' if train mode
+            collator = SepearteTwoSentenceDatasetCollator(tokenizer=dataset.tokenizer)
         else :
             raise ValueError(f"Unknown dataloader : {self.dataloader_type}")
 
+        return DataLoader(dataset, batch_size = self.batch_size,
+                          collate_fn = collator, shuffle = self.train)
+
     def get_dataset(self):
         if self.dataset_type == "CNN" :
-            return CNNDataset(self.data_path, 
+            return SepearteTwoSentenceDataset(self.data_path, 
                               self.pre_trained_model_path,
                               self.train)
+        elif self.dataset_type == "CNNCat" :
+            return CNNCatDataset(self.data_path, 
+                                 self.pre_trained_model_path,
+                                 self.train)
+        elif self.dataset_type == "CLSDiffMul" : 
+            return SepearteTwoSentenceDataset(self.data_path, 
+                                 self.pre_trained_model_path,
+                                 self.train)
         else :
             raise ValueError(f"Unknown dataset : {self.dataset_type}")
 
 
-class CNNDataset(BaseDataset) :     
+class CNNCatDataset(BaseDataset) :
     def __getitem__(self, index) :
-        origin_data = self.origin_data.iloc[index,:]
+        def tokenize_text(text) : 
+            tokens = self.tokenizer(text, 
+                                    add_special_tokens = True,
+                                    return_tensors = 'pt',
+                                    padding = False,
+                                    truncation = True)
+            return tokens['input_ids'].squeeze(0), tokens['attention_mask'].squeeze(0)
 
+        origin_data = self.origin_data.iloc[index,:]
+        text_col = ['sentence_1', 'sentence_2']
+        text = '[SEP]'.join([origin_data[col] for col in text_col])
+        text_input_ids, text_attention_mask = tokenize_text(text)
+
+        inputs = {
+            'input_ids': text_input_ids,
+            'attention_mask': text_attention_mask
+        }
+
+        # If not in test mode, include targets
+        if self.train :
+            inputs.update({
+                'target': origin_data['label'],
+                'binary_target': origin_data['binary-label']
+            })
+        
+        return inputs
+
+class CNNCatCollator :
+    def __init__(self, tokenizer : PreTrainedTokenizerBase) :
+        self.tokenizer = tokenizer
+    
+    def __call__(self, batch) :
+        input_ids = [item['input_ids'] for item in batch]
+        attention_mask = [item['attention_mask'] for item in batch]
+
+        inputs = self.tokenizer.pad(
+            {'input_ids' : input_ids, 'attention_mask' : attention_mask},
+            return_tensors='pt'
+        )
+
+        # When adding labels, process based on whether they are tested or not
+        targets = None
+        if 'target' in batch[0]:
+            targets = {
+                'target': torch.tensor([item['target'] for item in batch]),
+                'binary_target': torch.tensor([item['binary_target'] for item in batch])
+            }
+        
+        return inputs, targets
+
+class SepearteTwoSentenceDataset(BaseDataset) :     
+    def __getitem__(self, index) :
+        # inputs have 'input_ids', 'token_type_ids', 'attention_mask'
+        # if train mode, have 'target', 'binary_target'
         def tokenize_sentence(sentence) :
             tokens = self.tokenizer(sentence, 
                                     return_tensors = 'pt',
@@ -38,6 +109,8 @@ class CNNDataset(BaseDataset) :
                                     truncation = True, # Only truncate sentences when necessary.
                                     ) 
             return tokens['input_ids'].squeeze(0), tokens['attention_mask'].squeeze(0)
+
+        origin_data = self.origin_data.iloc[index,:]
 
         # Tokenize both sentences
         sen1, sen1_mask = tokenize_sentence(origin_data['sentence_1'])
@@ -54,13 +127,13 @@ class CNNDataset(BaseDataset) :
         # If not in test mode, include targets
         if self.train :
             inputs.update({
-                'target': origin_data['label'],
-                'binary_target': origin_data['binary-label']
+                'targets': origin_data['label'],
+                'binary_targets': origin_data['binary-label']
             })
 
         return inputs
 
-class CNNCollator :
+class SepearteTwoSentenceDatasetCollator :
     def __init__(self, tokenizer : PreTrainedTokenizerBase) :
         self.tokenizer = tokenizer
     
@@ -71,25 +144,37 @@ class CNNCollator :
         input_ids_2 = [item['input_ids_2'] for item in batch]
         attention_mask_2 = [item['attention_mask_2'] for item in batch]
 
-        # Padding for the first sentence
-        batch_1 = self.tokenizer.pad(
-            {'input_ids': input_ids_1, 'attention_mask': attention_mask_1},
-            return_tensors='pt'
+        # Combine the two lists of input_ids and attention_masks
+        combined_input_ids = input_ids_1 + input_ids_2
+        combined_attention_masks = attention_mask_1 + attention_mask_2
+
+        # Padding both sentence sets in a single pass
+        padded_combined = self.tokenizer.pad(
+            {'input_ids': combined_input_ids, 
+             'attention_mask': combined_attention_masks},
+            return_tensors='pt',
+            padding=True,
+            max_length=None  # Set to None so it uses the longest sequence in combined batch
         )
 
-        # Padding for the second sentence
-        batch_2 = self.tokenizer.pad(
-            {'input_ids': input_ids_2, 'attention_mask': attention_mask_2},
-            return_tensors='pt'
-        )
+        # Separate back the padded input_ids and attention_masks
+        batch_size = len(input_ids_1)
+        padded_input_ids_1 = padded_combined['input_ids'][:batch_size]
+        padded_attention_mask_1 = padded_combined['attention_mask'][:batch_size]
+        padded_input_ids_2 = padded_combined['input_ids'][batch_size:]
+        padded_attention_mask_2 = padded_combined['attention_mask'][batch_size:]
 
-        # When adding labels, process based on whether they are tested or not
+        batch_1 = {'input_ids': padded_input_ids_1,
+                   'attention_mask': padded_attention_mask_1}
+        batch_2 = {'input_ids': padded_input_ids_2,
+                   'attention_mask': padded_attention_mask_2}
+                
+        # When adding labels, process based on whether they are included
         targets = None
-        if 'target' in batch[0]:
+        if 'targets' in batch[0]:
             targets = {
-                'target': torch.tensor([item['target'] for item in batch]),
-                'binary_target': torch.tensor([item['binary_target'] for item in batch])
+                'targets': torch.tensor([item['targets'] for item in batch]),
+                'binary_targets': torch.tensor([item['binary_targets'] for item in batch])
             }
 
         return batch_1, batch_2, targets
-

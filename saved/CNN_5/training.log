@@ -1,0 +1,2359 @@
+2024-09-20 11:19:21,463 - Epoch [1/1000], Train Loss: 2.7396
+2024-09-20 11:19:21,464 - Epoch [1/1000], Train metric average : 0.0143
+2024-09-20 11:19:21,464 - Epoch [1/1000], Val Loss: 2.4990
+2024-09-20 11:19:21,464 - Epoch [1/1000], Val metric average : -0.0095
+2024-09-20 11:19:22,021 - Saved best model with Val Loss: 2.4990
+2024-09-20 11:20:11,379 - Epoch [2/1000], Train Loss: 2.6062
+2024-09-20 11:20:11,379 - Epoch [2/1000], Train metric average : -0.0070
+2024-09-20 11:20:11,380 - Epoch [2/1000], Val Loss: 2.7080
+2024-09-20 11:20:11,380 - Epoch [2/1000], Val metric average : 0.0644
+2024-09-20 11:21:00,598 - Epoch [3/1000], Train Loss: 2.5983
+2024-09-20 11:21:00,599 - Epoch [3/1000], Train metric average : -0.0044
+2024-09-20 11:21:00,599 - Epoch [3/1000], Val Loss: 2.7808
+2024-09-20 11:21:00,599 - Epoch [3/1000], Val metric average : -0.0865
+2024-09-20 11:21:49,339 - Epoch [4/1000], Train Loss: 2.6036
+2024-09-20 11:21:49,340 - Epoch [4/1000], Train metric average : 0.0030
+2024-09-20 11:21:49,340 - Epoch [4/1000], Val Loss: 2.7086
+2024-09-20 11:21:49,340 - Epoch [4/1000], Val metric average : -0.0935
+2024-09-20 11:22:38,445 - Epoch [5/1000], Train Loss: 2.5966
+2024-09-20 11:22:38,445 - Epoch [5/1000], Train metric average : 0.0098
+2024-09-20 11:22:38,445 - Epoch [5/1000], Val Loss: 2.5539
+2024-09-20 11:22:38,445 - Epoch [5/1000], Val metric average : -0.0013
+2024-09-20 11:23:27,388 - Epoch [6/1000], Train Loss: 2.5916
+2024-09-20 11:23:27,388 - Epoch [6/1000], Train metric average : -0.0024
+2024-09-20 11:23:27,388 - Epoch [6/1000], Val Loss: 2.5353
+2024-09-20 11:23:27,388 - Epoch [6/1000], Val metric average : -0.1106
+2024-09-20 11:24:16,514 - Epoch [7/1000], Train Loss: 2.5894
+2024-09-20 11:24:16,514 - Epoch [7/1000], Train metric average : 0.0087
+2024-09-20 11:24:16,514 - Epoch [7/1000], Val Loss: 2.6884
+2024-09-20 11:24:16,514 - Epoch [7/1000], Val metric average : -0.1348
+2024-09-20 11:25:05,171 - Epoch [8/1000], Train Loss: 2.5896
+2024-09-20 11:25:05,172 - Epoch [8/1000], Train metric average : -0.0012
+2024-09-20 11:25:05,172 - Epoch [8/1000], Val Loss: 2.6888
+2024-09-20 11:25:05,172 - Epoch [8/1000], Val metric average : 0.0747
+2024-09-20 11:25:54,326 - Epoch [9/1000], Train Loss: 2.5853
+2024-09-20 11:25:54,327 - Epoch [9/1000], Train metric average : 0.0015
+2024-09-20 11:25:54,327 - Epoch [9/1000], Val Loss: 2.5974
+2024-09-20 11:25:54,327 - Epoch [9/1000], Val metric average : 0.0172
+2024-09-20 11:26:43,232 - Epoch [10/1000], Train Loss: 2.5808
+2024-09-20 11:26:43,233 - Epoch [10/1000], Train metric average : -0.0181
+2024-09-20 11:26:43,233 - Epoch [10/1000], Val Loss: 2.9037
+2024-09-20 11:26:43,233 - Epoch [10/1000], Val metric average : -0.0367
+2024-09-20 11:27:32,217 - Epoch [11/1000], Train Loss: 2.5875
+2024-09-20 11:27:32,218 - Epoch [11/1000], Train metric average : 0.0113
+2024-09-20 11:27:32,218 - Epoch [11/1000], Val Loss: 2.5687
+2024-09-20 11:27:32,218 - Epoch [11/1000], Val metric average : -0.0248
+2024-09-20 11:28:21,205 - Epoch [12/1000], Train Loss: 2.5853
+2024-09-20 11:28:21,205 - Epoch [12/1000], Train metric average : 0.0209
+2024-09-20 11:28:21,205 - Epoch [12/1000], Val Loss: 2.6208
+2024-09-20 11:28:21,205 - Epoch [12/1000], Val metric average : 0.0024
+2024-09-20 11:29:10,176 - Epoch [13/1000], Train Loss: 2.5811
+2024-09-20 11:29:10,177 - Epoch [13/1000], Train metric average : 0.0028
+2024-09-20 11:29:10,177 - Epoch [13/1000], Val Loss: 2.6805
+2024-09-20 11:29:10,177 - Epoch [13/1000], Val metric average : 0.1125
+2024-09-20 11:29:59,232 - Epoch [14/1000], Train Loss: 2.5807
+2024-09-20 11:29:59,232 - Epoch [14/1000], Train metric average : -0.0098
+2024-09-20 11:29:59,232 - Epoch [14/1000], Val Loss: 2.6279
+2024-09-20 11:29:59,232 - Epoch [14/1000], Val metric average : 0.0808
+2024-09-20 11:30:48,106 - Epoch [15/1000], Train Loss: 2.5806
+2024-09-20 11:30:48,107 - Epoch [15/1000], Train metric average : -0.0015
+2024-09-20 11:30:48,107 - Epoch [15/1000], Val Loss: 2.6446
+2024-09-20 11:30:48,107 - Epoch [15/1000], Val metric average : -0.0667
+2024-09-20 11:31:37,237 - Epoch [16/1000], Train Loss: 2.5799
+2024-09-20 11:31:37,238 - Epoch [16/1000], Train metric average : 0.0068
+2024-09-20 11:31:37,238 - Epoch [16/1000], Val Loss: 2.7221
+2024-09-20 11:31:37,238 - Epoch [16/1000], Val metric average : 0.0522
+2024-09-20 11:32:25,916 - Epoch [17/1000], Train Loss: 2.5805
+2024-09-20 11:32:25,917 - Epoch [17/1000], Train metric average : 0.0023
+2024-09-20 11:32:25,917 - Epoch [17/1000], Val Loss: 2.6171
+2024-09-20 11:32:25,917 - Epoch [17/1000], Val metric average : -0.0569
+2024-09-20 11:33:14,506 - Epoch [18/1000], Train Loss: 2.5798
+2024-09-20 11:33:14,506 - Epoch [18/1000], Train metric average : -0.0095
+2024-09-20 11:33:14,506 - Epoch [18/1000], Val Loss: 2.7026
+2024-09-20 11:33:14,506 - Epoch [18/1000], Val metric average : -0.0008
+2024-09-20 11:34:03,155 - Epoch [19/1000], Train Loss: 2.5819
+2024-09-20 11:34:03,155 - Epoch [19/1000], Train metric average : -0.0090
+2024-09-20 11:34:03,155 - Epoch [19/1000], Val Loss: 2.8766
+2024-09-20 11:34:03,155 - Epoch [19/1000], Val metric average : 0.0068
+2024-09-20 11:34:51,314 - Epoch [20/1000], Train Loss: 2.5815
+2024-09-20 11:34:51,315 - Epoch [20/1000], Train metric average : -0.0049
+2024-09-20 11:34:51,315 - Epoch [20/1000], Val Loss: 2.7244
+2024-09-20 11:34:51,315 - Epoch [20/1000], Val metric average : -0.0096
+2024-09-20 11:35:39,063 - Epoch [21/1000], Train Loss: 2.5770
+2024-09-20 11:35:39,063 - Epoch [21/1000], Train metric average : -0.0060
+2024-09-20 11:35:39,064 - Epoch [21/1000], Val Loss: 2.7340
+2024-09-20 11:35:39,064 - Epoch [21/1000], Val metric average : -0.1014
+2024-09-20 11:36:27,311 - Epoch [22/1000], Train Loss: 2.5799
+2024-09-20 11:36:27,311 - Epoch [22/1000], Train metric average : 0.0010
+2024-09-20 11:36:27,311 - Epoch [22/1000], Val Loss: 2.7956
+2024-09-20 11:36:27,311 - Epoch [22/1000], Val metric average : 0.0620
+2024-09-20 11:37:15,261 - Epoch [23/1000], Train Loss: 2.5788
+2024-09-20 11:37:15,261 - Epoch [23/1000], Train metric average : 0.0122
+2024-09-20 11:37:15,261 - Epoch [23/1000], Val Loss: 2.7329
+2024-09-20 11:37:15,261 - Epoch [23/1000], Val metric average : 0.0806
+2024-09-20 11:38:03,226 - Epoch [24/1000], Train Loss: 2.5758
+2024-09-20 11:38:03,226 - Epoch [24/1000], Train metric average : 0.0007
+2024-09-20 11:38:03,227 - Epoch [24/1000], Val Loss: 2.5460
+2024-09-20 11:38:03,227 - Epoch [24/1000], Val metric average : -0.0082
+2024-09-20 11:38:50,970 - Epoch [25/1000], Train Loss: 2.5790
+2024-09-20 11:38:50,970 - Epoch [25/1000], Train metric average : 0.0098
+2024-09-20 11:38:50,970 - Epoch [25/1000], Val Loss: 2.6551
+2024-09-20 11:38:50,970 - Epoch [25/1000], Val metric average : 0.0621
+2024-09-20 11:39:38,759 - Epoch [26/1000], Train Loss: 2.5767
+2024-09-20 11:39:38,759 - Epoch [26/1000], Train metric average : -0.0116
+2024-09-20 11:39:38,759 - Epoch [26/1000], Val Loss: 2.5541
+2024-09-20 11:39:38,759 - Epoch [26/1000], Val metric average : 0.0428
+2024-09-20 11:40:26,537 - Epoch [27/1000], Train Loss: 2.5783
+2024-09-20 11:40:26,538 - Epoch [27/1000], Train metric average : 0.0189
+2024-09-20 11:40:26,538 - Epoch [27/1000], Val Loss: 2.6375
+2024-09-20 11:40:26,538 - Epoch [27/1000], Val metric average : nan
+2024-09-20 11:41:14,387 - Epoch [28/1000], Train Loss: 2.5780
+2024-09-20 11:41:14,387 - Epoch [28/1000], Train metric average : -0.0100
+2024-09-20 11:41:14,387 - Epoch [28/1000], Val Loss: 2.7731
+2024-09-20 11:41:14,387 - Epoch [28/1000], Val metric average : 0.0126
+2024-09-20 11:42:02,066 - Epoch [29/1000], Train Loss: 2.5751
+2024-09-20 11:42:02,067 - Epoch [29/1000], Train metric average : 0.0124
+2024-09-20 11:42:02,067 - Epoch [29/1000], Val Loss: 2.6336
+2024-09-20 11:42:02,067 - Epoch [29/1000], Val metric average : -0.0362
+2024-09-20 11:42:49,399 - Epoch [30/1000], Train Loss: 2.5764
+2024-09-20 11:42:49,399 - Epoch [30/1000], Train metric average : 0.0078
+2024-09-20 11:42:49,399 - Epoch [30/1000], Val Loss: 2.6928
+2024-09-20 11:42:49,399 - Epoch [30/1000], Val metric average : nan
+2024-09-20 11:43:36,688 - Epoch [31/1000], Train Loss: 2.5769
+2024-09-20 11:43:36,688 - Epoch [31/1000], Train metric average : 0.0070
+2024-09-20 11:43:36,688 - Epoch [31/1000], Val Loss: 2.6359
+2024-09-20 11:43:36,688 - Epoch [31/1000], Val metric average : nan
+2024-09-20 11:44:24,182 - Epoch [32/1000], Train Loss: 2.5765
+2024-09-20 11:44:24,182 - Epoch [32/1000], Train metric average : 0.0045
+2024-09-20 11:44:24,182 - Epoch [32/1000], Val Loss: 2.7045
+2024-09-20 11:44:24,182 - Epoch [32/1000], Val metric average : nan
+2024-09-20 11:45:11,381 - Epoch [33/1000], Train Loss: 2.5816
+2024-09-20 11:45:11,381 - Epoch [33/1000], Train metric average : -0.0203
+2024-09-20 11:45:11,381 - Epoch [33/1000], Val Loss: 2.8782
+2024-09-20 11:45:11,381 - Epoch [33/1000], Val metric average : nan
+2024-09-20 11:45:58,873 - Epoch [34/1000], Train Loss: 2.5796
+2024-09-20 11:45:58,873 - Epoch [34/1000], Train metric average : 0.0092
+2024-09-20 11:45:58,874 - Epoch [34/1000], Val Loss: 2.7128
+2024-09-20 11:45:58,874 - Epoch [34/1000], Val metric average : nan
+2024-09-20 11:46:46,036 - Epoch [35/1000], Train Loss: 2.5778
+2024-09-20 11:46:46,036 - Epoch [35/1000], Train metric average : -0.0248
+2024-09-20 11:46:46,036 - Epoch [35/1000], Val Loss: 2.7145
+2024-09-20 11:46:46,036 - Epoch [35/1000], Val metric average : nan
+2024-09-20 11:47:33,644 - Epoch [36/1000], Train Loss: 2.5737
+2024-09-20 11:47:33,644 - Epoch [36/1000], Train metric average : -0.0022
+2024-09-20 11:47:33,644 - Epoch [36/1000], Val Loss: 2.7981
+2024-09-20 11:47:33,644 - Epoch [36/1000], Val metric average : nan
+2024-09-20 11:48:21,063 - Epoch [37/1000], Train Loss: 2.5800
+2024-09-20 11:48:21,063 - Epoch [37/1000], Train metric average : -0.0248
+2024-09-20 11:48:21,063 - Epoch [37/1000], Val Loss: 2.8322
+2024-09-20 11:48:21,063 - Epoch [37/1000], Val metric average : nan
+2024-09-20 11:49:08,304 - Epoch [38/1000], Train Loss: 2.5762
+2024-09-20 11:49:08,304 - Epoch [38/1000], Train metric average : 0.0051
+2024-09-20 11:49:08,304 - Epoch [38/1000], Val Loss: 2.7182
+2024-09-20 11:49:08,304 - Epoch [38/1000], Val metric average : nan
+2024-09-20 11:49:55,686 - Epoch [39/1000], Train Loss: 2.5787
+2024-09-20 11:49:55,686 - Epoch [39/1000], Train metric average : -0.0182
+2024-09-20 11:49:55,686 - Epoch [39/1000], Val Loss: 2.6549
+2024-09-20 11:49:55,686 - Epoch [39/1000], Val metric average : nan
+2024-09-20 11:50:43,167 - Epoch [40/1000], Train Loss: 2.5798
+2024-09-20 11:50:43,167 - Epoch [40/1000], Train metric average : -0.0193
+2024-09-20 11:50:43,167 - Epoch [40/1000], Val Loss: 2.6469
+2024-09-20 11:50:43,167 - Epoch [40/1000], Val metric average : nan
+2024-09-20 11:51:30,397 - Epoch [41/1000], Train Loss: 2.5772
+2024-09-20 11:51:30,398 - Epoch [41/1000], Train metric average : 0.0074
+2024-09-20 11:51:30,398 - Epoch [41/1000], Val Loss: 2.7066
+2024-09-20 11:51:30,398 - Epoch [41/1000], Val metric average : nan
+2024-09-20 11:52:18,007 - Epoch [42/1000], Train Loss: 2.5751
+2024-09-20 11:52:18,007 - Epoch [42/1000], Train metric average : 0.0032
+2024-09-20 11:52:18,007 - Epoch [42/1000], Val Loss: 2.6487
+2024-09-20 11:52:18,007 - Epoch [42/1000], Val metric average : nan
+2024-09-20 11:53:05,512 - Epoch [43/1000], Train Loss: 2.5749
+2024-09-20 11:53:05,512 - Epoch [43/1000], Train metric average : 0.0010
+2024-09-20 11:53:05,512 - Epoch [43/1000], Val Loss: 2.6710
+2024-09-20 11:53:05,512 - Epoch [43/1000], Val metric average : nan
+2024-09-20 11:53:52,854 - Epoch [44/1000], Train Loss: 2.5757
+2024-09-20 11:53:52,855 - Epoch [44/1000], Train metric average : 0.0077
+2024-09-20 11:53:52,855 - Epoch [44/1000], Val Loss: 2.7422
+2024-09-20 11:53:52,855 - Epoch [44/1000], Val metric average : nan
+2024-09-20 11:54:40,459 - Epoch [45/1000], Train Loss: 2.5748
+2024-09-20 11:54:40,459 - Epoch [45/1000], Train metric average : -0.0065
+2024-09-20 11:54:40,459 - Epoch [45/1000], Val Loss: 2.6035
+2024-09-20 11:54:40,459 - Epoch [45/1000], Val metric average : nan
+2024-09-20 11:55:27,843 - Epoch [46/1000], Train Loss: 2.5759
+2024-09-20 11:55:27,843 - Epoch [46/1000], Train metric average : -0.0036
+2024-09-20 11:55:27,845 - Epoch [46/1000], Val Loss: 2.6548
+2024-09-20 11:55:27,845 - Epoch [46/1000], Val metric average : nan
+2024-09-20 11:56:14,975 - Epoch [47/1000], Train Loss: 2.5744
+2024-09-20 11:56:14,975 - Epoch [47/1000], Train metric average : -0.0016
+2024-09-20 11:56:14,975 - Epoch [47/1000], Val Loss: 2.6017
+2024-09-20 11:56:14,975 - Epoch [47/1000], Val metric average : nan
+2024-09-20 11:57:02,342 - Epoch [48/1000], Train Loss: 2.5751
+2024-09-20 11:57:02,342 - Epoch [48/1000], Train metric average : -0.0071
+2024-09-20 11:57:02,342 - Epoch [48/1000], Val Loss: 2.7051
+2024-09-20 11:57:02,342 - Epoch [48/1000], Val metric average : nan
+2024-09-20 11:57:50,099 - Epoch [49/1000], Train Loss: 2.5775
+2024-09-20 11:57:50,099 - Epoch [49/1000], Train metric average : -0.0023
+2024-09-20 11:57:50,099 - Epoch [49/1000], Val Loss: 2.6981
+2024-09-20 11:57:50,100 - Epoch [49/1000], Val metric average : nan
+2024-09-20 11:58:37,757 - Epoch [50/1000], Train Loss: 2.5747
+2024-09-20 11:58:37,757 - Epoch [50/1000], Train metric average : -0.0078
+2024-09-20 11:58:37,758 - Epoch [50/1000], Val Loss: 2.5561
+2024-09-20 11:58:37,758 - Epoch [50/1000], Val metric average : nan
+2024-09-20 11:59:25,171 - Epoch [51/1000], Train Loss: 2.5783
+2024-09-20 11:59:25,172 - Epoch [51/1000], Train metric average : 0.0020
+2024-09-20 11:59:25,172 - Epoch [51/1000], Val Loss: 2.5680
+2024-09-20 11:59:25,172 - Epoch [51/1000], Val metric average : nan
+2024-09-20 12:00:12,988 - Epoch [52/1000], Train Loss: 2.5749
+2024-09-20 12:00:12,988 - Epoch [52/1000], Train metric average : -0.0087
+2024-09-20 12:00:12,988 - Epoch [52/1000], Val Loss: 2.7006
+2024-09-20 12:00:12,988 - Epoch [52/1000], Val metric average : nan
+2024-09-20 12:01:00,475 - Epoch [53/1000], Train Loss: 2.5748
+2024-09-20 12:01:00,476 - Epoch [53/1000], Train metric average : -0.0118
+2024-09-20 12:01:00,476 - Epoch [53/1000], Val Loss: 2.6207
+2024-09-20 12:01:00,476 - Epoch [53/1000], Val metric average : nan
+2024-09-20 12:01:47,808 - Epoch [54/1000], Train Loss: 2.5752
+2024-09-20 12:01:47,808 - Epoch [54/1000], Train metric average : 0.0015
+2024-09-20 12:01:47,808 - Epoch [54/1000], Val Loss: 2.6730
+2024-09-20 12:01:47,808 - Epoch [54/1000], Val metric average : nan
+2024-09-20 12:02:35,288 - Epoch [55/1000], Train Loss: 2.5734
+2024-09-20 12:02:35,289 - Epoch [55/1000], Train metric average : -0.0017
+2024-09-20 12:02:35,289 - Epoch [55/1000], Val Loss: 2.6374
+2024-09-20 12:02:35,289 - Epoch [55/1000], Val metric average : nan
+2024-09-20 12:03:22,606 - Epoch [56/1000], Train Loss: 2.5727
+2024-09-20 12:03:22,606 - Epoch [56/1000], Train metric average : -0.0015
+2024-09-20 12:03:22,606 - Epoch [56/1000], Val Loss: 2.7976
+2024-09-20 12:03:22,606 - Epoch [56/1000], Val metric average : nan
+2024-09-20 12:04:09,887 - Epoch [57/1000], Train Loss: 2.5797
+2024-09-20 12:04:09,887 - Epoch [57/1000], Train metric average : -0.0097
+2024-09-20 12:04:09,887 - Epoch [57/1000], Val Loss: 2.6297
+2024-09-20 12:04:09,887 - Epoch [57/1000], Val metric average : nan
+2024-09-20 12:04:57,099 - Epoch [58/1000], Train Loss: 2.5742
+2024-09-20 12:04:57,099 - Epoch [58/1000], Train metric average : 0.0126
+2024-09-20 12:04:57,099 - Epoch [58/1000], Val Loss: 2.6683
+2024-09-20 12:04:57,099 - Epoch [58/1000], Val metric average : nan
+2024-09-20 12:05:44,633 - Epoch [59/1000], Train Loss: 2.5792
+2024-09-20 12:05:44,633 - Epoch [59/1000], Train metric average : 0.0071
+2024-09-20 12:05:44,634 - Epoch [59/1000], Val Loss: 2.6178
+2024-09-20 12:05:44,634 - Epoch [59/1000], Val metric average : nan
+2024-09-20 12:06:32,277 - Epoch [60/1000], Train Loss: 2.5785
+2024-09-20 12:06:32,277 - Epoch [60/1000], Train metric average : -0.0051
+2024-09-20 12:06:32,277 - Epoch [60/1000], Val Loss: 2.5458
+2024-09-20 12:06:32,277 - Epoch [60/1000], Val metric average : nan
+2024-09-20 12:07:19,608 - Epoch [61/1000], Train Loss: 2.5756
+2024-09-20 12:07:19,608 - Epoch [61/1000], Train metric average : 0.0113
+2024-09-20 12:07:19,608 - Epoch [61/1000], Val Loss: 2.4593
+2024-09-20 12:07:19,608 - Epoch [61/1000], Val metric average : nan
+2024-09-20 12:07:22,066 - Saved best model with Val Loss: 2.4593
+2024-09-20 12:08:09,487 - Epoch [62/1000], Train Loss: 2.5778
+2024-09-20 12:08:09,487 - Epoch [62/1000], Train metric average : 0.0195
+2024-09-20 12:08:09,487 - Epoch [62/1000], Val Loss: 2.7114
+2024-09-20 12:08:09,487 - Epoch [62/1000], Val metric average : nan
+2024-09-20 12:08:56,622 - Epoch [63/1000], Train Loss: 2.5748
+2024-09-20 12:08:56,622 - Epoch [63/1000], Train metric average : -0.0000
+2024-09-20 12:08:56,622 - Epoch [63/1000], Val Loss: 2.5134
+2024-09-20 12:08:56,622 - Epoch [63/1000], Val metric average : nan
+2024-09-20 12:09:44,088 - Epoch [64/1000], Train Loss: 2.5739
+2024-09-20 12:09:44,088 - Epoch [64/1000], Train metric average : 0.0046
+2024-09-20 12:09:44,088 - Epoch [64/1000], Val Loss: 2.7707
+2024-09-20 12:09:44,088 - Epoch [64/1000], Val metric average : nan
+2024-09-20 12:10:31,189 - Epoch [65/1000], Train Loss: 2.5763
+2024-09-20 12:10:31,189 - Epoch [65/1000], Train metric average : -0.0066
+2024-09-20 12:10:31,189 - Epoch [65/1000], Val Loss: 2.7734
+2024-09-20 12:10:31,190 - Epoch [65/1000], Val metric average : nan
+2024-09-20 12:11:18,850 - Epoch [66/1000], Train Loss: 2.5741
+2024-09-20 12:11:18,851 - Epoch [66/1000], Train metric average : -0.0042
+2024-09-20 12:11:18,851 - Epoch [66/1000], Val Loss: 2.5882
+2024-09-20 12:11:18,851 - Epoch [66/1000], Val metric average : nan
+2024-09-20 12:12:06,292 - Epoch [67/1000], Train Loss: 2.5739
+2024-09-20 12:12:06,292 - Epoch [67/1000], Train metric average : -0.0024
+2024-09-20 12:12:06,292 - Epoch [67/1000], Val Loss: 2.5684
+2024-09-20 12:12:06,292 - Epoch [67/1000], Val metric average : nan
+2024-09-20 12:12:53,696 - Epoch [68/1000], Train Loss: 2.5746
+2024-09-20 12:12:53,696 - Epoch [68/1000], Train metric average : 0.0138
+2024-09-20 12:12:53,696 - Epoch [68/1000], Val Loss: 2.5600
+2024-09-20 12:12:53,696 - Epoch [68/1000], Val metric average : nan
+2024-09-20 12:13:41,216 - Epoch [69/1000], Train Loss: 2.5738
+2024-09-20 12:13:41,216 - Epoch [69/1000], Train metric average : -0.0006
+2024-09-20 12:13:41,216 - Epoch [69/1000], Val Loss: 2.7345
+2024-09-20 12:13:41,216 - Epoch [69/1000], Val metric average : nan
+2024-09-20 12:14:28,887 - Epoch [70/1000], Train Loss: 2.5753
+2024-09-20 12:14:28,887 - Epoch [70/1000], Train metric average : -0.0002
+2024-09-20 12:14:28,887 - Epoch [70/1000], Val Loss: 2.5929
+2024-09-20 12:14:28,887 - Epoch [70/1000], Val metric average : nan
+2024-09-20 12:15:16,658 - Epoch [71/1000], Train Loss: 2.5753
+2024-09-20 12:15:16,658 - Epoch [71/1000], Train metric average : 0.0083
+2024-09-20 12:15:16,658 - Epoch [71/1000], Val Loss: 2.7901
+2024-09-20 12:15:16,658 - Epoch [71/1000], Val metric average : nan
+2024-09-20 12:16:04,084 - Epoch [72/1000], Train Loss: 2.5736
+2024-09-20 12:16:04,084 - Epoch [72/1000], Train metric average : 0.0016
+2024-09-20 12:16:04,084 - Epoch [72/1000], Val Loss: 2.6325
+2024-09-20 12:16:04,084 - Epoch [72/1000], Val metric average : nan
+2024-09-20 12:16:51,431 - Epoch [73/1000], Train Loss: 2.5788
+2024-09-20 12:16:51,431 - Epoch [73/1000], Train metric average : 0.0037
+2024-09-20 12:16:51,431 - Epoch [73/1000], Val Loss: 2.8264
+2024-09-20 12:16:51,431 - Epoch [73/1000], Val metric average : nan
+2024-09-20 12:17:39,084 - Epoch [74/1000], Train Loss: 2.5726
+2024-09-20 12:17:39,084 - Epoch [74/1000], Train metric average : -0.0204
+2024-09-20 12:17:39,084 - Epoch [74/1000], Val Loss: 2.7632
+2024-09-20 12:17:39,084 - Epoch [74/1000], Val metric average : nan
+2024-09-20 12:18:26,338 - Epoch [75/1000], Train Loss: 2.5754
+2024-09-20 12:18:26,338 - Epoch [75/1000], Train metric average : -0.0074
+2024-09-20 12:18:26,338 - Epoch [75/1000], Val Loss: 2.5531
+2024-09-20 12:18:26,339 - Epoch [75/1000], Val metric average : nan
+2024-09-20 12:19:13,428 - Epoch [76/1000], Train Loss: 2.5729
+2024-09-20 12:19:13,429 - Epoch [76/1000], Train metric average : 0.0072
+2024-09-20 12:19:13,429 - Epoch [76/1000], Val Loss: 2.6629
+2024-09-20 12:19:13,429 - Epoch [76/1000], Val metric average : nan
+2024-09-20 12:20:00,767 - Epoch [77/1000], Train Loss: 2.5728
+2024-09-20 12:20:00,767 - Epoch [77/1000], Train metric average : 0.0213
+2024-09-20 12:20:00,768 - Epoch [77/1000], Val Loss: 2.9286
+2024-09-20 12:20:00,768 - Epoch [77/1000], Val metric average : nan
+2024-09-20 12:20:48,256 - Epoch [78/1000], Train Loss: 2.5736
+2024-09-20 12:20:48,256 - Epoch [78/1000], Train metric average : -0.0013
+2024-09-20 12:20:48,256 - Epoch [78/1000], Val Loss: 2.6553
+2024-09-20 12:20:48,256 - Epoch [78/1000], Val metric average : nan
+2024-09-20 12:21:35,333 - Epoch [79/1000], Train Loss: 2.5760
+2024-09-20 12:21:35,334 - Epoch [79/1000], Train metric average : -0.0025
+2024-09-20 12:21:35,334 - Epoch [79/1000], Val Loss: 2.6904
+2024-09-20 12:21:35,334 - Epoch [79/1000], Val metric average : nan
+2024-09-20 12:22:22,698 - Epoch [80/1000], Train Loss: 2.5759
+2024-09-20 12:22:22,699 - Epoch [80/1000], Train metric average : 0.0120
+2024-09-20 12:22:22,699 - Epoch [80/1000], Val Loss: 2.6982
+2024-09-20 12:22:22,699 - Epoch [80/1000], Val metric average : nan
+2024-09-20 12:23:10,188 - Epoch [81/1000], Train Loss: 2.5799
+2024-09-20 12:23:10,188 - Epoch [81/1000], Train metric average : -0.0149
+2024-09-20 12:23:10,188 - Epoch [81/1000], Val Loss: 2.6654
+2024-09-20 12:23:10,188 - Epoch [81/1000], Val metric average : nan
+2024-09-20 12:23:57,386 - Epoch [82/1000], Train Loss: 2.5757
+2024-09-20 12:23:57,386 - Epoch [82/1000], Train metric average : -0.0101
+2024-09-20 12:23:57,386 - Epoch [82/1000], Val Loss: 2.6927
+2024-09-20 12:23:57,386 - Epoch [82/1000], Val metric average : nan
+2024-09-20 12:24:44,893 - Epoch [83/1000], Train Loss: 2.5770
+2024-09-20 12:24:44,894 - Epoch [83/1000], Train metric average : -0.0020
+2024-09-20 12:24:44,894 - Epoch [83/1000], Val Loss: 2.6399
+2024-09-20 12:24:44,894 - Epoch [83/1000], Val metric average : nan
+2024-09-20 12:25:32,247 - Epoch [84/1000], Train Loss: 2.5744
+2024-09-20 12:25:32,247 - Epoch [84/1000], Train metric average : 0.0012
+2024-09-20 12:25:32,247 - Epoch [84/1000], Val Loss: 2.6950
+2024-09-20 12:25:32,247 - Epoch [84/1000], Val metric average : nan
+2024-09-20 12:26:19,632 - Epoch [85/1000], Train Loss: 2.5726
+2024-09-20 12:26:19,632 - Epoch [85/1000], Train metric average : -0.0025
+2024-09-20 12:26:19,632 - Epoch [85/1000], Val Loss: 2.5556
+2024-09-20 12:26:19,632 - Epoch [85/1000], Val metric average : nan
+2024-09-20 12:27:06,874 - Epoch [86/1000], Train Loss: 2.5736
+2024-09-20 12:27:06,874 - Epoch [86/1000], Train metric average : 0.0118
+2024-09-20 12:27:06,875 - Epoch [86/1000], Val Loss: 2.6934
+2024-09-20 12:27:06,875 - Epoch [86/1000], Val metric average : nan
+2024-09-20 12:27:54,489 - Epoch [87/1000], Train Loss: 2.5743
+2024-09-20 12:27:54,489 - Epoch [87/1000], Train metric average : 0.0044
+2024-09-20 12:27:54,489 - Epoch [87/1000], Val Loss: 2.5854
+2024-09-20 12:27:54,489 - Epoch [87/1000], Val metric average : nan
+2024-09-20 12:28:41,944 - Epoch [88/1000], Train Loss: 2.5781
+2024-09-20 12:28:41,945 - Epoch [88/1000], Train metric average : -0.0149
+2024-09-20 12:28:41,945 - Epoch [88/1000], Val Loss: 2.6669
+2024-09-20 12:28:41,946 - Epoch [88/1000], Val metric average : nan
+2024-09-20 12:29:29,200 - Epoch [89/1000], Train Loss: 2.5745
+2024-09-20 12:29:29,200 - Epoch [89/1000], Train metric average : 0.0010
+2024-09-20 12:29:29,200 - Epoch [89/1000], Val Loss: 2.8227
+2024-09-20 12:29:29,200 - Epoch [89/1000], Val metric average : nan
+2024-09-20 12:30:16,706 - Epoch [90/1000], Train Loss: 2.5741
+2024-09-20 12:30:16,706 - Epoch [90/1000], Train metric average : 0.0067
+2024-09-20 12:30:16,706 - Epoch [90/1000], Val Loss: 2.6101
+2024-09-20 12:30:16,707 - Epoch [90/1000], Val metric average : nan
+2024-09-20 12:31:04,436 - Epoch [91/1000], Train Loss: 2.5726
+2024-09-20 12:31:04,436 - Epoch [91/1000], Train metric average : 0.0060
+2024-09-20 12:31:04,437 - Epoch [91/1000], Val Loss: 2.7641
+2024-09-20 12:31:04,437 - Epoch [91/1000], Val metric average : nan
+2024-09-20 12:31:51,683 - Epoch [92/1000], Train Loss: 2.5729
+2024-09-20 12:31:51,683 - Epoch [92/1000], Train metric average : -0.0224
+2024-09-20 12:31:51,683 - Epoch [92/1000], Val Loss: 2.7225
+2024-09-20 12:31:51,683 - Epoch [92/1000], Val metric average : nan
+2024-09-20 12:32:39,225 - Epoch [93/1000], Train Loss: 2.5770
+2024-09-20 12:32:39,225 - Epoch [93/1000], Train metric average : 0.0064
+2024-09-20 12:32:39,225 - Epoch [93/1000], Val Loss: 2.5788
+2024-09-20 12:32:39,225 - Epoch [93/1000], Val metric average : nan
+2024-09-20 12:33:26,597 - Epoch [94/1000], Train Loss: 2.5750
+2024-09-20 12:33:26,598 - Epoch [94/1000], Train metric average : 0.0097
+2024-09-20 12:33:26,598 - Epoch [94/1000], Val Loss: 2.6180
+2024-09-20 12:33:26,598 - Epoch [94/1000], Val metric average : nan
+2024-09-20 12:34:14,035 - Epoch [95/1000], Train Loss: 2.5732
+2024-09-20 12:34:14,036 - Epoch [95/1000], Train metric average : 0.0222
+2024-09-20 12:34:14,036 - Epoch [95/1000], Val Loss: 2.6830
+2024-09-20 12:34:14,036 - Epoch [95/1000], Val metric average : nan
+2024-09-20 12:35:01,338 - Epoch [96/1000], Train Loss: 2.5722
+2024-09-20 12:35:01,339 - Epoch [96/1000], Train metric average : -0.0053
+2024-09-20 12:35:01,339 - Epoch [96/1000], Val Loss: 2.9142
+2024-09-20 12:35:01,339 - Epoch [96/1000], Val metric average : nan
+2024-09-20 12:35:48,691 - Epoch [97/1000], Train Loss: 2.5761
+2024-09-20 12:35:48,691 - Epoch [97/1000], Train metric average : -0.0000
+2024-09-20 12:35:48,691 - Epoch [97/1000], Val Loss: 2.6407
+2024-09-20 12:35:48,691 - Epoch [97/1000], Val metric average : nan
+2024-09-20 12:36:36,104 - Epoch [98/1000], Train Loss: 2.5742
+2024-09-20 12:36:36,104 - Epoch [98/1000], Train metric average : 0.0066
+2024-09-20 12:36:36,104 - Epoch [98/1000], Val Loss: 2.9318
+2024-09-20 12:36:36,104 - Epoch [98/1000], Val metric average : nan
+2024-09-20 12:37:23,573 - Epoch [99/1000], Train Loss: 2.5759
+2024-09-20 12:37:23,574 - Epoch [99/1000], Train metric average : 0.0281
+2024-09-20 12:37:23,574 - Epoch [99/1000], Val Loss: 2.5918
+2024-09-20 12:37:23,574 - Epoch [99/1000], Val metric average : nan
+2024-09-20 12:38:11,157 - Epoch [100/1000], Train Loss: 2.5731
+2024-09-20 12:38:11,158 - Epoch [100/1000], Train metric average : 0.0007
+2024-09-20 12:38:11,158 - Epoch [100/1000], Val Loss: 2.5912
+2024-09-20 12:38:11,158 - Epoch [100/1000], Val metric average : nan
+2024-09-20 12:38:58,118 - Epoch [101/1000], Train Loss: 2.5762
+2024-09-20 12:38:58,119 - Epoch [101/1000], Train metric average : -0.0035
+2024-09-20 12:38:58,119 - Epoch [101/1000], Val Loss: 2.8465
+2024-09-20 12:38:58,119 - Epoch [101/1000], Val metric average : nan
+2024-09-20 12:39:45,578 - Epoch [102/1000], Train Loss: 2.5771
+2024-09-20 12:39:45,578 - Epoch [102/1000], Train metric average : -0.0104
+2024-09-20 12:39:45,578 - Epoch [102/1000], Val Loss: 2.7469
+2024-09-20 12:39:45,578 - Epoch [102/1000], Val metric average : nan
+2024-09-20 12:40:32,851 - Epoch [103/1000], Train Loss: 2.5731
+2024-09-20 12:40:32,851 - Epoch [103/1000], Train metric average : 0.0007
+2024-09-20 12:40:32,851 - Epoch [103/1000], Val Loss: 2.5456
+2024-09-20 12:40:32,851 - Epoch [103/1000], Val metric average : nan
+2024-09-20 12:41:20,080 - Epoch [104/1000], Train Loss: 2.5744
+2024-09-20 12:41:20,080 - Epoch [104/1000], Train metric average : 0.0018
+2024-09-20 12:41:20,080 - Epoch [104/1000], Val Loss: 2.7973
+2024-09-20 12:41:20,081 - Epoch [104/1000], Val metric average : nan
+2024-09-20 12:42:07,927 - Epoch [105/1000], Train Loss: 2.5761
+2024-09-20 12:42:07,928 - Epoch [105/1000], Train metric average : -0.0213
+2024-09-20 12:42:07,928 - Epoch [105/1000], Val Loss: 2.5607
+2024-09-20 12:42:07,928 - Epoch [105/1000], Val metric average : nan
+2024-09-20 12:42:54,996 - Epoch [106/1000], Train Loss: 2.5729
+2024-09-20 12:42:54,996 - Epoch [106/1000], Train metric average : -0.0107
+2024-09-20 12:42:54,996 - Epoch [106/1000], Val Loss: 2.7157
+2024-09-20 12:42:54,996 - Epoch [106/1000], Val metric average : nan
+2024-09-20 12:43:42,468 - Epoch [107/1000], Train Loss: 2.5749
+2024-09-20 12:43:42,469 - Epoch [107/1000], Train metric average : 0.0121
+2024-09-20 12:43:42,469 - Epoch [107/1000], Val Loss: 2.4697
+2024-09-20 12:43:42,469 - Epoch [107/1000], Val metric average : nan
+2024-09-20 12:44:29,550 - Epoch [108/1000], Train Loss: 2.5736
+2024-09-20 12:44:29,550 - Epoch [108/1000], Train metric average : 0.0237
+2024-09-20 12:44:29,550 - Epoch [108/1000], Val Loss: 2.5651
+2024-09-20 12:44:29,550 - Epoch [108/1000], Val metric average : nan
+2024-09-20 12:45:17,175 - Epoch [109/1000], Train Loss: 2.5726
+2024-09-20 12:45:17,175 - Epoch [109/1000], Train metric average : -0.0077
+2024-09-20 12:45:17,175 - Epoch [109/1000], Val Loss: 2.6663
+2024-09-20 12:45:17,175 - Epoch [109/1000], Val metric average : nan
+2024-09-20 12:46:04,628 - Epoch [110/1000], Train Loss: 2.5733
+2024-09-20 12:46:04,629 - Epoch [110/1000], Train metric average : -0.0085
+2024-09-20 12:46:04,629 - Epoch [110/1000], Val Loss: 2.6746
+2024-09-20 12:46:04,629 - Epoch [110/1000], Val metric average : nan
+2024-09-20 12:46:51,858 - Epoch [111/1000], Train Loss: 2.5738
+2024-09-20 12:46:51,858 - Epoch [111/1000], Train metric average : -0.0096
+2024-09-20 12:46:51,858 - Epoch [111/1000], Val Loss: 2.7754
+2024-09-20 12:46:51,858 - Epoch [111/1000], Val metric average : nan
+2024-09-20 12:47:38,907 - Epoch [112/1000], Train Loss: 2.5725
+2024-09-20 12:47:38,907 - Epoch [112/1000], Train metric average : 0.0141
+2024-09-20 12:47:38,908 - Epoch [112/1000], Val Loss: 2.6557
+2024-09-20 12:47:38,908 - Epoch [112/1000], Val metric average : nan
+2024-09-20 12:48:26,924 - Epoch [113/1000], Train Loss: 2.5721
+2024-09-20 12:48:26,924 - Epoch [113/1000], Train metric average : 0.0146
+2024-09-20 12:48:26,924 - Epoch [113/1000], Val Loss: 2.6959
+2024-09-20 12:48:26,924 - Epoch [113/1000], Val metric average : nan
+2024-09-20 12:49:14,312 - Epoch [114/1000], Train Loss: 2.5728
+2024-09-20 12:49:14,312 - Epoch [114/1000], Train metric average : -0.0001
+2024-09-20 12:49:14,312 - Epoch [114/1000], Val Loss: 2.7338
+2024-09-20 12:49:14,312 - Epoch [114/1000], Val metric average : nan
+2024-09-20 12:50:01,709 - Epoch [115/1000], Train Loss: 2.5731
+2024-09-20 12:50:01,710 - Epoch [115/1000], Train metric average : 0.0067
+2024-09-20 12:50:01,710 - Epoch [115/1000], Val Loss: 2.7940
+2024-09-20 12:50:01,710 - Epoch [115/1000], Val metric average : nan
+2024-09-20 12:50:48,846 - Epoch [116/1000], Train Loss: 2.5797
+2024-09-20 12:50:48,846 - Epoch [116/1000], Train metric average : 0.0112
+2024-09-20 12:50:48,846 - Epoch [116/1000], Val Loss: 2.9494
+2024-09-20 12:50:48,846 - Epoch [116/1000], Val metric average : nan
+2024-09-20 12:51:36,441 - Epoch [117/1000], Train Loss: 2.5737
+2024-09-20 12:51:36,441 - Epoch [117/1000], Train metric average : 0.0029
+2024-09-20 12:51:36,441 - Epoch [117/1000], Val Loss: 2.7577
+2024-09-20 12:51:36,441 - Epoch [117/1000], Val metric average : nan
+2024-09-20 12:52:23,843 - Epoch [118/1000], Train Loss: 2.5741
+2024-09-20 12:52:23,844 - Epoch [118/1000], Train metric average : -0.0053
+2024-09-20 12:52:23,844 - Epoch [118/1000], Val Loss: 2.6386
+2024-09-20 12:52:23,844 - Epoch [118/1000], Val metric average : nan
+2024-09-20 12:53:10,618 - Epoch [119/1000], Train Loss: 2.5720
+2024-09-20 12:53:10,619 - Epoch [119/1000], Train metric average : 0.0072
+2024-09-20 12:53:10,619 - Epoch [119/1000], Val Loss: 2.6305
+2024-09-20 12:53:10,619 - Epoch [119/1000], Val metric average : nan
+2024-09-20 12:53:58,080 - Epoch [120/1000], Train Loss: 2.5761
+2024-09-20 12:53:58,080 - Epoch [120/1000], Train metric average : 0.0052
+2024-09-20 12:53:58,080 - Epoch [120/1000], Val Loss: 2.7630
+2024-09-20 12:53:58,080 - Epoch [120/1000], Val metric average : nan
+2024-09-20 12:54:45,415 - Epoch [121/1000], Train Loss: 2.5748
+2024-09-20 12:54:45,415 - Epoch [121/1000], Train metric average : -0.0094
+2024-09-20 12:54:45,415 - Epoch [121/1000], Val Loss: 2.6947
+2024-09-20 12:54:45,415 - Epoch [121/1000], Val metric average : nan
+2024-09-20 12:55:32,493 - Epoch [122/1000], Train Loss: 2.5724
+2024-09-20 12:55:32,493 - Epoch [122/1000], Train metric average : -0.0113
+2024-09-20 12:55:32,494 - Epoch [122/1000], Val Loss: 2.6869
+2024-09-20 12:55:32,494 - Epoch [122/1000], Val metric average : nan
+2024-09-20 12:56:19,491 - Epoch [123/1000], Train Loss: 2.5735
+2024-09-20 12:56:19,491 - Epoch [123/1000], Train metric average : -0.0026
+2024-09-20 12:56:19,491 - Epoch [123/1000], Val Loss: 2.6613
+2024-09-20 12:56:19,491 - Epoch [123/1000], Val metric average : nan
+2024-09-20 12:57:06,656 - Epoch [124/1000], Train Loss: 2.5753
+2024-09-20 12:57:06,657 - Epoch [124/1000], Train metric average : 0.0080
+2024-09-20 12:57:06,657 - Epoch [124/1000], Val Loss: 2.7475
+2024-09-20 12:57:06,657 - Epoch [124/1000], Val metric average : nan
+2024-09-20 12:57:53,848 - Epoch [125/1000], Train Loss: 2.5734
+2024-09-20 12:57:53,848 - Epoch [125/1000], Train metric average : 0.0035
+2024-09-20 12:57:53,848 - Epoch [125/1000], Val Loss: 2.7251
+2024-09-20 12:57:53,848 - Epoch [125/1000], Val metric average : nan
+2024-09-20 12:58:41,022 - Epoch [126/1000], Train Loss: 2.5762
+2024-09-20 12:58:41,023 - Epoch [126/1000], Train metric average : 0.0068
+2024-09-20 12:58:41,023 - Epoch [126/1000], Val Loss: 2.7559
+2024-09-20 12:58:41,023 - Epoch [126/1000], Val metric average : nan
+2024-09-20 12:59:28,358 - Epoch [127/1000], Train Loss: 2.5725
+2024-09-20 12:59:28,358 - Epoch [127/1000], Train metric average : 0.0113
+2024-09-20 12:59:28,358 - Epoch [127/1000], Val Loss: 2.7946
+2024-09-20 12:59:28,358 - Epoch [127/1000], Val metric average : nan
+2024-09-20 13:00:15,985 - Epoch [128/1000], Train Loss: 2.5745
+2024-09-20 13:00:15,985 - Epoch [128/1000], Train metric average : 0.0223
+2024-09-20 13:00:15,985 - Epoch [128/1000], Val Loss: 2.6639
+2024-09-20 13:00:15,986 - Epoch [128/1000], Val metric average : nan
+2024-09-20 13:01:03,788 - Epoch [129/1000], Train Loss: 2.5741
+2024-09-20 13:01:03,788 - Epoch [129/1000], Train metric average : 0.0051
+2024-09-20 13:01:03,788 - Epoch [129/1000], Val Loss: 2.5268
+2024-09-20 13:01:03,789 - Epoch [129/1000], Val metric average : nan
+2024-09-20 13:01:51,031 - Epoch [130/1000], Train Loss: 2.5737
+2024-09-20 13:01:51,031 - Epoch [130/1000], Train metric average : 0.0107
+2024-09-20 13:01:51,031 - Epoch [130/1000], Val Loss: 2.4764
+2024-09-20 13:01:51,031 - Epoch [130/1000], Val metric average : nan
+2024-09-20 13:02:38,622 - Epoch [131/1000], Train Loss: 2.5746
+2024-09-20 13:02:38,622 - Epoch [131/1000], Train metric average : -0.0054
+2024-09-20 13:02:38,622 - Epoch [131/1000], Val Loss: 2.7265
+2024-09-20 13:02:38,622 - Epoch [131/1000], Val metric average : nan
+2024-09-20 13:03:25,665 - Epoch [132/1000], Train Loss: 2.5736
+2024-09-20 13:03:25,665 - Epoch [132/1000], Train metric average : 0.0026
+2024-09-20 13:03:25,665 - Epoch [132/1000], Val Loss: 2.4653
+2024-09-20 13:03:25,665 - Epoch [132/1000], Val metric average : nan
+2024-09-20 13:04:13,052 - Epoch [133/1000], Train Loss: 2.5764
+2024-09-20 13:04:13,052 - Epoch [133/1000], Train metric average : -0.0117
+2024-09-20 13:04:13,052 - Epoch [133/1000], Val Loss: 2.7670
+2024-09-20 13:04:13,052 - Epoch [133/1000], Val metric average : nan
+2024-09-20 13:05:00,433 - Epoch [134/1000], Train Loss: 2.5737
+2024-09-20 13:05:00,433 - Epoch [134/1000], Train metric average : 0.0200
+2024-09-20 13:05:00,433 - Epoch [134/1000], Val Loss: 2.6456
+2024-09-20 13:05:00,433 - Epoch [134/1000], Val metric average : nan
+2024-09-20 13:05:47,570 - Epoch [135/1000], Train Loss: 2.5719
+2024-09-20 13:05:47,570 - Epoch [135/1000], Train metric average : 0.0004
+2024-09-20 13:05:47,570 - Epoch [135/1000], Val Loss: 2.6560
+2024-09-20 13:05:47,570 - Epoch [135/1000], Val metric average : nan
+2024-09-20 13:06:34,769 - Epoch [136/1000], Train Loss: 2.5721
+2024-09-20 13:06:34,769 - Epoch [136/1000], Train metric average : 0.0005
+2024-09-20 13:06:34,769 - Epoch [136/1000], Val Loss: 2.6266
+2024-09-20 13:06:34,769 - Epoch [136/1000], Val metric average : nan
+2024-09-20 13:07:22,280 - Epoch [137/1000], Train Loss: 2.5735
+2024-09-20 13:07:22,280 - Epoch [137/1000], Train metric average : -0.0053
+2024-09-20 13:07:22,280 - Epoch [137/1000], Val Loss: 2.7533
+2024-09-20 13:07:22,280 - Epoch [137/1000], Val metric average : nan
+2024-09-20 13:08:09,861 - Epoch [138/1000], Train Loss: 2.5734
+2024-09-20 13:08:09,862 - Epoch [138/1000], Train metric average : -0.0201
+2024-09-20 13:08:09,862 - Epoch [138/1000], Val Loss: 2.6979
+2024-09-20 13:08:09,862 - Epoch [138/1000], Val metric average : nan
+2024-09-20 13:08:56,842 - Epoch [139/1000], Train Loss: 2.5723
+2024-09-20 13:08:56,842 - Epoch [139/1000], Train metric average : -0.0040
+2024-09-20 13:08:56,842 - Epoch [139/1000], Val Loss: 2.6845
+2024-09-20 13:08:56,842 - Epoch [139/1000], Val metric average : nan
+2024-09-20 13:09:44,175 - Epoch [140/1000], Train Loss: 2.5728
+2024-09-20 13:09:44,175 - Epoch [140/1000], Train metric average : 0.0227
+2024-09-20 13:09:44,175 - Epoch [140/1000], Val Loss: 2.6429
+2024-09-20 13:09:44,175 - Epoch [140/1000], Val metric average : nan
+2024-09-20 13:10:31,290 - Epoch [141/1000], Train Loss: 2.5731
+2024-09-20 13:10:31,291 - Epoch [141/1000], Train metric average : -0.0063
+2024-09-20 13:10:31,291 - Epoch [141/1000], Val Loss: 2.7779
+2024-09-20 13:10:31,291 - Epoch [141/1000], Val metric average : nan
+2024-09-20 13:11:18,589 - Epoch [142/1000], Train Loss: 2.5729
+2024-09-20 13:11:18,589 - Epoch [142/1000], Train metric average : 0.0034
+2024-09-20 13:11:18,589 - Epoch [142/1000], Val Loss: 2.5976
+2024-09-20 13:11:18,589 - Epoch [142/1000], Val metric average : nan
+2024-09-20 13:12:05,870 - Epoch [143/1000], Train Loss: 2.5716
+2024-09-20 13:12:05,871 - Epoch [143/1000], Train metric average : -0.0107
+2024-09-20 13:12:05,871 - Epoch [143/1000], Val Loss: 2.6858
+2024-09-20 13:12:05,871 - Epoch [143/1000], Val metric average : nan
+2024-09-20 13:12:53,269 - Epoch [144/1000], Train Loss: 2.5743
+2024-09-20 13:12:53,270 - Epoch [144/1000], Train metric average : -0.0147
+2024-09-20 13:12:53,270 - Epoch [144/1000], Val Loss: 2.6784
+2024-09-20 13:12:53,270 - Epoch [144/1000], Val metric average : nan
+2024-09-20 13:13:40,653 - Epoch [145/1000], Train Loss: 2.5740
+2024-09-20 13:13:40,653 - Epoch [145/1000], Train metric average : 0.0004
+2024-09-20 13:13:40,654 - Epoch [145/1000], Val Loss: 2.5705
+2024-09-20 13:13:40,654 - Epoch [145/1000], Val metric average : nan
+2024-09-20 13:14:27,966 - Epoch [146/1000], Train Loss: 2.5761
+2024-09-20 13:14:27,967 - Epoch [146/1000], Train metric average : 0.0106
+2024-09-20 13:14:27,967 - Epoch [146/1000], Val Loss: 2.5695
+2024-09-20 13:14:27,967 - Epoch [146/1000], Val metric average : nan
+2024-09-20 13:15:14,890 - Epoch [147/1000], Train Loss: 2.5749
+2024-09-20 13:15:14,890 - Epoch [147/1000], Train metric average : 0.0103
+2024-09-20 13:15:14,890 - Epoch [147/1000], Val Loss: 2.7821
+2024-09-20 13:15:14,890 - Epoch [147/1000], Val metric average : nan
+2024-09-20 13:16:02,529 - Epoch [148/1000], Train Loss: 2.5773
+2024-09-20 13:16:02,529 - Epoch [148/1000], Train metric average : 0.0009
+2024-09-20 13:16:02,529 - Epoch [148/1000], Val Loss: 2.6544
+2024-09-20 13:16:02,529 - Epoch [148/1000], Val metric average : nan
+2024-09-20 13:16:49,723 - Epoch [149/1000], Train Loss: 2.5734
+2024-09-20 13:16:49,723 - Epoch [149/1000], Train metric average : -0.0045
+2024-09-20 13:16:49,723 - Epoch [149/1000], Val Loss: 2.7499
+2024-09-20 13:16:49,723 - Epoch [149/1000], Val metric average : nan
+2024-09-20 13:17:37,273 - Epoch [150/1000], Train Loss: 2.5729
+2024-09-20 13:17:37,274 - Epoch [150/1000], Train metric average : 0.0012
+2024-09-20 13:17:37,274 - Epoch [150/1000], Val Loss: 2.6656
+2024-09-20 13:17:37,274 - Epoch [150/1000], Val metric average : nan
+2024-09-20 13:18:24,682 - Epoch [151/1000], Train Loss: 2.5763
+2024-09-20 13:18:24,682 - Epoch [151/1000], Train metric average : 0.0028
+2024-09-20 13:18:24,683 - Epoch [151/1000], Val Loss: 2.6037
+2024-09-20 13:18:24,683 - Epoch [151/1000], Val metric average : nan
+2024-09-20 13:19:11,972 - Epoch [152/1000], Train Loss: 2.5719
+2024-09-20 13:19:11,972 - Epoch [152/1000], Train metric average : -0.0025
+2024-09-20 13:19:11,972 - Epoch [152/1000], Val Loss: 2.8055
+2024-09-20 13:19:11,972 - Epoch [152/1000], Val metric average : nan
+2024-09-20 13:19:59,501 - Epoch [153/1000], Train Loss: 2.5713
+2024-09-20 13:19:59,502 - Epoch [153/1000], Train metric average : -0.0007
+2024-09-20 13:19:59,502 - Epoch [153/1000], Val Loss: 2.6274
+2024-09-20 13:19:59,502 - Epoch [153/1000], Val metric average : nan
+2024-09-20 13:20:46,906 - Epoch [154/1000], Train Loss: 2.5732
+2024-09-20 13:20:46,906 - Epoch [154/1000], Train metric average : 0.0083
+2024-09-20 13:20:46,906 - Epoch [154/1000], Val Loss: 2.7104
+2024-09-20 13:20:46,906 - Epoch [154/1000], Val metric average : nan
+2024-09-20 13:21:34,271 - Epoch [155/1000], Train Loss: 2.5740
+2024-09-20 13:21:34,271 - Epoch [155/1000], Train metric average : -0.0000
+2024-09-20 13:21:34,271 - Epoch [155/1000], Val Loss: 2.6859
+2024-09-20 13:21:34,271 - Epoch [155/1000], Val metric average : nan
+2024-09-20 13:22:21,537 - Epoch [156/1000], Train Loss: 2.5749
+2024-09-20 13:22:21,538 - Epoch [156/1000], Train metric average : 0.0093
+2024-09-20 13:22:21,538 - Epoch [156/1000], Val Loss: 2.6800
+2024-09-20 13:22:21,538 - Epoch [156/1000], Val metric average : nan
+2024-09-20 13:23:08,755 - Epoch [157/1000], Train Loss: 2.5723
+2024-09-20 13:23:08,755 - Epoch [157/1000], Train metric average : -0.0102
+2024-09-20 13:23:08,755 - Epoch [157/1000], Val Loss: 2.6651
+2024-09-20 13:23:08,755 - Epoch [157/1000], Val metric average : nan
+2024-09-20 13:23:56,391 - Epoch [158/1000], Train Loss: 2.5729
+2024-09-20 13:23:56,391 - Epoch [158/1000], Train metric average : 0.0088
+2024-09-20 13:23:56,392 - Epoch [158/1000], Val Loss: 2.7332
+2024-09-20 13:23:56,392 - Epoch [158/1000], Val metric average : nan
+2024-09-20 13:24:43,637 - Epoch [159/1000], Train Loss: 2.5714
+2024-09-20 13:24:43,637 - Epoch [159/1000], Train metric average : 0.0070
+2024-09-20 13:24:43,637 - Epoch [159/1000], Val Loss: 2.7776
+2024-09-20 13:24:43,637 - Epoch [159/1000], Val metric average : nan
+2024-09-20 13:25:31,012 - Epoch [160/1000], Train Loss: 2.5717
+2024-09-20 13:25:31,012 - Epoch [160/1000], Train metric average : 0.0044
+2024-09-20 13:25:31,012 - Epoch [160/1000], Val Loss: 2.6054
+2024-09-20 13:25:31,013 - Epoch [160/1000], Val metric average : nan
+2024-09-20 13:26:18,315 - Epoch [161/1000], Train Loss: 2.5717
+2024-09-20 13:26:18,315 - Epoch [161/1000], Train metric average : 0.0096
+2024-09-20 13:26:18,315 - Epoch [161/1000], Val Loss: 2.5823
+2024-09-20 13:26:18,315 - Epoch [161/1000], Val metric average : nan
+2024-09-20 13:27:05,891 - Epoch [162/1000], Train Loss: 2.5749
+2024-09-20 13:27:05,892 - Epoch [162/1000], Train metric average : 0.0000
+2024-09-20 13:27:05,892 - Epoch [162/1000], Val Loss: 2.6250
+2024-09-20 13:27:05,892 - Epoch [162/1000], Val metric average : nan
+2024-09-20 13:27:53,152 - Epoch [163/1000], Train Loss: 2.5764
+2024-09-20 13:27:53,152 - Epoch [163/1000], Train metric average : -0.0022
+2024-09-20 13:27:53,152 - Epoch [163/1000], Val Loss: 2.6507
+2024-09-20 13:27:53,152 - Epoch [163/1000], Val metric average : nan
+2024-09-20 13:28:40,459 - Epoch [164/1000], Train Loss: 2.5766
+2024-09-20 13:28:40,459 - Epoch [164/1000], Train metric average : 0.0018
+2024-09-20 13:28:40,459 - Epoch [164/1000], Val Loss: 2.6594
+2024-09-20 13:28:40,459 - Epoch [164/1000], Val metric average : nan
+2024-09-20 13:29:27,478 - Epoch [165/1000], Train Loss: 2.5755
+2024-09-20 13:29:27,478 - Epoch [165/1000], Train metric average : 0.0013
+2024-09-20 13:29:27,478 - Epoch [165/1000], Val Loss: 2.6023
+2024-09-20 13:29:27,478 - Epoch [165/1000], Val metric average : nan
+2024-09-20 13:30:14,731 - Epoch [166/1000], Train Loss: 2.5740
+2024-09-20 13:30:14,731 - Epoch [166/1000], Train metric average : -0.0079
+2024-09-20 13:30:14,731 - Epoch [166/1000], Val Loss: 2.5650
+2024-09-20 13:30:14,731 - Epoch [166/1000], Val metric average : nan
+2024-09-20 13:31:01,983 - Epoch [167/1000], Train Loss: 2.5725
+2024-09-20 13:31:01,984 - Epoch [167/1000], Train metric average : -0.0000
+2024-09-20 13:31:01,984 - Epoch [167/1000], Val Loss: 2.7512
+2024-09-20 13:31:01,984 - Epoch [167/1000], Val metric average : nan
+2024-09-20 13:31:49,469 - Epoch [168/1000], Train Loss: 2.5725
+2024-09-20 13:31:49,469 - Epoch [168/1000], Train metric average : 0.0101
+2024-09-20 13:31:49,469 - Epoch [168/1000], Val Loss: 2.7194
+2024-09-20 13:31:49,469 - Epoch [168/1000], Val metric average : nan
+2024-09-20 13:32:36,795 - Epoch [169/1000], Train Loss: 2.5720
+2024-09-20 13:32:36,795 - Epoch [169/1000], Train metric average : 0.0078
+2024-09-20 13:32:36,795 - Epoch [169/1000], Val Loss: 2.9031
+2024-09-20 13:32:36,795 - Epoch [169/1000], Val metric average : nan
+2024-09-20 13:33:24,397 - Epoch [170/1000], Train Loss: 2.5709
+2024-09-20 13:33:24,397 - Epoch [170/1000], Train metric average : -0.0133
+2024-09-20 13:33:24,397 - Epoch [170/1000], Val Loss: 2.6589
+2024-09-20 13:33:24,397 - Epoch [170/1000], Val metric average : nan
+2024-09-20 13:34:11,796 - Epoch [171/1000], Train Loss: 2.5718
+2024-09-20 13:34:11,796 - Epoch [171/1000], Train metric average : -0.0128
+2024-09-20 13:34:11,797 - Epoch [171/1000], Val Loss: 2.5286
+2024-09-20 13:34:11,797 - Epoch [171/1000], Val metric average : nan
+2024-09-20 13:34:59,472 - Epoch [172/1000], Train Loss: 2.5720
+2024-09-20 13:34:59,472 - Epoch [172/1000], Train metric average : 0.0019
+2024-09-20 13:34:59,472 - Epoch [172/1000], Val Loss: 2.6900
+2024-09-20 13:34:59,472 - Epoch [172/1000], Val metric average : nan
+2024-09-20 13:35:47,165 - Epoch [173/1000], Train Loss: 2.5732
+2024-09-20 13:35:47,166 - Epoch [173/1000], Train metric average : -0.0181
+2024-09-20 13:35:47,166 - Epoch [173/1000], Val Loss: 2.7484
+2024-09-20 13:35:47,166 - Epoch [173/1000], Val metric average : nan
+2024-09-20 13:36:34,301 - Epoch [174/1000], Train Loss: 2.5719
+2024-09-20 13:36:34,301 - Epoch [174/1000], Train metric average : -0.0069
+2024-09-20 13:36:34,301 - Epoch [174/1000], Val Loss: 2.7411
+2024-09-20 13:36:34,301 - Epoch [174/1000], Val metric average : nan
+2024-09-20 13:37:21,764 - Epoch [175/1000], Train Loss: 2.5724
+2024-09-20 13:37:21,764 - Epoch [175/1000], Train metric average : -0.0080
+2024-09-20 13:37:21,764 - Epoch [175/1000], Val Loss: 2.7701
+2024-09-20 13:37:21,764 - Epoch [175/1000], Val metric average : nan
+2024-09-20 13:38:09,416 - Epoch [176/1000], Train Loss: 2.5769
+2024-09-20 13:38:09,416 - Epoch [176/1000], Train metric average : 0.0088
+2024-09-20 13:38:09,416 - Epoch [176/1000], Val Loss: 2.7408
+2024-09-20 13:38:09,416 - Epoch [176/1000], Val metric average : nan
+2024-09-20 13:38:56,930 - Epoch [177/1000], Train Loss: 2.5749
+2024-09-20 13:38:56,930 - Epoch [177/1000], Train metric average : 0.0053
+2024-09-20 13:38:56,930 - Epoch [177/1000], Val Loss: 2.7330
+2024-09-20 13:38:56,931 - Epoch [177/1000], Val metric average : nan
+2024-09-20 13:39:43,778 - Epoch [178/1000], Train Loss: 2.5717
+2024-09-20 13:39:43,778 - Epoch [178/1000], Train metric average : 0.0140
+2024-09-20 13:39:43,778 - Epoch [178/1000], Val Loss: 2.8985
+2024-09-20 13:39:43,778 - Epoch [178/1000], Val metric average : nan
+2024-09-20 13:40:30,942 - Epoch [179/1000], Train Loss: 2.5743
+2024-09-20 13:40:30,942 - Epoch [179/1000], Train metric average : 0.0145
+2024-09-20 13:40:30,942 - Epoch [179/1000], Val Loss: 2.8024
+2024-09-20 13:40:30,942 - Epoch [179/1000], Val metric average : nan
+2024-09-20 13:41:18,163 - Epoch [180/1000], Train Loss: 2.5732
+2024-09-20 13:41:18,163 - Epoch [180/1000], Train metric average : -0.0091
+2024-09-20 13:41:18,163 - Epoch [180/1000], Val Loss: 2.5953
+2024-09-20 13:41:18,163 - Epoch [180/1000], Val metric average : nan
+2024-09-20 13:42:05,488 - Epoch [181/1000], Train Loss: 2.5720
+2024-09-20 13:42:05,488 - Epoch [181/1000], Train metric average : 0.0051
+2024-09-20 13:42:05,488 - Epoch [181/1000], Val Loss: 2.7077
+2024-09-20 13:42:05,488 - Epoch [181/1000], Val metric average : nan
+2024-09-20 13:42:53,301 - Epoch [182/1000], Train Loss: 2.5747
+2024-09-20 13:42:53,301 - Epoch [182/1000], Train metric average : -0.0039
+2024-09-20 13:42:53,301 - Epoch [182/1000], Val Loss: 2.8357
+2024-09-20 13:42:53,301 - Epoch [182/1000], Val metric average : nan
+2024-09-20 13:43:40,885 - Epoch [183/1000], Train Loss: 2.5707
+2024-09-20 13:43:40,886 - Epoch [183/1000], Train metric average : 0.0182
+2024-09-20 13:43:40,886 - Epoch [183/1000], Val Loss: 2.5793
+2024-09-20 13:43:40,886 - Epoch [183/1000], Val metric average : nan
+2024-09-20 13:44:28,412 - Epoch [184/1000], Train Loss: 2.5718
+2024-09-20 13:44:28,412 - Epoch [184/1000], Train metric average : -0.0210
+2024-09-20 13:44:28,412 - Epoch [184/1000], Val Loss: 2.6457
+2024-09-20 13:44:28,412 - Epoch [184/1000], Val metric average : nan
+2024-09-20 13:45:15,863 - Epoch [185/1000], Train Loss: 2.5761
+2024-09-20 13:45:15,863 - Epoch [185/1000], Train metric average : 0.0009
+2024-09-20 13:45:15,863 - Epoch [185/1000], Val Loss: 2.5982
+2024-09-20 13:45:15,863 - Epoch [185/1000], Val metric average : nan
+2024-09-20 13:46:03,304 - Epoch [186/1000], Train Loss: 2.5744
+2024-09-20 13:46:03,304 - Epoch [186/1000], Train metric average : -0.0220
+2024-09-20 13:46:03,304 - Epoch [186/1000], Val Loss: 2.7000
+2024-09-20 13:46:03,304 - Epoch [186/1000], Val metric average : nan
+2024-09-20 13:46:50,381 - Epoch [187/1000], Train Loss: 2.5736
+2024-09-20 13:46:50,381 - Epoch [187/1000], Train metric average : -0.0108
+2024-09-20 13:46:50,381 - Epoch [187/1000], Val Loss: 2.4682
+2024-09-20 13:46:50,381 - Epoch [187/1000], Val metric average : nan
+2024-09-20 13:47:37,466 - Epoch [188/1000], Train Loss: 2.5741
+2024-09-20 13:47:37,466 - Epoch [188/1000], Train metric average : -0.0203
+2024-09-20 13:47:37,466 - Epoch [188/1000], Val Loss: 2.8034
+2024-09-20 13:47:37,466 - Epoch [188/1000], Val metric average : nan
+2024-09-20 13:48:24,953 - Epoch [189/1000], Train Loss: 2.5710
+2024-09-20 13:48:24,953 - Epoch [189/1000], Train metric average : -0.0037
+2024-09-20 13:48:24,954 - Epoch [189/1000], Val Loss: 2.7858
+2024-09-20 13:48:24,954 - Epoch [189/1000], Val metric average : nan
+2024-09-20 13:49:12,243 - Epoch [190/1000], Train Loss: 2.5732
+2024-09-20 13:49:12,244 - Epoch [190/1000], Train metric average : -0.0050
+2024-09-20 13:49:12,244 - Epoch [190/1000], Val Loss: 2.6629
+2024-09-20 13:49:12,244 - Epoch [190/1000], Val metric average : nan
+2024-09-20 13:49:59,806 - Epoch [191/1000], Train Loss: 2.5720
+2024-09-20 13:49:59,806 - Epoch [191/1000], Train metric average : 0.0057
+2024-09-20 13:49:59,806 - Epoch [191/1000], Val Loss: 2.6149
+2024-09-20 13:49:59,806 - Epoch [191/1000], Val metric average : nan
+2024-09-20 13:50:47,252 - Epoch [192/1000], Train Loss: 2.5721
+2024-09-20 13:50:47,253 - Epoch [192/1000], Train metric average : -0.0032
+2024-09-20 13:50:47,253 - Epoch [192/1000], Val Loss: 2.5337
+2024-09-20 13:50:47,253 - Epoch [192/1000], Val metric average : nan
+2024-09-20 13:51:34,532 - Epoch [193/1000], Train Loss: 2.5699
+2024-09-20 13:51:34,532 - Epoch [193/1000], Train metric average : -0.0104
+2024-09-20 13:51:34,532 - Epoch [193/1000], Val Loss: 2.6634
+2024-09-20 13:51:34,532 - Epoch [193/1000], Val metric average : nan
+2024-09-20 13:52:21,865 - Epoch [194/1000], Train Loss: 2.5708
+2024-09-20 13:52:21,865 - Epoch [194/1000], Train metric average : -0.0237
+2024-09-20 13:52:21,865 - Epoch [194/1000], Val Loss: 2.6333
+2024-09-20 13:52:21,866 - Epoch [194/1000], Val metric average : nan
+2024-09-20 13:53:09,470 - Epoch [195/1000], Train Loss: 2.5726
+2024-09-20 13:53:09,470 - Epoch [195/1000], Train metric average : -0.0098
+2024-09-20 13:53:09,470 - Epoch [195/1000], Val Loss: 2.6391
+2024-09-20 13:53:09,470 - Epoch [195/1000], Val metric average : nan
+2024-09-20 13:53:57,007 - Epoch [196/1000], Train Loss: 2.5730
+2024-09-20 13:53:57,007 - Epoch [196/1000], Train metric average : -0.0254
+2024-09-20 13:53:57,007 - Epoch [196/1000], Val Loss: 2.5763
+2024-09-20 13:53:57,007 - Epoch [196/1000], Val metric average : nan
+2024-09-20 13:54:44,109 - Epoch [197/1000], Train Loss: 2.5800
+2024-09-20 13:54:44,109 - Epoch [197/1000], Train metric average : -0.0065
+2024-09-20 13:54:44,109 - Epoch [197/1000], Val Loss: 2.7064
+2024-09-20 13:54:44,109 - Epoch [197/1000], Val metric average : nan
+2024-09-20 13:55:31,560 - Epoch [198/1000], Train Loss: 2.5770
+2024-09-20 13:55:31,561 - Epoch [198/1000], Train metric average : 0.0194
+2024-09-20 13:55:31,561 - Epoch [198/1000], Val Loss: 2.5256
+2024-09-20 13:55:31,561 - Epoch [198/1000], Val metric average : nan
+2024-09-20 13:56:18,912 - Epoch [199/1000], Train Loss: 2.5792
+2024-09-20 13:56:18,912 - Epoch [199/1000], Train metric average : 0.0014
+2024-09-20 13:56:18,912 - Epoch [199/1000], Val Loss: 2.6643
+2024-09-20 13:56:18,912 - Epoch [199/1000], Val metric average : nan
+2024-09-20 13:57:06,963 - Epoch [200/1000], Train Loss: 2.5731
+2024-09-20 13:57:06,964 - Epoch [200/1000], Train metric average : 0.0019
+2024-09-20 13:57:06,964 - Epoch [200/1000], Val Loss: 2.6939
+2024-09-20 13:57:06,964 - Epoch [200/1000], Val metric average : nan
+2024-09-20 13:57:54,599 - Epoch [201/1000], Train Loss: 2.5730
+2024-09-20 13:57:54,599 - Epoch [201/1000], Train metric average : -0.0342
+2024-09-20 13:57:54,599 - Epoch [201/1000], Val Loss: 2.5438
+2024-09-20 13:57:54,599 - Epoch [201/1000], Val metric average : nan
+2024-09-20 13:58:42,009 - Epoch [202/1000], Train Loss: 2.5742
+2024-09-20 13:58:42,009 - Epoch [202/1000], Train metric average : -0.0035
+2024-09-20 13:58:42,009 - Epoch [202/1000], Val Loss: 2.6795
+2024-09-20 13:58:42,009 - Epoch [202/1000], Val metric average : nan
+2024-09-20 13:59:29,758 - Epoch [203/1000], Train Loss: 2.5743
+2024-09-20 13:59:29,759 - Epoch [203/1000], Train metric average : 0.0000
+2024-09-20 13:59:29,759 - Epoch [203/1000], Val Loss: 2.5392
+2024-09-20 13:59:29,759 - Epoch [203/1000], Val metric average : nan
+2024-09-20 14:00:17,468 - Epoch [204/1000], Train Loss: 2.5748
+2024-09-20 14:00:17,468 - Epoch [204/1000], Train metric average : -0.0058
+2024-09-20 14:00:17,468 - Epoch [204/1000], Val Loss: 2.6590
+2024-09-20 14:00:17,468 - Epoch [204/1000], Val metric average : nan
+2024-09-20 14:01:04,911 - Epoch [205/1000], Train Loss: 2.5740
+2024-09-20 14:01:04,912 - Epoch [205/1000], Train metric average : 0.0071
+2024-09-20 14:01:04,912 - Epoch [205/1000], Val Loss: 2.6990
+2024-09-20 14:01:04,912 - Epoch [205/1000], Val metric average : nan
+2024-09-20 14:01:52,401 - Epoch [206/1000], Train Loss: 2.5722
+2024-09-20 14:01:52,402 - Epoch [206/1000], Train metric average : 0.0011
+2024-09-20 14:01:52,402 - Epoch [206/1000], Val Loss: 2.7953
+2024-09-20 14:01:52,402 - Epoch [206/1000], Val metric average : nan
+2024-09-20 14:02:39,837 - Epoch [207/1000], Train Loss: 2.5731
+2024-09-20 14:02:39,837 - Epoch [207/1000], Train metric average : -0.0068
+2024-09-20 14:02:39,837 - Epoch [207/1000], Val Loss: 2.5726
+2024-09-20 14:02:39,837 - Epoch [207/1000], Val metric average : nan
+2024-09-20 14:03:27,111 - Epoch [208/1000], Train Loss: 2.5721
+2024-09-20 14:03:27,112 - Epoch [208/1000], Train metric average : -0.0011
+2024-09-20 14:03:27,112 - Epoch [208/1000], Val Loss: 2.5195
+2024-09-20 14:03:27,112 - Epoch [208/1000], Val metric average : nan
+2024-09-20 14:04:14,198 - Epoch [209/1000], Train Loss: 2.5753
+2024-09-20 14:04:14,199 - Epoch [209/1000], Train metric average : 0.0120
+2024-09-20 14:04:14,199 - Epoch [209/1000], Val Loss: 2.7285
+2024-09-20 14:04:14,199 - Epoch [209/1000], Val metric average : nan
+2024-09-20 14:05:01,639 - Epoch [210/1000], Train Loss: 2.5717
+2024-09-20 14:05:01,640 - Epoch [210/1000], Train metric average : 0.0097
+2024-09-20 14:05:01,640 - Epoch [210/1000], Val Loss: 2.7169
+2024-09-20 14:05:01,640 - Epoch [210/1000], Val metric average : nan
+2024-09-20 14:05:49,009 - Epoch [211/1000], Train Loss: 2.5726
+2024-09-20 14:05:49,009 - Epoch [211/1000], Train metric average : -0.0036
+2024-09-20 14:05:49,009 - Epoch [211/1000], Val Loss: 2.5393
+2024-09-20 14:05:49,009 - Epoch [211/1000], Val metric average : nan
+2024-09-20 14:06:36,656 - Epoch [212/1000], Train Loss: 2.5738
+2024-09-20 14:06:36,656 - Epoch [212/1000], Train metric average : 0.0024
+2024-09-20 14:06:36,656 - Epoch [212/1000], Val Loss: 2.6770
+2024-09-20 14:06:36,656 - Epoch [212/1000], Val metric average : nan
+2024-09-20 14:07:24,215 - Epoch [213/1000], Train Loss: 2.5719
+2024-09-20 14:07:24,215 - Epoch [213/1000], Train metric average : 0.0080
+2024-09-20 14:07:24,215 - Epoch [213/1000], Val Loss: 2.6316
+2024-09-20 14:07:24,215 - Epoch [213/1000], Val metric average : nan
+2024-09-20 14:08:11,292 - Epoch [214/1000], Train Loss: 2.5730
+2024-09-20 14:08:11,293 - Epoch [214/1000], Train metric average : -0.0015
+2024-09-20 14:08:11,293 - Epoch [214/1000], Val Loss: 2.6642
+2024-09-20 14:08:11,293 - Epoch [214/1000], Val metric average : nan
+2024-09-20 14:08:58,748 - Epoch [215/1000], Train Loss: 2.5713
+2024-09-20 14:08:58,748 - Epoch [215/1000], Train metric average : 0.0175
+2024-09-20 14:08:58,748 - Epoch [215/1000], Val Loss: 2.6911
+2024-09-20 14:08:58,748 - Epoch [215/1000], Val metric average : nan
+2024-09-20 14:09:45,768 - Epoch [216/1000], Train Loss: 2.5714
+2024-09-20 14:09:45,769 - Epoch [216/1000], Train metric average : 0.0056
+2024-09-20 14:09:45,769 - Epoch [216/1000], Val Loss: 2.6023
+2024-09-20 14:09:45,769 - Epoch [216/1000], Val metric average : nan
+2024-09-20 14:10:33,322 - Epoch [217/1000], Train Loss: 2.5704
+2024-09-20 14:10:33,322 - Epoch [217/1000], Train metric average : 0.0062
+2024-09-20 14:10:33,322 - Epoch [217/1000], Val Loss: 2.6209
+2024-09-20 14:10:33,322 - Epoch [217/1000], Val metric average : nan
+2024-09-20 14:11:20,882 - Epoch [218/1000], Train Loss: 2.5738
+2024-09-20 14:11:20,882 - Epoch [218/1000], Train metric average : -0.0028
+2024-09-20 14:11:20,882 - Epoch [218/1000], Val Loss: 2.7340
+2024-09-20 14:11:20,882 - Epoch [218/1000], Val metric average : nan
+2024-09-20 14:12:08,120 - Epoch [219/1000], Train Loss: 2.5697
+2024-09-20 14:12:08,120 - Epoch [219/1000], Train metric average : -0.0118
+2024-09-20 14:12:08,121 - Epoch [219/1000], Val Loss: 2.8046
+2024-09-20 14:12:08,121 - Epoch [219/1000], Val metric average : nan
+2024-09-20 14:12:55,055 - Epoch [220/1000], Train Loss: 2.5712
+2024-09-20 14:12:55,055 - Epoch [220/1000], Train metric average : -0.0146
+2024-09-20 14:12:55,055 - Epoch [220/1000], Val Loss: 2.7366
+2024-09-20 14:12:55,055 - Epoch [220/1000], Val metric average : nan
+2024-09-20 14:13:42,733 - Epoch [221/1000], Train Loss: 2.5759
+2024-09-20 14:13:42,733 - Epoch [221/1000], Train metric average : 0.0095
+2024-09-20 14:13:42,733 - Epoch [221/1000], Val Loss: 2.7295
+2024-09-20 14:13:42,733 - Epoch [221/1000], Val metric average : nan
+2024-09-20 14:14:30,130 - Epoch [222/1000], Train Loss: 2.5714
+2024-09-20 14:14:30,130 - Epoch [222/1000], Train metric average : 0.0163
+2024-09-20 14:14:30,131 - Epoch [222/1000], Val Loss: 2.6312
+2024-09-20 14:14:30,131 - Epoch [222/1000], Val metric average : nan
+2024-09-20 14:15:17,784 - Epoch [223/1000], Train Loss: 2.5715
+2024-09-20 14:15:17,784 - Epoch [223/1000], Train metric average : 0.0305
+2024-09-20 14:15:17,784 - Epoch [223/1000], Val Loss: 2.5686
+2024-09-20 14:15:17,784 - Epoch [223/1000], Val metric average : nan
+2024-09-20 14:16:05,035 - Epoch [224/1000], Train Loss: 2.5736
+2024-09-20 14:16:05,035 - Epoch [224/1000], Train metric average : 0.0128
+2024-09-20 14:16:05,035 - Epoch [224/1000], Val Loss: 2.6765
+2024-09-20 14:16:05,035 - Epoch [224/1000], Val metric average : nan
+2024-09-20 14:16:52,445 - Epoch [225/1000], Train Loss: 2.5719
+2024-09-20 14:16:52,445 - Epoch [225/1000], Train metric average : -0.0049
+2024-09-20 14:16:52,446 - Epoch [225/1000], Val Loss: 2.7809
+2024-09-20 14:16:52,446 - Epoch [225/1000], Val metric average : nan
+2024-09-20 14:17:39,561 - Epoch [226/1000], Train Loss: 2.5705
+2024-09-20 14:17:39,561 - Epoch [226/1000], Train metric average : -0.0077
+2024-09-20 14:17:39,561 - Epoch [226/1000], Val Loss: 2.8491
+2024-09-20 14:17:39,561 - Epoch [226/1000], Val metric average : nan
+2024-09-20 14:18:26,870 - Epoch [227/1000], Train Loss: 2.5712
+2024-09-20 14:18:26,871 - Epoch [227/1000], Train metric average : 0.0029
+2024-09-20 14:18:26,871 - Epoch [227/1000], Val Loss: 2.8258
+2024-09-20 14:18:26,871 - Epoch [227/1000], Val metric average : nan
+2024-09-20 14:19:14,113 - Epoch [228/1000], Train Loss: 2.5703
+2024-09-20 14:19:14,113 - Epoch [228/1000], Train metric average : 0.0167
+2024-09-20 14:19:14,113 - Epoch [228/1000], Val Loss: 2.8645
+2024-09-20 14:19:14,113 - Epoch [228/1000], Val metric average : nan
+2024-09-20 14:20:01,248 - Epoch [229/1000], Train Loss: 2.5733
+2024-09-20 14:20:01,249 - Epoch [229/1000], Train metric average : -0.0081
+2024-09-20 14:20:01,249 - Epoch [229/1000], Val Loss: 2.7160
+2024-09-20 14:20:01,249 - Epoch [229/1000], Val metric average : nan
+2024-09-20 14:20:48,464 - Epoch [230/1000], Train Loss: 2.5723
+2024-09-20 14:20:48,465 - Epoch [230/1000], Train metric average : 0.0055
+2024-09-20 14:20:48,465 - Epoch [230/1000], Val Loss: 2.6993
+2024-09-20 14:20:48,465 - Epoch [230/1000], Val metric average : nan
+2024-09-20 14:21:35,776 - Epoch [231/1000], Train Loss: 2.5729
+2024-09-20 14:21:35,776 - Epoch [231/1000], Train metric average : 0.0025
+2024-09-20 14:21:35,776 - Epoch [231/1000], Val Loss: 2.6157
+2024-09-20 14:21:35,776 - Epoch [231/1000], Val metric average : nan
+2024-09-20 14:22:22,705 - Epoch [232/1000], Train Loss: 2.5708
+2024-09-20 14:22:22,705 - Epoch [232/1000], Train metric average : -0.0032
+2024-09-20 14:22:22,705 - Epoch [232/1000], Val Loss: 2.6977
+2024-09-20 14:22:22,705 - Epoch [232/1000], Val metric average : nan
+2024-09-20 14:23:10,432 - Epoch [233/1000], Train Loss: 2.5726
+2024-09-20 14:23:10,432 - Epoch [233/1000], Train metric average : -0.0087
+2024-09-20 14:23:10,432 - Epoch [233/1000], Val Loss: 2.5972
+2024-09-20 14:23:10,432 - Epoch [233/1000], Val metric average : nan
+2024-09-20 14:23:57,563 - Epoch [234/1000], Train Loss: 2.5716
+2024-09-20 14:23:57,563 - Epoch [234/1000], Train metric average : 0.0037
+2024-09-20 14:23:57,563 - Epoch [234/1000], Val Loss: 2.6393
+2024-09-20 14:23:57,563 - Epoch [234/1000], Val metric average : nan
+2024-09-20 14:24:45,170 - Epoch [235/1000], Train Loss: 2.5712
+2024-09-20 14:24:45,170 - Epoch [235/1000], Train metric average : -0.0195
+2024-09-20 14:24:45,170 - Epoch [235/1000], Val Loss: 2.5997
+2024-09-20 14:24:45,170 - Epoch [235/1000], Val metric average : nan
+2024-09-20 14:25:32,555 - Epoch [236/1000], Train Loss: 2.5729
+2024-09-20 14:25:32,556 - Epoch [236/1000], Train metric average : 0.0051
+2024-09-20 14:25:32,556 - Epoch [236/1000], Val Loss: 2.8598
+2024-09-20 14:25:32,556 - Epoch [236/1000], Val metric average : nan
+2024-09-20 14:26:19,949 - Epoch [237/1000], Train Loss: 2.5747
+2024-09-20 14:26:19,949 - Epoch [237/1000], Train metric average : -0.0084
+2024-09-20 14:26:19,949 - Epoch [237/1000], Val Loss: 2.6606
+2024-09-20 14:26:19,949 - Epoch [237/1000], Val metric average : nan
+2024-09-20 14:27:07,331 - Epoch [238/1000], Train Loss: 2.5703
+2024-09-20 14:27:07,332 - Epoch [238/1000], Train metric average : 0.0039
+2024-09-20 14:27:07,332 - Epoch [238/1000], Val Loss: 2.6987
+2024-09-20 14:27:07,332 - Epoch [238/1000], Val metric average : nan
+2024-09-20 14:27:55,135 - Epoch [239/1000], Train Loss: 2.5734
+2024-09-20 14:27:55,136 - Epoch [239/1000], Train metric average : -0.0035
+2024-09-20 14:27:55,136 - Epoch [239/1000], Val Loss: 2.6064
+2024-09-20 14:27:55,136 - Epoch [239/1000], Val metric average : nan
+2024-09-20 14:28:42,659 - Epoch [240/1000], Train Loss: 2.5718
+2024-09-20 14:28:42,660 - Epoch [240/1000], Train metric average : -0.0072
+2024-09-20 14:28:42,660 - Epoch [240/1000], Val Loss: 2.6839
+2024-09-20 14:28:42,660 - Epoch [240/1000], Val metric average : nan
+2024-09-20 14:29:29,715 - Epoch [241/1000], Train Loss: 2.5722
+2024-09-20 14:29:29,716 - Epoch [241/1000], Train metric average : 0.0016
+2024-09-20 14:29:29,716 - Epoch [241/1000], Val Loss: 2.5745
+2024-09-20 14:29:29,716 - Epoch [241/1000], Val metric average : nan
+2024-09-20 14:30:17,177 - Epoch [242/1000], Train Loss: 2.5705
+2024-09-20 14:30:17,177 - Epoch [242/1000], Train metric average : -0.0008
+2024-09-20 14:30:17,178 - Epoch [242/1000], Val Loss: 2.8418
+2024-09-20 14:30:17,178 - Epoch [242/1000], Val metric average : nan
+2024-09-20 14:31:04,903 - Epoch [243/1000], Train Loss: 2.5714
+2024-09-20 14:31:04,903 - Epoch [243/1000], Train metric average : 0.0079
+2024-09-20 14:31:04,903 - Epoch [243/1000], Val Loss: 2.5769
+2024-09-20 14:31:04,903 - Epoch [243/1000], Val metric average : nan
+2024-09-20 14:31:52,152 - Epoch [244/1000], Train Loss: 2.5725
+2024-09-20 14:31:52,152 - Epoch [244/1000], Train metric average : 0.0009
+2024-09-20 14:31:52,152 - Epoch [244/1000], Val Loss: 2.9069
+2024-09-20 14:31:52,152 - Epoch [244/1000], Val metric average : nan
+2024-09-20 14:32:39,791 - Epoch [245/1000], Train Loss: 2.5720
+2024-09-20 14:32:39,791 - Epoch [245/1000], Train metric average : 0.0034
+2024-09-20 14:32:39,791 - Epoch [245/1000], Val Loss: 2.8090
+2024-09-20 14:32:39,791 - Epoch [245/1000], Val metric average : nan
+2024-09-20 14:33:27,032 - Epoch [246/1000], Train Loss: 2.5718
+2024-09-20 14:33:27,032 - Epoch [246/1000], Train metric average : -0.0055
+2024-09-20 14:33:27,032 - Epoch [246/1000], Val Loss: 2.6770
+2024-09-20 14:33:27,032 - Epoch [246/1000], Val metric average : nan
+2024-09-20 14:34:14,403 - Epoch [247/1000], Train Loss: 2.5719
+2024-09-20 14:34:14,403 - Epoch [247/1000], Train metric average : 0.0152
+2024-09-20 14:34:14,403 - Epoch [247/1000], Val Loss: 2.6367
+2024-09-20 14:34:14,403 - Epoch [247/1000], Val metric average : nan
+2024-09-20 14:35:01,924 - Epoch [248/1000], Train Loss: 2.5714
+2024-09-20 14:35:01,924 - Epoch [248/1000], Train metric average : 0.0046
+2024-09-20 14:35:01,924 - Epoch [248/1000], Val Loss: 2.6948
+2024-09-20 14:35:01,924 - Epoch [248/1000], Val metric average : nan
+2024-09-20 14:35:49,431 - Epoch [249/1000], Train Loss: 2.5705
+2024-09-20 14:35:49,431 - Epoch [249/1000], Train metric average : 0.0056
+2024-09-20 14:35:49,431 - Epoch [249/1000], Val Loss: 2.6914
+2024-09-20 14:35:49,431 - Epoch [249/1000], Val metric average : nan
+2024-09-20 14:36:36,405 - Epoch [250/1000], Train Loss: 2.5713
+2024-09-20 14:36:36,406 - Epoch [250/1000], Train metric average : 0.0063
+2024-09-20 14:36:36,406 - Epoch [250/1000], Val Loss: 2.5935
+2024-09-20 14:36:36,406 - Epoch [250/1000], Val metric average : nan
+2024-09-20 14:37:23,697 - Epoch [251/1000], Train Loss: 2.5714
+2024-09-20 14:37:23,697 - Epoch [251/1000], Train metric average : 0.0008
+2024-09-20 14:37:23,697 - Epoch [251/1000], Val Loss: 2.5343
+2024-09-20 14:37:23,697 - Epoch [251/1000], Val metric average : nan
+2024-09-20 14:38:11,014 - Epoch [252/1000], Train Loss: 2.5724
+2024-09-20 14:38:11,015 - Epoch [252/1000], Train metric average : 0.0093
+2024-09-20 14:38:11,015 - Epoch [252/1000], Val Loss: 2.5480
+2024-09-20 14:38:11,015 - Epoch [252/1000], Val metric average : nan
+2024-09-20 14:38:58,149 - Epoch [253/1000], Train Loss: 2.5740
+2024-09-20 14:38:58,149 - Epoch [253/1000], Train metric average : 0.0062
+2024-09-20 14:38:58,149 - Epoch [253/1000], Val Loss: 2.5735
+2024-09-20 14:38:58,149 - Epoch [253/1000], Val metric average : nan
+2024-09-20 14:39:45,556 - Epoch [254/1000], Train Loss: 2.5719
+2024-09-20 14:39:45,557 - Epoch [254/1000], Train metric average : 0.0109
+2024-09-20 14:39:45,557 - Epoch [254/1000], Val Loss: 2.6804
+2024-09-20 14:39:45,557 - Epoch [254/1000], Val metric average : nan
+2024-09-20 14:40:33,095 - Epoch [255/1000], Train Loss: 2.5710
+2024-09-20 14:40:33,095 - Epoch [255/1000], Train metric average : -0.0001
+2024-09-20 14:40:33,095 - Epoch [255/1000], Val Loss: 2.7569
+2024-09-20 14:40:33,095 - Epoch [255/1000], Val metric average : nan
+2024-09-20 14:41:20,474 - Epoch [256/1000], Train Loss: 2.5741
+2024-09-20 14:41:20,474 - Epoch [256/1000], Train metric average : 0.0236
+2024-09-20 14:41:20,474 - Epoch [256/1000], Val Loss: 2.6605
+2024-09-20 14:41:20,474 - Epoch [256/1000], Val metric average : nan
+2024-09-20 14:42:07,843 - Epoch [257/1000], Train Loss: 2.5715
+2024-09-20 14:42:07,843 - Epoch [257/1000], Train metric average : -0.0020
+2024-09-20 14:42:07,843 - Epoch [257/1000], Val Loss: 2.6388
+2024-09-20 14:42:07,843 - Epoch [257/1000], Val metric average : nan
+2024-09-20 14:42:55,504 - Epoch [258/1000], Train Loss: 2.5716
+2024-09-20 14:42:55,504 - Epoch [258/1000], Train metric average : -0.0039
+2024-09-20 14:42:55,504 - Epoch [258/1000], Val Loss: 2.6582
+2024-09-20 14:42:55,504 - Epoch [258/1000], Val metric average : nan
+2024-09-20 14:43:43,136 - Epoch [259/1000], Train Loss: 2.5709
+2024-09-20 14:43:43,137 - Epoch [259/1000], Train metric average : 0.0005
+2024-09-20 14:43:43,137 - Epoch [259/1000], Val Loss: 2.6800
+2024-09-20 14:43:43,137 - Epoch [259/1000], Val metric average : nan
+2024-09-20 14:44:30,685 - Epoch [260/1000], Train Loss: 2.5707
+2024-09-20 14:44:30,685 - Epoch [260/1000], Train metric average : -0.0127
+2024-09-20 14:44:30,685 - Epoch [260/1000], Val Loss: 2.8671
+2024-09-20 14:44:30,685 - Epoch [260/1000], Val metric average : nan
+2024-09-20 14:45:18,192 - Epoch [261/1000], Train Loss: 2.5722
+2024-09-20 14:45:18,193 - Epoch [261/1000], Train metric average : 0.0012
+2024-09-20 14:45:18,193 - Epoch [261/1000], Val Loss: 2.7279
+2024-09-20 14:45:18,193 - Epoch [261/1000], Val metric average : nan
+2024-09-20 14:46:06,062 - Epoch [262/1000], Train Loss: 2.5712
+2024-09-20 14:46:06,063 - Epoch [262/1000], Train metric average : 0.0072
+2024-09-20 14:46:06,063 - Epoch [262/1000], Val Loss: 2.6744
+2024-09-20 14:46:06,063 - Epoch [262/1000], Val metric average : nan
+2024-09-20 14:46:53,771 - Epoch [263/1000], Train Loss: 2.5710
+2024-09-20 14:46:53,771 - Epoch [263/1000], Train metric average : -0.0135
+2024-09-20 14:46:53,771 - Epoch [263/1000], Val Loss: 2.6552
+2024-09-20 14:46:53,771 - Epoch [263/1000], Val metric average : nan
+2024-09-20 14:47:41,096 - Epoch [264/1000], Train Loss: 2.5721
+2024-09-20 14:47:41,096 - Epoch [264/1000], Train metric average : -0.0062
+2024-09-20 14:47:41,097 - Epoch [264/1000], Val Loss: 2.6059
+2024-09-20 14:47:41,097 - Epoch [264/1000], Val metric average : nan
+2024-09-20 14:48:28,635 - Epoch [265/1000], Train Loss: 2.5729
+2024-09-20 14:48:28,635 - Epoch [265/1000], Train metric average : -0.0162
+2024-09-20 14:48:28,635 - Epoch [265/1000], Val Loss: 2.8036
+2024-09-20 14:48:28,635 - Epoch [265/1000], Val metric average : nan
+2024-09-20 14:49:16,056 - Epoch [266/1000], Train Loss: 2.5719
+2024-09-20 14:49:16,056 - Epoch [266/1000], Train metric average : 0.0117
+2024-09-20 14:49:16,056 - Epoch [266/1000], Val Loss: 2.5263
+2024-09-20 14:49:16,056 - Epoch [266/1000], Val metric average : nan
+2024-09-20 14:50:03,264 - Epoch [267/1000], Train Loss: 2.5721
+2024-09-20 14:50:03,264 - Epoch [267/1000], Train metric average : 0.0021
+2024-09-20 14:50:03,265 - Epoch [267/1000], Val Loss: 2.7951
+2024-09-20 14:50:03,265 - Epoch [267/1000], Val metric average : nan
+2024-09-20 14:50:50,619 - Epoch [268/1000], Train Loss: 2.5708
+2024-09-20 14:50:50,619 - Epoch [268/1000], Train metric average : 0.0037
+2024-09-20 14:50:50,619 - Epoch [268/1000], Val Loss: 2.5161
+2024-09-20 14:50:50,619 - Epoch [268/1000], Val metric average : nan
+2024-09-20 14:51:38,277 - Epoch [269/1000], Train Loss: 2.5707
+2024-09-20 14:51:38,277 - Epoch [269/1000], Train metric average : 0.0214
+2024-09-20 14:51:38,277 - Epoch [269/1000], Val Loss: 2.6796
+2024-09-20 14:51:38,278 - Epoch [269/1000], Val metric average : nan
+2024-09-20 14:52:25,587 - Epoch [270/1000], Train Loss: 2.5721
+2024-09-20 14:52:25,587 - Epoch [270/1000], Train metric average : -0.0039
+2024-09-20 14:52:25,588 - Epoch [270/1000], Val Loss: 2.5931
+2024-09-20 14:52:25,588 - Epoch [270/1000], Val metric average : nan
+2024-09-20 14:53:13,048 - Epoch [271/1000], Train Loss: 2.5718
+2024-09-20 14:53:13,049 - Epoch [271/1000], Train metric average : -0.0070
+2024-09-20 14:53:13,049 - Epoch [271/1000], Val Loss: 2.7772
+2024-09-20 14:53:13,049 - Epoch [271/1000], Val metric average : nan
+2024-09-20 14:54:00,441 - Epoch [272/1000], Train Loss: 2.5714
+2024-09-20 14:54:00,442 - Epoch [272/1000], Train metric average : -0.0010
+2024-09-20 14:54:00,442 - Epoch [272/1000], Val Loss: 2.6496
+2024-09-20 14:54:00,442 - Epoch [272/1000], Val metric average : nan
+2024-09-20 14:54:48,029 - Epoch [273/1000], Train Loss: 2.5718
+2024-09-20 14:54:48,029 - Epoch [273/1000], Train metric average : -0.0196
+2024-09-20 14:54:48,029 - Epoch [273/1000], Val Loss: 2.5748
+2024-09-20 14:54:48,029 - Epoch [273/1000], Val metric average : nan
+2024-09-20 14:55:35,719 - Epoch [274/1000], Train Loss: 2.5703
+2024-09-20 14:55:35,719 - Epoch [274/1000], Train metric average : -0.0091
+2024-09-20 14:55:35,719 - Epoch [274/1000], Val Loss: 2.6285
+2024-09-20 14:55:35,719 - Epoch [274/1000], Val metric average : nan
+2024-09-20 14:56:22,759 - Epoch [275/1000], Train Loss: 2.5712
+2024-09-20 14:56:22,760 - Epoch [275/1000], Train metric average : 0.0029
+2024-09-20 14:56:22,760 - Epoch [275/1000], Val Loss: 2.7496
+2024-09-20 14:56:22,760 - Epoch [275/1000], Val metric average : nan
+2024-09-20 14:57:10,053 - Epoch [276/1000], Train Loss: 2.5696
+2024-09-20 14:57:10,053 - Epoch [276/1000], Train metric average : -0.0041
+2024-09-20 14:57:10,053 - Epoch [276/1000], Val Loss: 2.5735
+2024-09-20 14:57:10,053 - Epoch [276/1000], Val metric average : nan
+2024-09-20 14:57:57,194 - Epoch [277/1000], Train Loss: 2.5728
+2024-09-20 14:57:57,194 - Epoch [277/1000], Train metric average : 0.0059
+2024-09-20 14:57:57,194 - Epoch [277/1000], Val Loss: 2.7960
+2024-09-20 14:57:57,195 - Epoch [277/1000], Val metric average : nan
+2024-09-20 14:58:44,553 - Epoch [278/1000], Train Loss: 2.5704
+2024-09-20 14:58:44,553 - Epoch [278/1000], Train metric average : -0.0106
+2024-09-20 14:58:44,553 - Epoch [278/1000], Val Loss: 2.6494
+2024-09-20 14:58:44,553 - Epoch [278/1000], Val metric average : nan
+2024-09-20 14:59:31,768 - Epoch [279/1000], Train Loss: 2.5700
+2024-09-20 14:59:31,768 - Epoch [279/1000], Train metric average : -0.0115
+2024-09-20 14:59:31,768 - Epoch [279/1000], Val Loss: 2.7837
+2024-09-20 14:59:31,768 - Epoch [279/1000], Val metric average : nan
+2024-09-20 15:00:19,283 - Epoch [280/1000], Train Loss: 2.5707
+2024-09-20 15:00:19,283 - Epoch [280/1000], Train metric average : 0.0074
+2024-09-20 15:00:19,283 - Epoch [280/1000], Val Loss: 2.8001
+2024-09-20 15:00:19,283 - Epoch [280/1000], Val metric average : nan
+2024-09-20 15:01:06,883 - Epoch [281/1000], Train Loss: 2.5700
+2024-09-20 15:01:06,884 - Epoch [281/1000], Train metric average : 0.0208
+2024-09-20 15:01:06,884 - Epoch [281/1000], Val Loss: 2.7014
+2024-09-20 15:01:06,884 - Epoch [281/1000], Val metric average : nan
+2024-09-20 15:01:54,043 - Epoch [282/1000], Train Loss: 2.5716
+2024-09-20 15:01:54,044 - Epoch [282/1000], Train metric average : 0.0058
+2024-09-20 15:01:54,044 - Epoch [282/1000], Val Loss: 2.6581
+2024-09-20 15:01:54,044 - Epoch [282/1000], Val metric average : nan
+2024-09-20 15:02:41,223 - Epoch [283/1000], Train Loss: 2.5694
+2024-09-20 15:02:41,224 - Epoch [283/1000], Train metric average : 0.0036
+2024-09-20 15:02:41,224 - Epoch [283/1000], Val Loss: 2.7704
+2024-09-20 15:02:41,224 - Epoch [283/1000], Val metric average : nan
+2024-09-20 15:03:28,326 - Epoch [284/1000], Train Loss: 2.5721
+2024-09-20 15:03:28,327 - Epoch [284/1000], Train metric average : -0.0008
+2024-09-20 15:03:28,327 - Epoch [284/1000], Val Loss: 2.6499
+2024-09-20 15:03:28,327 - Epoch [284/1000], Val metric average : nan
+2024-09-20 15:04:16,204 - Epoch [285/1000], Train Loss: 2.5719
+2024-09-20 15:04:16,204 - Epoch [285/1000], Train metric average : 0.0044
+2024-09-20 15:04:16,205 - Epoch [285/1000], Val Loss: 2.5224
+2024-09-20 15:04:16,205 - Epoch [285/1000], Val metric average : nan
+2024-09-20 15:05:03,480 - Epoch [286/1000], Train Loss: 2.5732
+2024-09-20 15:05:03,480 - Epoch [286/1000], Train metric average : -0.0053
+2024-09-20 15:05:03,480 - Epoch [286/1000], Val Loss: 2.6428
+2024-09-20 15:05:03,480 - Epoch [286/1000], Val metric average : nan
+2024-09-20 15:05:51,046 - Epoch [287/1000], Train Loss: 2.5697
+2024-09-20 15:05:51,046 - Epoch [287/1000], Train metric average : -0.0084
+2024-09-20 15:05:51,046 - Epoch [287/1000], Val Loss: 2.5801
+2024-09-20 15:05:51,046 - Epoch [287/1000], Val metric average : nan
+2024-09-20 15:06:38,199 - Epoch [288/1000], Train Loss: 2.5711
+2024-09-20 15:06:38,199 - Epoch [288/1000], Train metric average : 0.0051
+2024-09-20 15:06:38,199 - Epoch [288/1000], Val Loss: 2.7771
+2024-09-20 15:06:38,199 - Epoch [288/1000], Val metric average : nan
+2024-09-20 15:07:25,689 - Epoch [289/1000], Train Loss: 2.5719
+2024-09-20 15:07:25,689 - Epoch [289/1000], Train metric average : -0.0011
+2024-09-20 15:07:25,690 - Epoch [289/1000], Val Loss: 2.6183
+2024-09-20 15:07:25,690 - Epoch [289/1000], Val metric average : nan
+2024-09-20 15:08:13,056 - Epoch [290/1000], Train Loss: 2.5715
+2024-09-20 15:08:13,056 - Epoch [290/1000], Train metric average : 0.0022
+2024-09-20 15:08:13,056 - Epoch [290/1000], Val Loss: 2.8188
+2024-09-20 15:08:13,057 - Epoch [290/1000], Val metric average : nan
+2024-09-20 15:09:00,338 - Epoch [291/1000], Train Loss: 2.5732
+2024-09-20 15:09:00,339 - Epoch [291/1000], Train metric average : 0.0241
+2024-09-20 15:09:00,339 - Epoch [291/1000], Val Loss: 2.5263
+2024-09-20 15:09:00,339 - Epoch [291/1000], Val metric average : nan
+2024-09-20 15:09:47,519 - Epoch [292/1000], Train Loss: 2.5713
+2024-09-20 15:09:47,519 - Epoch [292/1000], Train metric average : 0.0143
+2024-09-20 15:09:47,519 - Epoch [292/1000], Val Loss: 2.7296
+2024-09-20 15:09:47,520 - Epoch [292/1000], Val metric average : nan
+2024-09-20 15:10:34,646 - Epoch [293/1000], Train Loss: 2.5707
+2024-09-20 15:10:34,646 - Epoch [293/1000], Train metric average : -0.0085
+2024-09-20 15:10:34,646 - Epoch [293/1000], Val Loss: 2.7900
+2024-09-20 15:10:34,646 - Epoch [293/1000], Val metric average : nan
+2024-09-20 15:11:21,657 - Epoch [294/1000], Train Loss: 2.5718
+2024-09-20 15:11:21,658 - Epoch [294/1000], Train metric average : 0.0057
+2024-09-20 15:11:21,658 - Epoch [294/1000], Val Loss: 2.6995
+2024-09-20 15:11:21,658 - Epoch [294/1000], Val metric average : nan
+2024-09-20 15:12:09,018 - Epoch [295/1000], Train Loss: 2.5710
+2024-09-20 15:12:09,018 - Epoch [295/1000], Train metric average : 0.0100
+2024-09-20 15:12:09,018 - Epoch [295/1000], Val Loss: 2.7398
+2024-09-20 15:12:09,018 - Epoch [295/1000], Val metric average : nan
+2024-09-20 15:12:56,309 - Epoch [296/1000], Train Loss: 2.5701
+2024-09-20 15:12:56,310 - Epoch [296/1000], Train metric average : -0.0012
+2024-09-20 15:12:56,310 - Epoch [296/1000], Val Loss: 2.6841
+2024-09-20 15:12:56,310 - Epoch [296/1000], Val metric average : nan
+2024-09-20 15:13:43,406 - Epoch [297/1000], Train Loss: 2.5688
+2024-09-20 15:13:43,406 - Epoch [297/1000], Train metric average : 0.0128
+2024-09-20 15:13:43,406 - Epoch [297/1000], Val Loss: 2.8555
+2024-09-20 15:13:43,406 - Epoch [297/1000], Val metric average : nan
+2024-09-20 15:14:30,403 - Epoch [298/1000], Train Loss: 2.5714
+2024-09-20 15:14:30,403 - Epoch [298/1000], Train metric average : -0.0239
+2024-09-20 15:14:30,403 - Epoch [298/1000], Val Loss: 2.6611
+2024-09-20 15:14:30,404 - Epoch [298/1000], Val metric average : nan
+2024-09-20 15:15:17,555 - Epoch [299/1000], Train Loss: 2.5707
+2024-09-20 15:15:17,556 - Epoch [299/1000], Train metric average : 0.0046
+2024-09-20 15:15:17,556 - Epoch [299/1000], Val Loss: 2.7210
+2024-09-20 15:15:17,556 - Epoch [299/1000], Val metric average : nan
+2024-09-20 15:16:04,420 - Epoch [300/1000], Train Loss: 2.5737
+2024-09-20 15:16:04,420 - Epoch [300/1000], Train metric average : 0.0075
+2024-09-20 15:16:04,420 - Epoch [300/1000], Val Loss: 2.8279
+2024-09-20 15:16:04,421 - Epoch [300/1000], Val metric average : nan
+2024-09-20 15:16:51,934 - Epoch [301/1000], Train Loss: 2.5727
+2024-09-20 15:16:51,934 - Epoch [301/1000], Train metric average : -0.0180
+2024-09-20 15:16:51,934 - Epoch [301/1000], Val Loss: 2.6735
+2024-09-20 15:16:51,934 - Epoch [301/1000], Val metric average : nan
+2024-09-20 15:17:39,333 - Epoch [302/1000], Train Loss: 2.5736
+2024-09-20 15:17:39,333 - Epoch [302/1000], Train metric average : -0.0095
+2024-09-20 15:17:39,333 - Epoch [302/1000], Val Loss: 2.4352
+2024-09-20 15:17:39,333 - Epoch [302/1000], Val metric average : nan
+2024-09-20 15:17:41,905 - Saved best model with Val Loss: 2.4352
+2024-09-20 15:18:29,407 - Epoch [303/1000], Train Loss: 2.5720
+2024-09-20 15:18:29,407 - Epoch [303/1000], Train metric average : 0.0003
+2024-09-20 15:18:29,407 - Epoch [303/1000], Val Loss: 2.5117
+2024-09-20 15:18:29,407 - Epoch [303/1000], Val metric average : nan
+2024-09-20 15:19:16,623 - Epoch [304/1000], Train Loss: 2.5755
+2024-09-20 15:19:16,624 - Epoch [304/1000], Train metric average : 0.0089
+2024-09-20 15:19:16,624 - Epoch [304/1000], Val Loss: 2.7501
+2024-09-20 15:19:16,624 - Epoch [304/1000], Val metric average : nan
+2024-09-20 15:20:03,863 - Epoch [305/1000], Train Loss: 2.5725
+2024-09-20 15:20:03,863 - Epoch [305/1000], Train metric average : 0.0010
+2024-09-20 15:20:03,863 - Epoch [305/1000], Val Loss: 2.6192
+2024-09-20 15:20:03,863 - Epoch [305/1000], Val metric average : nan
+2024-09-20 15:20:50,549 - Epoch [306/1000], Train Loss: 2.5713
+2024-09-20 15:20:50,550 - Epoch [306/1000], Train metric average : -0.0018
+2024-09-20 15:20:50,550 - Epoch [306/1000], Val Loss: 2.7657
+2024-09-20 15:20:50,550 - Epoch [306/1000], Val metric average : nan
+2024-09-20 15:21:37,976 - Epoch [307/1000], Train Loss: 2.5689
+2024-09-20 15:21:37,976 - Epoch [307/1000], Train metric average : -0.0045
+2024-09-20 15:21:37,977 - Epoch [307/1000], Val Loss: 2.5193
+2024-09-20 15:21:37,977 - Epoch [307/1000], Val metric average : nan
+2024-09-20 15:22:25,265 - Epoch [308/1000], Train Loss: 2.5700
+2024-09-20 15:22:25,265 - Epoch [308/1000], Train metric average : 0.0097
+2024-09-20 15:22:25,265 - Epoch [308/1000], Val Loss: 2.5686
+2024-09-20 15:22:25,265 - Epoch [308/1000], Val metric average : nan
+2024-09-20 15:23:12,740 - Epoch [309/1000], Train Loss: 2.5735
+2024-09-20 15:23:12,740 - Epoch [309/1000], Train metric average : 0.0009
+2024-09-20 15:23:12,740 - Epoch [309/1000], Val Loss: 2.6046
+2024-09-20 15:23:12,740 - Epoch [309/1000], Val metric average : nan
+2024-09-20 15:24:00,097 - Epoch [310/1000], Train Loss: 2.5718
+2024-09-20 15:24:00,097 - Epoch [310/1000], Train metric average : -0.0085
+2024-09-20 15:24:00,097 - Epoch [310/1000], Val Loss: 2.5933
+2024-09-20 15:24:00,097 - Epoch [310/1000], Val metric average : nan
+2024-09-20 15:24:47,587 - Epoch [311/1000], Train Loss: 2.5722
+2024-09-20 15:24:47,587 - Epoch [311/1000], Train metric average : -0.0005
+2024-09-20 15:24:47,587 - Epoch [311/1000], Val Loss: 2.7982
+2024-09-20 15:24:47,587 - Epoch [311/1000], Val metric average : nan
+2024-09-20 15:25:35,291 - Epoch [312/1000], Train Loss: 2.5707
+2024-09-20 15:25:35,291 - Epoch [312/1000], Train metric average : -0.0000
+2024-09-20 15:25:35,291 - Epoch [312/1000], Val Loss: 2.6040
+2024-09-20 15:25:35,291 - Epoch [312/1000], Val metric average : nan
+2024-09-20 15:26:22,908 - Epoch [313/1000], Train Loss: 2.5718
+2024-09-20 15:26:22,908 - Epoch [313/1000], Train metric average : 0.0000
+2024-09-20 15:26:22,908 - Epoch [313/1000], Val Loss: 2.7077
+2024-09-20 15:26:22,908 - Epoch [313/1000], Val metric average : nan
+2024-09-20 15:27:10,272 - Epoch [314/1000], Train Loss: 2.5707
+2024-09-20 15:27:10,272 - Epoch [314/1000], Train metric average : 0.0022
+2024-09-20 15:27:10,272 - Epoch [314/1000], Val Loss: 2.7816
+2024-09-20 15:27:10,272 - Epoch [314/1000], Val metric average : nan
+2024-09-20 15:27:57,921 - Epoch [315/1000], Train Loss: 2.5702
+2024-09-20 15:27:57,922 - Epoch [315/1000], Train metric average : 0.0162
+2024-09-20 15:27:57,922 - Epoch [315/1000], Val Loss: 2.7542
+2024-09-20 15:27:57,922 - Epoch [315/1000], Val metric average : nan
+2024-09-20 15:28:45,377 - Epoch [316/1000], Train Loss: 2.5721
+2024-09-20 15:28:45,377 - Epoch [316/1000], Train metric average : 0.0011
+2024-09-20 15:28:45,377 - Epoch [316/1000], Val Loss: 2.7154
+2024-09-20 15:28:45,377 - Epoch [316/1000], Val metric average : nan
+2024-09-20 15:29:32,959 - Epoch [317/1000], Train Loss: 2.5713
+2024-09-20 15:29:32,959 - Epoch [317/1000], Train metric average : 0.0066
+2024-09-20 15:29:32,959 - Epoch [317/1000], Val Loss: 2.6482
+2024-09-20 15:29:32,959 - Epoch [317/1000], Val metric average : nan
+2024-09-20 15:30:20,333 - Epoch [318/1000], Train Loss: 2.5705
+2024-09-20 15:30:20,333 - Epoch [318/1000], Train metric average : 0.0202
+2024-09-20 15:30:20,333 - Epoch [318/1000], Val Loss: 2.5625
+2024-09-20 15:30:20,333 - Epoch [318/1000], Val metric average : nan
+2024-09-20 15:31:07,897 - Epoch [319/1000], Train Loss: 2.5717
+2024-09-20 15:31:07,897 - Epoch [319/1000], Train metric average : 0.0059
+2024-09-20 15:31:07,897 - Epoch [319/1000], Val Loss: 2.6561
+2024-09-20 15:31:07,897 - Epoch [319/1000], Val metric average : nan
+2024-09-20 15:31:54,909 - Epoch [320/1000], Train Loss: 2.5705
+2024-09-20 15:31:54,909 - Epoch [320/1000], Train metric average : -0.0116
+2024-09-20 15:31:54,909 - Epoch [320/1000], Val Loss: 2.6389
+2024-09-20 15:31:54,909 - Epoch [320/1000], Val metric average : nan
+2024-09-20 15:32:42,618 - Epoch [321/1000], Train Loss: 2.5720
+2024-09-20 15:32:42,618 - Epoch [321/1000], Train metric average : 0.0044
+2024-09-20 15:32:42,618 - Epoch [321/1000], Val Loss: 2.8166
+2024-09-20 15:32:42,618 - Epoch [321/1000], Val metric average : nan
+2024-09-20 15:33:29,757 - Epoch [322/1000], Train Loss: 2.5710
+2024-09-20 15:33:29,757 - Epoch [322/1000], Train metric average : 0.0010
+2024-09-20 15:33:29,757 - Epoch [322/1000], Val Loss: 2.6431
+2024-09-20 15:33:29,757 - Epoch [322/1000], Val metric average : nan
+2024-09-20 15:34:16,347 - Epoch [323/1000], Train Loss: 2.5709
+2024-09-20 15:34:16,348 - Epoch [323/1000], Train metric average : 0.0010
+2024-09-20 15:34:16,348 - Epoch [323/1000], Val Loss: 2.6897
+2024-09-20 15:34:16,348 - Epoch [323/1000], Val metric average : nan
+2024-09-20 15:35:03,463 - Epoch [324/1000], Train Loss: 2.5711
+2024-09-20 15:35:03,463 - Epoch [324/1000], Train metric average : 0.0095
+2024-09-20 15:35:03,463 - Epoch [324/1000], Val Loss: 2.8067
+2024-09-20 15:35:03,464 - Epoch [324/1000], Val metric average : nan
+2024-09-20 15:35:50,945 - Epoch [325/1000], Train Loss: 2.5718
+2024-09-20 15:35:50,946 - Epoch [325/1000], Train metric average : -0.0053
+2024-09-20 15:35:50,946 - Epoch [325/1000], Val Loss: 2.6397
+2024-09-20 15:35:50,946 - Epoch [325/1000], Val metric average : nan
+2024-09-20 15:36:38,172 - Epoch [326/1000], Train Loss: 2.5717
+2024-09-20 15:36:38,172 - Epoch [326/1000], Train metric average : -0.0087
+2024-09-20 15:36:38,172 - Epoch [326/1000], Val Loss: 2.6686
+2024-09-20 15:36:38,172 - Epoch [326/1000], Val metric average : nan
+2024-09-20 15:37:25,728 - Epoch [327/1000], Train Loss: 2.5709
+2024-09-20 15:37:25,728 - Epoch [327/1000], Train metric average : -0.0076
+2024-09-20 15:37:25,728 - Epoch [327/1000], Val Loss: 2.8126
+2024-09-20 15:37:25,728 - Epoch [327/1000], Val metric average : nan
+2024-09-20 15:38:12,874 - Epoch [328/1000], Train Loss: 2.5708
+2024-09-20 15:38:12,874 - Epoch [328/1000], Train metric average : -0.0099
+2024-09-20 15:38:12,874 - Epoch [328/1000], Val Loss: 2.5452
+2024-09-20 15:38:12,874 - Epoch [328/1000], Val metric average : nan
+2024-09-20 15:39:00,366 - Epoch [329/1000], Train Loss: 2.5701
+2024-09-20 15:39:00,367 - Epoch [329/1000], Train metric average : -0.0052
+2024-09-20 15:39:00,367 - Epoch [329/1000], Val Loss: 2.6644
+2024-09-20 15:39:00,367 - Epoch [329/1000], Val metric average : nan
+2024-09-20 15:39:47,182 - Epoch [330/1000], Train Loss: 2.5702
+2024-09-20 15:39:47,183 - Epoch [330/1000], Train metric average : -0.0013
+2024-09-20 15:39:47,183 - Epoch [330/1000], Val Loss: 2.6347
+2024-09-20 15:39:47,183 - Epoch [330/1000], Val metric average : nan
+2024-09-20 15:40:34,323 - Epoch [331/1000], Train Loss: 2.5691
+2024-09-20 15:40:34,324 - Epoch [331/1000], Train metric average : -0.0147
+2024-09-20 15:40:34,324 - Epoch [331/1000], Val Loss: 2.7714
+2024-09-20 15:40:34,324 - Epoch [331/1000], Val metric average : nan
+2024-09-20 15:41:21,766 - Epoch [332/1000], Train Loss: 2.5723
+2024-09-20 15:41:21,766 - Epoch [332/1000], Train metric average : 0.0134
+2024-09-20 15:41:21,766 - Epoch [332/1000], Val Loss: 2.7282
+2024-09-20 15:41:21,766 - Epoch [332/1000], Val metric average : nan
+2024-09-20 15:42:09,058 - Epoch [333/1000], Train Loss: 2.5709
+2024-09-20 15:42:09,058 - Epoch [333/1000], Train metric average : 0.0117
+2024-09-20 15:42:09,058 - Epoch [333/1000], Val Loss: 2.6173
+2024-09-20 15:42:09,058 - Epoch [333/1000], Val metric average : nan
+2024-09-20 15:42:56,434 - Epoch [334/1000], Train Loss: 2.5713
+2024-09-20 15:42:56,435 - Epoch [334/1000], Train metric average : 0.0046
+2024-09-20 15:42:56,435 - Epoch [334/1000], Val Loss: 2.6543
+2024-09-20 15:42:56,435 - Epoch [334/1000], Val metric average : nan
+2024-09-20 15:43:43,921 - Epoch [335/1000], Train Loss: 2.5716
+2024-09-20 15:43:43,921 - Epoch [335/1000], Train metric average : -0.0055
+2024-09-20 15:43:43,921 - Epoch [335/1000], Val Loss: 2.6181
+2024-09-20 15:43:43,921 - Epoch [335/1000], Val metric average : nan
+2024-09-20 15:44:31,466 - Epoch [336/1000], Train Loss: 2.5706
+2024-09-20 15:44:31,467 - Epoch [336/1000], Train metric average : -0.0014
+2024-09-20 15:44:31,467 - Epoch [336/1000], Val Loss: 2.7012
+2024-09-20 15:44:31,467 - Epoch [336/1000], Val metric average : nan
+2024-09-20 15:45:18,906 - Epoch [337/1000], Train Loss: 2.5700
+2024-09-20 15:45:18,906 - Epoch [337/1000], Train metric average : -0.0013
+2024-09-20 15:45:18,906 - Epoch [337/1000], Val Loss: 2.7418
+2024-09-20 15:45:18,907 - Epoch [337/1000], Val metric average : nan
+2024-09-20 15:46:06,112 - Epoch [338/1000], Train Loss: 2.5725
+2024-09-20 15:46:06,113 - Epoch [338/1000], Train metric average : -0.0055
+2024-09-20 15:46:06,113 - Epoch [338/1000], Val Loss: 2.6693
+2024-09-20 15:46:06,113 - Epoch [338/1000], Val metric average : nan
+2024-09-20 15:46:53,377 - Epoch [339/1000], Train Loss: 2.5717
+2024-09-20 15:46:53,377 - Epoch [339/1000], Train metric average : 0.0008
+2024-09-20 15:46:53,377 - Epoch [339/1000], Val Loss: 2.6791
+2024-09-20 15:46:53,377 - Epoch [339/1000], Val metric average : nan
+2024-09-20 15:47:40,877 - Epoch [340/1000], Train Loss: 2.5717
+2024-09-20 15:47:40,877 - Epoch [340/1000], Train metric average : 0.0082
+2024-09-20 15:47:40,877 - Epoch [340/1000], Val Loss: 2.6492
+2024-09-20 15:47:40,877 - Epoch [340/1000], Val metric average : nan
+2024-09-20 15:48:28,146 - Epoch [341/1000], Train Loss: 2.5694
+2024-09-20 15:48:28,146 - Epoch [341/1000], Train metric average : -0.0013
+2024-09-20 15:48:28,146 - Epoch [341/1000], Val Loss: 3.0186
+2024-09-20 15:48:28,146 - Epoch [341/1000], Val metric average : nan
+2024-09-20 15:49:15,467 - Epoch [342/1000], Train Loss: 2.5718
+2024-09-20 15:49:15,467 - Epoch [342/1000], Train metric average : -0.0058
+2024-09-20 15:49:15,467 - Epoch [342/1000], Val Loss: 2.7786
+2024-09-20 15:49:15,467 - Epoch [342/1000], Val metric average : nan
+2024-09-20 15:50:02,741 - Epoch [343/1000], Train Loss: 2.5715
+2024-09-20 15:50:02,742 - Epoch [343/1000], Train metric average : 0.0021
+2024-09-20 15:50:02,742 - Epoch [343/1000], Val Loss: 2.6066
+2024-09-20 15:50:02,742 - Epoch [343/1000], Val metric average : nan
+2024-09-20 15:50:49,955 - Epoch [344/1000], Train Loss: 2.5712
+2024-09-20 15:50:49,955 - Epoch [344/1000], Train metric average : -0.0005
+2024-09-20 15:50:49,955 - Epoch [344/1000], Val Loss: 2.6399
+2024-09-20 15:50:49,955 - Epoch [344/1000], Val metric average : nan
+2024-09-20 15:51:37,532 - Epoch [345/1000], Train Loss: 2.5718
+2024-09-20 15:51:37,532 - Epoch [345/1000], Train metric average : -0.0068
+2024-09-20 15:51:37,532 - Epoch [345/1000], Val Loss: 2.6511
+2024-09-20 15:51:37,532 - Epoch [345/1000], Val metric average : nan
+2024-09-20 15:52:25,024 - Epoch [346/1000], Train Loss: 2.5703
+2024-09-20 15:52:25,024 - Epoch [346/1000], Train metric average : -0.0167
+2024-09-20 15:52:25,024 - Epoch [346/1000], Val Loss: 2.5895
+2024-09-20 15:52:25,024 - Epoch [346/1000], Val metric average : nan
+2024-09-20 15:53:12,219 - Epoch [347/1000], Train Loss: 2.5727
+2024-09-20 15:53:12,220 - Epoch [347/1000], Train metric average : 0.0067
+2024-09-20 15:53:12,220 - Epoch [347/1000], Val Loss: 2.5976
+2024-09-20 15:53:12,220 - Epoch [347/1000], Val metric average : nan
+2024-09-20 15:53:59,600 - Epoch [348/1000], Train Loss: 2.5738
+2024-09-20 15:53:59,600 - Epoch [348/1000], Train metric average : -0.0159
+2024-09-20 15:53:59,600 - Epoch [348/1000], Val Loss: 2.4657
+2024-09-20 15:53:59,600 - Epoch [348/1000], Val metric average : nan
+2024-09-20 15:54:47,270 - Epoch [349/1000], Train Loss: 2.5744
+2024-09-20 15:54:47,270 - Epoch [349/1000], Train metric average : 0.0102
+2024-09-20 15:54:47,271 - Epoch [349/1000], Val Loss: 2.6229
+2024-09-20 15:54:47,271 - Epoch [349/1000], Val metric average : nan
+2024-09-20 15:55:34,733 - Epoch [350/1000], Train Loss: 2.5737
+2024-09-20 15:55:34,733 - Epoch [350/1000], Train metric average : -0.0051
+2024-09-20 15:55:34,733 - Epoch [350/1000], Val Loss: 2.6697
+2024-09-20 15:55:34,733 - Epoch [350/1000], Val metric average : nan
+2024-09-20 15:56:22,021 - Epoch [351/1000], Train Loss: 2.5733
+2024-09-20 15:56:22,021 - Epoch [351/1000], Train metric average : 0.0116
+2024-09-20 15:56:22,021 - Epoch [351/1000], Val Loss: 2.7796
+2024-09-20 15:56:22,021 - Epoch [351/1000], Val metric average : nan
+2024-09-20 15:57:09,705 - Epoch [352/1000], Train Loss: 2.5724
+2024-09-20 15:57:09,706 - Epoch [352/1000], Train metric average : 0.0100
+2024-09-20 15:57:09,706 - Epoch [352/1000], Val Loss: 2.6447
+2024-09-20 15:57:09,706 - Epoch [352/1000], Val metric average : nan
+2024-09-20 15:57:57,036 - Epoch [353/1000], Train Loss: 2.5731
+2024-09-20 15:57:57,036 - Epoch [353/1000], Train metric average : -0.0126
+2024-09-20 15:57:57,036 - Epoch [353/1000], Val Loss: 2.8379
+2024-09-20 15:57:57,036 - Epoch [353/1000], Val metric average : nan
+2024-09-20 15:58:44,374 - Epoch [354/1000], Train Loss: 2.5717
+2024-09-20 15:58:44,374 - Epoch [354/1000], Train metric average : 0.0045
+2024-09-20 15:58:44,374 - Epoch [354/1000], Val Loss: 2.7592
+2024-09-20 15:58:44,374 - Epoch [354/1000], Val metric average : nan
+2024-09-20 15:59:31,682 - Epoch [355/1000], Train Loss: 2.5713
+2024-09-20 15:59:31,682 - Epoch [355/1000], Train metric average : -0.0035
+2024-09-20 15:59:31,682 - Epoch [355/1000], Val Loss: 2.6597
+2024-09-20 15:59:31,682 - Epoch [355/1000], Val metric average : nan
+2024-09-20 16:00:19,399 - Epoch [356/1000], Train Loss: 2.5690
+2024-09-20 16:00:19,399 - Epoch [356/1000], Train metric average : -0.0060
+2024-09-20 16:00:19,399 - Epoch [356/1000], Val Loss: 2.7149
+2024-09-20 16:00:19,399 - Epoch [356/1000], Val metric average : nan
+2024-09-20 16:01:06,801 - Epoch [357/1000], Train Loss: 2.5708
+2024-09-20 16:01:06,801 - Epoch [357/1000], Train metric average : 0.0096
+2024-09-20 16:01:06,801 - Epoch [357/1000], Val Loss: 2.6627
+2024-09-20 16:01:06,801 - Epoch [357/1000], Val metric average : nan
+2024-09-20 16:01:53,644 - Epoch [358/1000], Train Loss: 2.5704
+2024-09-20 16:01:53,644 - Epoch [358/1000], Train metric average : -0.0033
+2024-09-20 16:01:53,644 - Epoch [358/1000], Val Loss: 2.5875
+2024-09-20 16:01:53,644 - Epoch [358/1000], Val metric average : nan
+2024-09-20 16:02:41,281 - Epoch [359/1000], Train Loss: 2.5698
+2024-09-20 16:02:41,281 - Epoch [359/1000], Train metric average : -0.0125
+2024-09-20 16:02:41,281 - Epoch [359/1000], Val Loss: 2.6489
+2024-09-20 16:02:41,281 - Epoch [359/1000], Val metric average : nan
+2024-09-20 16:03:28,683 - Epoch [360/1000], Train Loss: 2.5704
+2024-09-20 16:03:28,684 - Epoch [360/1000], Train metric average : -0.0141
+2024-09-20 16:03:28,684 - Epoch [360/1000], Val Loss: 2.7902
+2024-09-20 16:03:28,684 - Epoch [360/1000], Val metric average : nan
+2024-09-20 16:04:16,126 - Epoch [361/1000], Train Loss: 2.5728
+2024-09-20 16:04:16,126 - Epoch [361/1000], Train metric average : 0.0016
+2024-09-20 16:04:16,126 - Epoch [361/1000], Val Loss: 2.5735
+2024-09-20 16:04:16,126 - Epoch [361/1000], Val metric average : nan
+2024-09-20 16:05:04,101 - Epoch [362/1000], Train Loss: 2.5720
+2024-09-20 16:05:04,101 - Epoch [362/1000], Train metric average : 0.0107
+2024-09-20 16:05:04,101 - Epoch [362/1000], Val Loss: 2.7663
+2024-09-20 16:05:04,101 - Epoch [362/1000], Val metric average : nan
+2024-09-20 16:05:51,556 - Epoch [363/1000], Train Loss: 2.5691
+2024-09-20 16:05:51,556 - Epoch [363/1000], Train metric average : 0.0105
+2024-09-20 16:05:51,556 - Epoch [363/1000], Val Loss: 2.6298
+2024-09-20 16:05:51,556 - Epoch [363/1000], Val metric average : nan
+2024-09-20 16:06:39,039 - Epoch [364/1000], Train Loss: 2.5711
+2024-09-20 16:06:39,039 - Epoch [364/1000], Train metric average : 0.0024
+2024-09-20 16:06:39,039 - Epoch [364/1000], Val Loss: 2.7129
+2024-09-20 16:06:39,039 - Epoch [364/1000], Val metric average : nan
+2024-09-20 16:07:26,400 - Epoch [365/1000], Train Loss: 2.5709
+2024-09-20 16:07:26,401 - Epoch [365/1000], Train metric average : 0.0144
+2024-09-20 16:07:26,401 - Epoch [365/1000], Val Loss: 2.5637
+2024-09-20 16:07:26,401 - Epoch [365/1000], Val metric average : nan
+2024-09-20 16:08:13,918 - Epoch [366/1000], Train Loss: 2.5723
+2024-09-20 16:08:13,918 - Epoch [366/1000], Train metric average : -0.0071
+2024-09-20 16:08:13,918 - Epoch [366/1000], Val Loss: 2.7783
+2024-09-20 16:08:13,918 - Epoch [366/1000], Val metric average : nan
+2024-09-20 16:09:01,269 - Epoch [367/1000], Train Loss: 2.5695
+2024-09-20 16:09:01,269 - Epoch [367/1000], Train metric average : -0.0031
+2024-09-20 16:09:01,269 - Epoch [367/1000], Val Loss: 2.7689
+2024-09-20 16:09:01,269 - Epoch [367/1000], Val metric average : nan
+2024-09-20 16:09:48,509 - Epoch [368/1000], Train Loss: 2.5708
+2024-09-20 16:09:48,510 - Epoch [368/1000], Train metric average : 0.0053
+2024-09-20 16:09:48,510 - Epoch [368/1000], Val Loss: 2.5886
+2024-09-20 16:09:48,510 - Epoch [368/1000], Val metric average : nan
+2024-09-20 16:10:35,309 - Epoch [369/1000], Train Loss: 2.5705
+2024-09-20 16:10:35,309 - Epoch [369/1000], Train metric average : 0.0028
+2024-09-20 16:10:35,310 - Epoch [369/1000], Val Loss: 2.7068
+2024-09-20 16:10:35,310 - Epoch [369/1000], Val metric average : nan
+2024-09-20 16:11:22,865 - Epoch [370/1000], Train Loss: 2.5691
+2024-09-20 16:11:22,865 - Epoch [370/1000], Train metric average : 0.0018
+2024-09-20 16:11:22,865 - Epoch [370/1000], Val Loss: 2.5078
+2024-09-20 16:11:22,865 - Epoch [370/1000], Val metric average : nan
+2024-09-20 16:12:10,424 - Epoch [371/1000], Train Loss: 2.5715
+2024-09-20 16:12:10,425 - Epoch [371/1000], Train metric average : -0.0071
+2024-09-20 16:12:10,425 - Epoch [371/1000], Val Loss: 2.5890
+2024-09-20 16:12:10,425 - Epoch [371/1000], Val metric average : nan
+2024-09-20 16:12:58,014 - Epoch [372/1000], Train Loss: 2.5697
+2024-09-20 16:12:58,014 - Epoch [372/1000], Train metric average : 0.0006
+2024-09-20 16:12:58,014 - Epoch [372/1000], Val Loss: 2.6826
+2024-09-20 16:12:58,015 - Epoch [372/1000], Val metric average : nan
+2024-09-20 16:13:45,476 - Epoch [373/1000], Train Loss: 2.5710
+2024-09-20 16:13:45,476 - Epoch [373/1000], Train metric average : -0.0140
+2024-09-20 16:13:45,476 - Epoch [373/1000], Val Loss: 2.4943
+2024-09-20 16:13:45,476 - Epoch [373/1000], Val metric average : nan
+2024-09-20 16:14:32,970 - Epoch [374/1000], Train Loss: 2.5704
+2024-09-20 16:14:32,970 - Epoch [374/1000], Train metric average : 0.0105
+2024-09-20 16:14:32,971 - Epoch [374/1000], Val Loss: 2.7019
+2024-09-20 16:14:32,971 - Epoch [374/1000], Val metric average : nan
+2024-09-20 16:15:20,374 - Epoch [375/1000], Train Loss: 2.5713
+2024-09-20 16:15:20,375 - Epoch [375/1000], Train metric average : -0.0055
+2024-09-20 16:15:20,375 - Epoch [375/1000], Val Loss: 2.7325
+2024-09-20 16:15:20,375 - Epoch [375/1000], Val metric average : nan
+2024-09-20 16:16:07,536 - Epoch [376/1000], Train Loss: 2.5691
+2024-09-20 16:16:07,537 - Epoch [376/1000], Train metric average : -0.0118
+2024-09-20 16:16:07,537 - Epoch [376/1000], Val Loss: 2.6308
+2024-09-20 16:16:07,537 - Epoch [376/1000], Val metric average : nan
+2024-09-20 16:16:55,255 - Epoch [377/1000], Train Loss: 2.5703
+2024-09-20 16:16:55,255 - Epoch [377/1000], Train metric average : 0.0155
+2024-09-20 16:16:55,255 - Epoch [377/1000], Val Loss: 2.5768
+2024-09-20 16:16:55,255 - Epoch [377/1000], Val metric average : nan
+2024-09-20 16:17:42,584 - Epoch [378/1000], Train Loss: 2.5688
+2024-09-20 16:17:42,584 - Epoch [378/1000], Train metric average : 0.0012
+2024-09-20 16:17:42,585 - Epoch [378/1000], Val Loss: 2.6731
+2024-09-20 16:17:42,585 - Epoch [378/1000], Val metric average : nan
+2024-09-20 16:18:29,957 - Epoch [379/1000], Train Loss: 2.5716
+2024-09-20 16:18:29,958 - Epoch [379/1000], Train metric average : 0.0059
+2024-09-20 16:18:29,958 - Epoch [379/1000], Val Loss: 2.7224
+2024-09-20 16:18:29,958 - Epoch [379/1000], Val metric average : nan
+2024-09-20 16:19:17,127 - Epoch [380/1000], Train Loss: 2.5694
+2024-09-20 16:19:17,127 - Epoch [380/1000], Train metric average : -0.0130
+2024-09-20 16:19:17,127 - Epoch [380/1000], Val Loss: 2.7161
+2024-09-20 16:19:17,128 - Epoch [380/1000], Val metric average : nan
+2024-09-20 16:20:04,723 - Epoch [381/1000], Train Loss: 2.5699
+2024-09-20 16:20:04,724 - Epoch [381/1000], Train metric average : -0.0106
+2024-09-20 16:20:04,724 - Epoch [381/1000], Val Loss: 2.6804
+2024-09-20 16:20:04,724 - Epoch [381/1000], Val metric average : nan
+2024-09-20 16:20:52,638 - Epoch [382/1000], Train Loss: 2.5696
+2024-09-20 16:20:52,639 - Epoch [382/1000], Train metric average : -0.0118
+2024-09-20 16:20:52,639 - Epoch [382/1000], Val Loss: 2.6129
+2024-09-20 16:20:52,639 - Epoch [382/1000], Val metric average : nan
+2024-09-20 16:21:40,233 - Epoch [383/1000], Train Loss: 2.5727
+2024-09-20 16:21:40,233 - Epoch [383/1000], Train metric average : -0.0007
+2024-09-20 16:21:40,234 - Epoch [383/1000], Val Loss: 2.6598
+2024-09-20 16:21:40,234 - Epoch [383/1000], Val metric average : nan
+2024-09-20 16:22:27,385 - Epoch [384/1000], Train Loss: 2.5709
+2024-09-20 16:22:27,385 - Epoch [384/1000], Train metric average : 0.0035
+2024-09-20 16:22:27,385 - Epoch [384/1000], Val Loss: 2.6920
+2024-09-20 16:22:27,385 - Epoch [384/1000], Val metric average : nan
+2024-09-20 16:23:14,565 - Epoch [385/1000], Train Loss: 2.5703
+2024-09-20 16:23:14,565 - Epoch [385/1000], Train metric average : 0.0023
+2024-09-20 16:23:14,565 - Epoch [385/1000], Val Loss: 2.6244
+2024-09-20 16:23:14,566 - Epoch [385/1000], Val metric average : nan
+2024-09-20 16:24:01,900 - Epoch [386/1000], Train Loss: 2.5720
+2024-09-20 16:24:01,901 - Epoch [386/1000], Train metric average : 0.0111
+2024-09-20 16:24:01,901 - Epoch [386/1000], Val Loss: 2.6778
+2024-09-20 16:24:01,901 - Epoch [386/1000], Val metric average : nan
+2024-09-20 16:24:49,226 - Epoch [387/1000], Train Loss: 2.5690
+2024-09-20 16:24:49,226 - Epoch [387/1000], Train metric average : 0.0117
+2024-09-20 16:24:49,227 - Epoch [387/1000], Val Loss: 2.5663
+2024-09-20 16:24:49,227 - Epoch [387/1000], Val metric average : nan
+2024-09-20 16:25:36,522 - Epoch [388/1000], Train Loss: 2.5708
+2024-09-20 16:25:36,523 - Epoch [388/1000], Train metric average : -0.0081
+2024-09-20 16:25:36,523 - Epoch [388/1000], Val Loss: 2.6366
+2024-09-20 16:25:36,523 - Epoch [388/1000], Val metric average : nan
+2024-09-20 16:26:23,828 - Epoch [389/1000], Train Loss: 2.5696
+2024-09-20 16:26:23,828 - Epoch [389/1000], Train metric average : 0.0022
+2024-09-20 16:26:23,828 - Epoch [389/1000], Val Loss: 2.7821
+2024-09-20 16:26:23,828 - Epoch [389/1000], Val metric average : nan
+2024-09-20 16:27:11,358 - Epoch [390/1000], Train Loss: 2.5701
+2024-09-20 16:27:11,359 - Epoch [390/1000], Train metric average : -0.0038
+2024-09-20 16:27:11,359 - Epoch [390/1000], Val Loss: 2.7325
+2024-09-20 16:27:11,359 - Epoch [390/1000], Val metric average : nan
+2024-09-20 16:27:58,850 - Epoch [391/1000], Train Loss: 2.5717
+2024-09-20 16:27:58,850 - Epoch [391/1000], Train metric average : 0.0021
+2024-09-20 16:27:58,850 - Epoch [391/1000], Val Loss: 2.6577
+2024-09-20 16:27:58,850 - Epoch [391/1000], Val metric average : nan
+2024-09-20 16:28:46,647 - Epoch [392/1000], Train Loss: 2.5701
+2024-09-20 16:28:46,647 - Epoch [392/1000], Train metric average : -0.0018
+2024-09-20 16:28:46,647 - Epoch [392/1000], Val Loss: 2.5885
+2024-09-20 16:28:46,647 - Epoch [392/1000], Val metric average : nan
+2024-09-20 16:29:33,736 - Epoch [393/1000], Train Loss: 2.5709
+2024-09-20 16:29:33,736 - Epoch [393/1000], Train metric average : -0.0018
+2024-09-20 16:29:33,736 - Epoch [393/1000], Val Loss: 2.7157
+2024-09-20 16:29:33,736 - Epoch [393/1000], Val metric average : nan
+2024-09-20 16:30:21,005 - Epoch [394/1000], Train Loss: 2.5711
+2024-09-20 16:30:21,006 - Epoch [394/1000], Train metric average : 0.0034
+2024-09-20 16:30:21,006 - Epoch [394/1000], Val Loss: 2.6872
+2024-09-20 16:30:21,006 - Epoch [394/1000], Val metric average : nan
+2024-09-20 16:31:08,021 - Epoch [395/1000], Train Loss: 2.5704
+2024-09-20 16:31:08,021 - Epoch [395/1000], Train metric average : 0.0146
+2024-09-20 16:31:08,021 - Epoch [395/1000], Val Loss: 2.6483
+2024-09-20 16:31:08,021 - Epoch [395/1000], Val metric average : nan
+2024-09-20 16:31:55,137 - Epoch [396/1000], Train Loss: 2.5715
+2024-09-20 16:31:55,137 - Epoch [396/1000], Train metric average : -0.0042
+2024-09-20 16:31:55,137 - Epoch [396/1000], Val Loss: 2.7690
+2024-09-20 16:31:55,138 - Epoch [396/1000], Val metric average : nan
+2024-09-20 16:32:42,311 - Epoch [397/1000], Train Loss: 2.5698
+2024-09-20 16:32:42,312 - Epoch [397/1000], Train metric average : -0.0001
+2024-09-20 16:32:42,312 - Epoch [397/1000], Val Loss: 2.5839
+2024-09-20 16:32:42,312 - Epoch [397/1000], Val metric average : nan
+2024-09-20 16:33:29,604 - Epoch [398/1000], Train Loss: 2.5704
+2024-09-20 16:33:29,604 - Epoch [398/1000], Train metric average : -0.0016
+2024-09-20 16:33:29,604 - Epoch [398/1000], Val Loss: 2.6798
+2024-09-20 16:33:29,604 - Epoch [398/1000], Val metric average : nan
+2024-09-20 16:34:16,874 - Epoch [399/1000], Train Loss: 2.5694
+2024-09-20 16:34:16,874 - Epoch [399/1000], Train metric average : 0.0156
+2024-09-20 16:34:16,874 - Epoch [399/1000], Val Loss: 2.9141
+2024-09-20 16:34:16,874 - Epoch [399/1000], Val metric average : nan
+2024-09-20 16:35:04,202 - Epoch [400/1000], Train Loss: 2.5719
+2024-09-20 16:35:04,202 - Epoch [400/1000], Train metric average : 0.0006
+2024-09-20 16:35:04,202 - Epoch [400/1000], Val Loss: 2.8126
+2024-09-20 16:35:04,202 - Epoch [400/1000], Val metric average : nan
+2024-09-20 16:35:51,773 - Epoch [401/1000], Train Loss: 2.5711
+2024-09-20 16:35:51,773 - Epoch [401/1000], Train metric average : -0.0249
+2024-09-20 16:35:51,774 - Epoch [401/1000], Val Loss: 2.6430
+2024-09-20 16:35:51,774 - Epoch [401/1000], Val metric average : nan
+2024-09-20 16:36:39,417 - Epoch [402/1000], Train Loss: 2.5707
+2024-09-20 16:36:39,417 - Epoch [402/1000], Train metric average : 0.0033
+2024-09-20 16:36:39,417 - Epoch [402/1000], Val Loss: 2.6930
+2024-09-20 16:36:39,417 - Epoch [402/1000], Val metric average : nan
+2024-09-20 16:37:26,589 - Epoch [403/1000], Train Loss: 2.5708
+2024-09-20 16:37:26,589 - Epoch [403/1000], Train metric average : 0.0168
+2024-09-20 16:37:26,589 - Epoch [403/1000], Val Loss: 2.6806
+2024-09-20 16:37:26,589 - Epoch [403/1000], Val metric average : nan
+2024-09-20 16:38:13,399 - Epoch [404/1000], Train Loss: 2.5689
+2024-09-20 16:38:13,399 - Epoch [404/1000], Train metric average : -0.0031
+2024-09-20 16:38:13,399 - Epoch [404/1000], Val Loss: 2.5727
+2024-09-20 16:38:13,399 - Epoch [404/1000], Val metric average : nan
+2024-09-20 16:39:00,686 - Epoch [405/1000], Train Loss: 2.5750
+2024-09-20 16:39:00,686 - Epoch [405/1000], Train metric average : -0.0003
+2024-09-20 16:39:00,686 - Epoch [405/1000], Val Loss: 2.8171
+2024-09-20 16:39:00,686 - Epoch [405/1000], Val metric average : nan
+2024-09-20 16:39:48,267 - Epoch [406/1000], Train Loss: 2.5681
+2024-09-20 16:39:48,268 - Epoch [406/1000], Train metric average : 0.0042
+2024-09-20 16:39:48,268 - Epoch [406/1000], Val Loss: 2.7493
+2024-09-20 16:39:48,268 - Epoch [406/1000], Val metric average : nan
+2024-09-20 16:40:35,560 - Epoch [407/1000], Train Loss: 2.5697
+2024-09-20 16:40:35,560 - Epoch [407/1000], Train metric average : -0.0013
+2024-09-20 16:40:35,560 - Epoch [407/1000], Val Loss: 2.7595
+2024-09-20 16:40:35,560 - Epoch [407/1000], Val metric average : nan
+2024-09-20 16:41:22,500 - Epoch [408/1000], Train Loss: 2.5723
+2024-09-20 16:41:22,500 - Epoch [408/1000], Train metric average : -0.0015
+2024-09-20 16:41:22,500 - Epoch [408/1000], Val Loss: 2.6778
+2024-09-20 16:41:22,500 - Epoch [408/1000], Val metric average : nan
+2024-09-20 16:42:09,760 - Epoch [409/1000], Train Loss: 2.5708
+2024-09-20 16:42:09,760 - Epoch [409/1000], Train metric average : -0.0056
+2024-09-20 16:42:09,760 - Epoch [409/1000], Val Loss: 2.6494
+2024-09-20 16:42:09,760 - Epoch [409/1000], Val metric average : nan
+2024-09-20 16:42:57,147 - Epoch [410/1000], Train Loss: 2.5701
+2024-09-20 16:42:57,148 - Epoch [410/1000], Train metric average : 0.0150
+2024-09-20 16:42:57,148 - Epoch [410/1000], Val Loss: 2.6818
+2024-09-20 16:42:57,148 - Epoch [410/1000], Val metric average : nan
+2024-09-20 16:43:44,491 - Epoch [411/1000], Train Loss: 2.5707
+2024-09-20 16:43:44,491 - Epoch [411/1000], Train metric average : -0.0159
+2024-09-20 16:43:44,491 - Epoch [411/1000], Val Loss: 2.6964
+2024-09-20 16:43:44,491 - Epoch [411/1000], Val metric average : nan
+2024-09-20 16:44:31,999 - Epoch [412/1000], Train Loss: 2.5695
+2024-09-20 16:44:32,000 - Epoch [412/1000], Train metric average : -0.0109
+2024-09-20 16:44:32,000 - Epoch [412/1000], Val Loss: 2.7114
+2024-09-20 16:44:32,000 - Epoch [412/1000], Val metric average : nan
+2024-09-20 16:45:19,513 - Epoch [413/1000], Train Loss: 2.5699
+2024-09-20 16:45:19,513 - Epoch [413/1000], Train metric average : 0.0067
+2024-09-20 16:45:19,513 - Epoch [413/1000], Val Loss: 2.9526
+2024-09-20 16:45:19,513 - Epoch [413/1000], Val metric average : nan
+2024-09-20 16:46:07,247 - Epoch [414/1000], Train Loss: 2.5709
+2024-09-20 16:46:07,247 - Epoch [414/1000], Train metric average : -0.0027
+2024-09-20 16:46:07,247 - Epoch [414/1000], Val Loss: 2.5566
+2024-09-20 16:46:07,247 - Epoch [414/1000], Val metric average : nan
+2024-09-20 16:46:54,661 - Epoch [415/1000], Train Loss: 2.5724
+2024-09-20 16:46:54,661 - Epoch [415/1000], Train metric average : -0.0075
+2024-09-20 16:46:54,662 - Epoch [415/1000], Val Loss: 2.6909
+2024-09-20 16:46:54,662 - Epoch [415/1000], Val metric average : nan
+2024-09-20 16:47:42,228 - Epoch [416/1000], Train Loss: 2.5700
+2024-09-20 16:47:42,228 - Epoch [416/1000], Train metric average : -0.0035
+2024-09-20 16:47:42,228 - Epoch [416/1000], Val Loss: 2.6379
+2024-09-20 16:47:42,229 - Epoch [416/1000], Val metric average : nan
+2024-09-20 16:48:29,580 - Epoch [417/1000], Train Loss: 2.5695
+2024-09-20 16:48:29,580 - Epoch [417/1000], Train metric average : 0.0239
+2024-09-20 16:48:29,580 - Epoch [417/1000], Val Loss: 2.4979
+2024-09-20 16:48:29,580 - Epoch [417/1000], Val metric average : nan
+2024-09-20 16:49:16,670 - Epoch [418/1000], Train Loss: 2.5698
+2024-09-20 16:49:16,670 - Epoch [418/1000], Train metric average : 0.0038
+2024-09-20 16:49:16,670 - Epoch [418/1000], Val Loss: 2.7720
+2024-09-20 16:49:16,670 - Epoch [418/1000], Val metric average : nan
+2024-09-20 16:50:04,207 - Epoch [419/1000], Train Loss: 2.5721
+2024-09-20 16:50:04,207 - Epoch [419/1000], Train metric average : 0.0129
+2024-09-20 16:50:04,207 - Epoch [419/1000], Val Loss: 2.8108
+2024-09-20 16:50:04,207 - Epoch [419/1000], Val metric average : nan
+2024-09-20 16:50:51,428 - Epoch [420/1000], Train Loss: 2.5741
+2024-09-20 16:50:51,428 - Epoch [420/1000], Train metric average : 0.0111
+2024-09-20 16:50:51,428 - Epoch [420/1000], Val Loss: 2.6534
+2024-09-20 16:50:51,428 - Epoch [420/1000], Val metric average : nan
+2024-09-20 16:51:39,081 - Epoch [421/1000], Train Loss: 2.5703
+2024-09-20 16:51:39,081 - Epoch [421/1000], Train metric average : -0.0051
+2024-09-20 16:51:39,081 - Epoch [421/1000], Val Loss: 2.5755
+2024-09-20 16:51:39,081 - Epoch [421/1000], Val metric average : nan
+2024-09-20 16:52:26,376 - Epoch [422/1000], Train Loss: 2.5697
+2024-09-20 16:52:26,376 - Epoch [422/1000], Train metric average : -0.0066
+2024-09-20 16:52:26,376 - Epoch [422/1000], Val Loss: 2.7652
+2024-09-20 16:52:26,376 - Epoch [422/1000], Val metric average : nan
+2024-09-20 16:53:13,596 - Epoch [423/1000], Train Loss: 2.5721
+2024-09-20 16:53:13,597 - Epoch [423/1000], Train metric average : 0.0059
+2024-09-20 16:53:13,597 - Epoch [423/1000], Val Loss: 2.8619
+2024-09-20 16:53:13,597 - Epoch [423/1000], Val metric average : nan
+2024-09-20 16:54:00,897 - Epoch [424/1000], Train Loss: 2.5708
+2024-09-20 16:54:00,897 - Epoch [424/1000], Train metric average : -0.0089
+2024-09-20 16:54:00,898 - Epoch [424/1000], Val Loss: 2.5491
+2024-09-20 16:54:00,898 - Epoch [424/1000], Val metric average : nan
+2024-09-20 16:54:48,325 - Epoch [425/1000], Train Loss: 2.5704
+2024-09-20 16:54:48,325 - Epoch [425/1000], Train metric average : -0.0012
+2024-09-20 16:54:48,326 - Epoch [425/1000], Val Loss: 2.6414
+2024-09-20 16:54:48,326 - Epoch [425/1000], Val metric average : nan
+2024-09-20 16:55:35,681 - Epoch [426/1000], Train Loss: 2.5681
+2024-09-20 16:55:35,681 - Epoch [426/1000], Train metric average : -0.0032
+2024-09-20 16:55:35,681 - Epoch [426/1000], Val Loss: 2.5070
+2024-09-20 16:55:35,681 - Epoch [426/1000], Val metric average : nan
+2024-09-20 16:56:23,096 - Epoch [427/1000], Train Loss: 2.5755
+2024-09-20 16:56:23,097 - Epoch [427/1000], Train metric average : 0.0233
+2024-09-20 16:56:23,097 - Epoch [427/1000], Val Loss: 2.7920
+2024-09-20 16:56:23,097 - Epoch [427/1000], Val metric average : nan
+2024-09-20 16:57:10,699 - Epoch [428/1000], Train Loss: 2.5695
+2024-09-20 16:57:10,699 - Epoch [428/1000], Train metric average : 0.0148
+2024-09-20 16:57:10,699 - Epoch [428/1000], Val Loss: 2.6470
+2024-09-20 16:57:10,699 - Epoch [428/1000], Val metric average : nan
+2024-09-20 16:57:58,310 - Epoch [429/1000], Train Loss: 2.5702
+2024-09-20 16:57:58,310 - Epoch [429/1000], Train metric average : -0.0055
+2024-09-20 16:57:58,310 - Epoch [429/1000], Val Loss: 2.6054
+2024-09-20 16:57:58,310 - Epoch [429/1000], Val metric average : nan
+2024-09-20 16:58:45,888 - Epoch [430/1000], Train Loss: 2.5703
+2024-09-20 16:58:45,888 - Epoch [430/1000], Train metric average : 0.0148
+2024-09-20 16:58:45,888 - Epoch [430/1000], Val Loss: 2.6493
+2024-09-20 16:58:45,888 - Epoch [430/1000], Val metric average : nan
+2024-09-20 16:59:33,208 - Epoch [431/1000], Train Loss: 2.5713
+2024-09-20 16:59:33,209 - Epoch [431/1000], Train metric average : -0.0054
+2024-09-20 16:59:33,209 - Epoch [431/1000], Val Loss: 2.5570
+2024-09-20 16:59:33,209 - Epoch [431/1000], Val metric average : nan
+2024-09-20 17:00:20,603 - Epoch [432/1000], Train Loss: 2.5703
+2024-09-20 17:00:20,603 - Epoch [432/1000], Train metric average : -0.0051
+2024-09-20 17:00:20,604 - Epoch [432/1000], Val Loss: 2.6318
+2024-09-20 17:00:20,604 - Epoch [432/1000], Val metric average : nan
+2024-09-20 17:01:08,420 - Epoch [433/1000], Train Loss: 2.5714
+2024-09-20 17:01:08,420 - Epoch [433/1000], Train metric average : -0.0002
+2024-09-20 17:01:08,420 - Epoch [433/1000], Val Loss: 2.5958
+2024-09-20 17:01:08,420 - Epoch [433/1000], Val metric average : nan
+2024-09-20 17:01:55,828 - Epoch [434/1000], Train Loss: 2.5693
+2024-09-20 17:01:55,828 - Epoch [434/1000], Train metric average : -0.0060
+2024-09-20 17:01:55,828 - Epoch [434/1000], Val Loss: 2.5983
+2024-09-20 17:01:55,828 - Epoch [434/1000], Val metric average : nan
+2024-09-20 17:02:43,036 - Epoch [435/1000], Train Loss: 2.5708
+2024-09-20 17:02:43,036 - Epoch [435/1000], Train metric average : -0.0131
+2024-09-20 17:02:43,036 - Epoch [435/1000], Val Loss: 2.6304
+2024-09-20 17:02:43,037 - Epoch [435/1000], Val metric average : nan
+2024-09-20 17:03:30,031 - Epoch [436/1000], Train Loss: 2.5742
+2024-09-20 17:03:30,031 - Epoch [436/1000], Train metric average : 0.0060
+2024-09-20 17:03:30,031 - Epoch [436/1000], Val Loss: 2.7833
+2024-09-20 17:03:30,032 - Epoch [436/1000], Val metric average : nan
+2024-09-20 17:04:17,553 - Epoch [437/1000], Train Loss: 2.5653
+2024-09-20 17:04:17,553 - Epoch [437/1000], Train metric average : -0.0133
+2024-09-20 17:04:17,553 - Epoch [437/1000], Val Loss: 2.9107
+2024-09-20 17:04:17,553 - Epoch [437/1000], Val metric average : nan
+2024-09-20 17:05:04,726 - Epoch [438/1000], Train Loss: 2.5699
+2024-09-20 17:05:04,726 - Epoch [438/1000], Train metric average : -0.0018
+2024-09-20 17:05:04,726 - Epoch [438/1000], Val Loss: 2.6252
+2024-09-20 17:05:04,726 - Epoch [438/1000], Val metric average : nan
+2024-09-20 17:05:51,982 - Epoch [439/1000], Train Loss: 2.5684
+2024-09-20 17:05:51,982 - Epoch [439/1000], Train metric average : 0.0200
+2024-09-20 17:05:51,982 - Epoch [439/1000], Val Loss: 2.7130
+2024-09-20 17:05:51,982 - Epoch [439/1000], Val metric average : nan
+2024-09-20 17:06:39,019 - Epoch [440/1000], Train Loss: 2.5702
+2024-09-20 17:06:39,019 - Epoch [440/1000], Train metric average : -0.0072
+2024-09-20 17:06:39,019 - Epoch [440/1000], Val Loss: 2.5202
+2024-09-20 17:06:39,019 - Epoch [440/1000], Val metric average : nan
+2024-09-20 17:07:26,474 - Epoch [441/1000], Train Loss: 2.5702
+2024-09-20 17:07:26,475 - Epoch [441/1000], Train metric average : 0.0023
+2024-09-20 17:07:26,475 - Epoch [441/1000], Val Loss: 2.6160
+2024-09-20 17:07:26,475 - Epoch [441/1000], Val metric average : nan
+2024-09-20 17:08:13,969 - Epoch [442/1000], Train Loss: 2.5709
+2024-09-20 17:08:13,970 - Epoch [442/1000], Train metric average : -0.0071
+2024-09-20 17:08:13,970 - Epoch [442/1000], Val Loss: 2.7084
+2024-09-20 17:08:13,970 - Epoch [442/1000], Val metric average : nan
+2024-09-20 17:09:01,205 - Epoch [443/1000], Train Loss: 2.5713
+2024-09-20 17:09:01,205 - Epoch [443/1000], Train metric average : -0.0004
+2024-09-20 17:09:01,205 - Epoch [443/1000], Val Loss: 2.6540
+2024-09-20 17:09:01,205 - Epoch [443/1000], Val metric average : nan
+2024-09-20 17:09:48,903 - Epoch [444/1000], Train Loss: 2.5709
+2024-09-20 17:09:48,903 - Epoch [444/1000], Train metric average : 0.0075
+2024-09-20 17:09:48,903 - Epoch [444/1000], Val Loss: 2.6027
+2024-09-20 17:09:48,903 - Epoch [444/1000], Val metric average : nan
+2024-09-20 17:10:35,919 - Epoch [445/1000], Train Loss: 2.5704
+2024-09-20 17:10:35,919 - Epoch [445/1000], Train metric average : 0.0122
+2024-09-20 17:10:35,919 - Epoch [445/1000], Val Loss: 2.7564
+2024-09-20 17:10:35,919 - Epoch [445/1000], Val metric average : nan
+2024-09-20 17:11:23,106 - Epoch [446/1000], Train Loss: 2.5722
+2024-09-20 17:11:23,106 - Epoch [446/1000], Train metric average : -0.0106
+2024-09-20 17:11:23,106 - Epoch [446/1000], Val Loss: 2.6196
+2024-09-20 17:11:23,106 - Epoch [446/1000], Val metric average : nan
+2024-09-20 17:12:10,579 - Epoch [447/1000], Train Loss: 2.5656
+2024-09-20 17:12:10,580 - Epoch [447/1000], Train metric average : -0.0225
+2024-09-20 17:12:10,580 - Epoch [447/1000], Val Loss: 2.8430
+2024-09-20 17:12:10,580 - Epoch [447/1000], Val metric average : nan
+2024-09-20 17:12:58,040 - Epoch [448/1000], Train Loss: 2.5746
+2024-09-20 17:12:58,040 - Epoch [448/1000], Train metric average : 0.0020
+2024-09-20 17:12:58,040 - Epoch [448/1000], Val Loss: 2.6097
+2024-09-20 17:12:58,040 - Epoch [448/1000], Val metric average : nan
+2024-09-20 17:13:45,437 - Epoch [449/1000], Train Loss: 2.5711
+2024-09-20 17:13:45,437 - Epoch [449/1000], Train metric average : -0.0128
+2024-09-20 17:13:45,437 - Epoch [449/1000], Val Loss: 2.7966
+2024-09-20 17:13:45,437 - Epoch [449/1000], Val metric average : nan
+2024-09-20 17:14:32,543 - Epoch [450/1000], Train Loss: 2.5693
+2024-09-20 17:14:32,543 - Epoch [450/1000], Train metric average : 0.0056
+2024-09-20 17:14:32,543 - Epoch [450/1000], Val Loss: 2.6388
+2024-09-20 17:14:32,543 - Epoch [450/1000], Val metric average : nan
+2024-09-20 17:15:20,196 - Epoch [451/1000], Train Loss: 2.5714
+2024-09-20 17:15:20,196 - Epoch [451/1000], Train metric average : 0.0074
+2024-09-20 17:15:20,197 - Epoch [451/1000], Val Loss: 2.7988
+2024-09-20 17:15:20,197 - Epoch [451/1000], Val metric average : nan
+2024-09-20 17:16:07,574 - Epoch [452/1000], Train Loss: 2.5688
+2024-09-20 17:16:07,575 - Epoch [452/1000], Train metric average : -0.0012
+2024-09-20 17:16:07,575 - Epoch [452/1000], Val Loss: 2.7690
+2024-09-20 17:16:07,575 - Epoch [452/1000], Val metric average : nan
+2024-09-20 17:16:54,646 - Epoch [453/1000], Train Loss: 2.5700
+2024-09-20 17:16:54,647 - Epoch [453/1000], Train metric average : -0.0006
+2024-09-20 17:16:54,647 - Epoch [453/1000], Val Loss: 2.7349
+2024-09-20 17:16:54,647 - Epoch [453/1000], Val metric average : nan
+2024-09-20 17:17:42,324 - Epoch [454/1000], Train Loss: 2.5701
+2024-09-20 17:17:42,325 - Epoch [454/1000], Train metric average : -0.0088
+2024-09-20 17:17:42,325 - Epoch [454/1000], Val Loss: 2.7274
+2024-09-20 17:17:42,325 - Epoch [454/1000], Val metric average : nan
+2024-09-20 17:18:29,535 - Epoch [455/1000], Train Loss: 2.5707
+2024-09-20 17:18:29,536 - Epoch [455/1000], Train metric average : 0.0148
+2024-09-20 17:18:29,536 - Epoch [455/1000], Val Loss: 2.6922
+2024-09-20 17:18:29,536 - Epoch [455/1000], Val metric average : nan
+2024-09-20 17:19:16,700 - Epoch [456/1000], Train Loss: 2.5690
+2024-09-20 17:19:16,700 - Epoch [456/1000], Train metric average : -0.0081
+2024-09-20 17:19:16,700 - Epoch [456/1000], Val Loss: 2.7151
+2024-09-20 17:19:16,700 - Epoch [456/1000], Val metric average : nan
+2024-09-20 17:20:04,116 - Epoch [457/1000], Train Loss: 2.5709
+2024-09-20 17:20:04,117 - Epoch [457/1000], Train metric average : -0.0007
+2024-09-20 17:20:04,117 - Epoch [457/1000], Val Loss: 2.6671
+2024-09-20 17:20:04,117 - Epoch [457/1000], Val metric average : nan
+2024-09-20 17:20:51,023 - Epoch [458/1000], Train Loss: 2.5700
+2024-09-20 17:20:51,023 - Epoch [458/1000], Train metric average : -0.0165
+2024-09-20 17:20:51,024 - Epoch [458/1000], Val Loss: 2.8174
+2024-09-20 17:20:51,024 - Epoch [458/1000], Val metric average : nan
+2024-09-20 17:21:38,443 - Epoch [459/1000], Train Loss: 2.5708
+2024-09-20 17:21:38,443 - Epoch [459/1000], Train metric average : 0.0015
+2024-09-20 17:21:38,443 - Epoch [459/1000], Val Loss: 2.5730
+2024-09-20 17:21:38,443 - Epoch [459/1000], Val metric average : nan
+2024-09-20 17:22:25,795 - Epoch [460/1000], Train Loss: 2.5721
+2024-09-20 17:22:25,796 - Epoch [460/1000], Train metric average : -0.0064
+2024-09-20 17:22:25,796 - Epoch [460/1000], Val Loss: 2.6272
+2024-09-20 17:22:25,796 - Epoch [460/1000], Val metric average : nan
+2024-09-20 17:23:13,213 - Epoch [461/1000], Train Loss: 2.5711
+2024-09-20 17:23:13,213 - Epoch [461/1000], Train metric average : -0.0142
+2024-09-20 17:23:13,213 - Epoch [461/1000], Val Loss: 2.5818
+2024-09-20 17:23:13,213 - Epoch [461/1000], Val metric average : nan
+2024-09-20 17:24:00,651 - Epoch [462/1000], Train Loss: 2.5728
+2024-09-20 17:24:00,652 - Epoch [462/1000], Train metric average : 0.0026
+2024-09-20 17:24:00,652 - Epoch [462/1000], Val Loss: 2.6993
+2024-09-20 17:24:00,652 - Epoch [462/1000], Val metric average : nan
+2024-09-20 17:24:47,757 - Epoch [463/1000], Train Loss: 2.5696
+2024-09-20 17:24:47,758 - Epoch [463/1000], Train metric average : -0.0122
+2024-09-20 17:24:47,758 - Epoch [463/1000], Val Loss: 2.6729
+2024-09-20 17:24:47,758 - Epoch [463/1000], Val metric average : nan
+2024-09-20 17:25:35,341 - Epoch [464/1000], Train Loss: 2.5738
+2024-09-20 17:25:35,342 - Epoch [464/1000], Train metric average : -0.0037
+2024-09-20 17:25:35,342 - Epoch [464/1000], Val Loss: 2.6276
+2024-09-20 17:25:35,342 - Epoch [464/1000], Val metric average : nan
+2024-09-20 17:26:22,698 - Epoch [465/1000], Train Loss: 2.5707
+2024-09-20 17:26:22,698 - Epoch [465/1000], Train metric average : -0.0061
+2024-09-20 17:26:22,698 - Epoch [465/1000], Val Loss: 2.6725
+2024-09-20 17:26:22,698 - Epoch [465/1000], Val metric average : nan
+2024-09-20 17:27:09,918 - Epoch [466/1000], Train Loss: 2.5712
+2024-09-20 17:27:09,918 - Epoch [466/1000], Train metric average : -0.0017
+2024-09-20 17:27:09,918 - Epoch [466/1000], Val Loss: 2.6589
+2024-09-20 17:27:09,918 - Epoch [466/1000], Val metric average : nan
+2024-09-20 17:27:57,664 - Epoch [467/1000], Train Loss: 2.5702
+2024-09-20 17:27:57,664 - Epoch [467/1000], Train metric average : 0.0063
+2024-09-20 17:27:57,664 - Epoch [467/1000], Val Loss: 2.6912
+2024-09-20 17:27:57,664 - Epoch [467/1000], Val metric average : nan
+2024-09-20 17:28:45,205 - Epoch [468/1000], Train Loss: 2.5692
+2024-09-20 17:28:45,206 - Epoch [468/1000], Train metric average : -0.0057
+2024-09-20 17:28:45,206 - Epoch [468/1000], Val Loss: 2.5923
+2024-09-20 17:28:45,206 - Epoch [468/1000], Val metric average : nan
+2024-09-20 17:29:32,923 - Epoch [469/1000], Train Loss: 2.5690
+2024-09-20 17:29:32,923 - Epoch [469/1000], Train metric average : -0.0177
+2024-09-20 17:29:32,923 - Epoch [469/1000], Val Loss: 2.7689
+2024-09-20 17:29:32,923 - Epoch [469/1000], Val metric average : nan
+2024-09-20 17:30:20,392 - Epoch [470/1000], Train Loss: 2.5717
+2024-09-20 17:30:20,392 - Epoch [470/1000], Train metric average : -0.0093
+2024-09-20 17:30:20,392 - Epoch [470/1000], Val Loss: 2.7180
+2024-09-20 17:30:20,393 - Epoch [470/1000], Val metric average : nan
+2024-09-20 17:31:07,733 - Epoch [471/1000], Train Loss: 2.5704
+2024-09-20 17:31:07,733 - Epoch [471/1000], Train metric average : 0.0122
+2024-09-20 17:31:07,733 - Epoch [471/1000], Val Loss: 2.7030
+2024-09-20 17:31:07,733 - Epoch [471/1000], Val metric average : nan
+2024-09-20 17:31:55,127 - Epoch [472/1000], Train Loss: 2.5711
+2024-09-20 17:31:55,127 - Epoch [472/1000], Train metric average : 0.0014
+2024-09-20 17:31:55,127 - Epoch [472/1000], Val Loss: 2.5970
+2024-09-20 17:31:55,128 - Epoch [472/1000], Val metric average : nan
+2024-09-20 17:32:42,620 - Epoch [473/1000], Train Loss: 2.5702
+2024-09-20 17:32:42,621 - Epoch [473/1000], Train metric average : -0.0070
+2024-09-20 17:32:42,621 - Epoch [473/1000], Val Loss: 2.6178
+2024-09-20 17:32:42,621 - Epoch [473/1000], Val metric average : nan
+2024-09-20 17:33:29,973 - Epoch [474/1000], Train Loss: 2.5702
+2024-09-20 17:33:29,974 - Epoch [474/1000], Train metric average : 0.0073
+2024-09-20 17:33:29,974 - Epoch [474/1000], Val Loss: 2.5552
+2024-09-20 17:33:29,974 - Epoch [474/1000], Val metric average : nan
+2024-09-20 17:34:17,560 - Epoch [475/1000], Train Loss: 2.5696
+2024-09-20 17:34:17,560 - Epoch [475/1000], Train metric average : 0.0029
+2024-09-20 17:34:17,560 - Epoch [475/1000], Val Loss: 2.7103
+2024-09-20 17:34:17,560 - Epoch [475/1000], Val metric average : nan
+2024-09-20 17:35:05,125 - Epoch [476/1000], Train Loss: 2.5688
+2024-09-20 17:35:05,125 - Epoch [476/1000], Train metric average : -0.0204
+2024-09-20 17:35:05,126 - Epoch [476/1000], Val Loss: 2.7561
+2024-09-20 17:35:05,126 - Epoch [476/1000], Val metric average : nan
+2024-09-20 17:35:52,664 - Epoch [477/1000], Train Loss: 2.5717
+2024-09-20 17:35:52,664 - Epoch [477/1000], Train metric average : 0.0198
+2024-09-20 17:35:52,664 - Epoch [477/1000], Val Loss: 2.7107
+2024-09-20 17:35:52,665 - Epoch [477/1000], Val metric average : nan
+2024-09-20 17:36:40,098 - Epoch [478/1000], Train Loss: 2.5701
+2024-09-20 17:36:40,098 - Epoch [478/1000], Train metric average : -0.0124
+2024-09-20 17:36:40,098 - Epoch [478/1000], Val Loss: 2.7827
+2024-09-20 17:36:40,098 - Epoch [478/1000], Val metric average : nan
+2024-09-20 17:37:27,517 - Epoch [479/1000], Train Loss: 2.5707
+2024-09-20 17:37:27,517 - Epoch [479/1000], Train metric average : 0.0006
+2024-09-20 17:37:27,517 - Epoch [479/1000], Val Loss: 2.6951
+2024-09-20 17:37:27,517 - Epoch [479/1000], Val metric average : nan
+2024-09-20 17:38:14,581 - Epoch [480/1000], Train Loss: 2.5702
+2024-09-20 17:38:14,582 - Epoch [480/1000], Train metric average : 0.0098
+2024-09-20 17:38:14,582 - Epoch [480/1000], Val Loss: 2.8535
+2024-09-20 17:38:14,582 - Epoch [480/1000], Val metric average : nan
+2024-09-20 17:39:01,851 - Epoch [481/1000], Train Loss: 2.5716
+2024-09-20 17:39:01,851 - Epoch [481/1000], Train metric average : 0.0016
+2024-09-20 17:39:01,851 - Epoch [481/1000], Val Loss: 2.6176
+2024-09-20 17:39:01,852 - Epoch [481/1000], Val metric average : nan
+2024-09-20 17:39:49,467 - Epoch [482/1000], Train Loss: 2.5714
+2024-09-20 17:39:49,467 - Epoch [482/1000], Train metric average : 0.0100
+2024-09-20 17:39:49,468 - Epoch [482/1000], Val Loss: 2.6590
+2024-09-20 17:39:49,468 - Epoch [482/1000], Val metric average : nan
+2024-09-20 17:40:36,830 - Epoch [483/1000], Train Loss: 2.5739
+2024-09-20 17:40:36,830 - Epoch [483/1000], Train metric average : -0.0133
+2024-09-20 17:40:36,830 - Epoch [483/1000], Val Loss: 2.6324
+2024-09-20 17:40:36,830 - Epoch [483/1000], Val metric average : nan
+2024-09-20 17:41:24,376 - Epoch [484/1000], Train Loss: 2.5706
+2024-09-20 17:41:24,376 - Epoch [484/1000], Train metric average : 0.0096
+2024-09-20 17:41:24,376 - Epoch [484/1000], Val Loss: 2.7225
+2024-09-20 17:41:24,376 - Epoch [484/1000], Val metric average : nan
+2024-09-20 17:42:11,725 - Epoch [485/1000], Train Loss: 2.5701
+2024-09-20 17:42:11,725 - Epoch [485/1000], Train metric average : 0.0025
+2024-09-20 17:42:11,725 - Epoch [485/1000], Val Loss: 2.7186
+2024-09-20 17:42:11,725 - Epoch [485/1000], Val metric average : nan
+2024-09-20 17:42:59,547 - Epoch [486/1000], Train Loss: 2.5709
+2024-09-20 17:42:59,547 - Epoch [486/1000], Train metric average : 0.0052
+2024-09-20 17:42:59,547 - Epoch [486/1000], Val Loss: 2.7077
+2024-09-20 17:42:59,547 - Epoch [486/1000], Val metric average : nan
+2024-09-20 17:43:47,110 - Epoch [487/1000], Train Loss: 2.5696
+2024-09-20 17:43:47,110 - Epoch [487/1000], Train metric average : 0.0080
+2024-09-20 17:43:47,110 - Epoch [487/1000], Val Loss: 2.5151
+2024-09-20 17:43:47,110 - Epoch [487/1000], Val metric average : nan
+2024-09-20 17:44:34,347 - Epoch [488/1000], Train Loss: 2.5703
+2024-09-20 17:44:34,347 - Epoch [488/1000], Train metric average : 0.0125
+2024-09-20 17:44:34,347 - Epoch [488/1000], Val Loss: 2.6146
+2024-09-20 17:44:34,347 - Epoch [488/1000], Val metric average : nan
+2024-09-20 17:45:21,750 - Epoch [489/1000], Train Loss: 2.5694
+2024-09-20 17:45:21,750 - Epoch [489/1000], Train metric average : 0.0157
+2024-09-20 17:45:21,750 - Epoch [489/1000], Val Loss: 2.7257
+2024-09-20 17:45:21,751 - Epoch [489/1000], Val metric average : nan
+2024-09-20 17:46:08,924 - Epoch [490/1000], Train Loss: 2.5707
+2024-09-20 17:46:08,925 - Epoch [490/1000], Train metric average : 0.0114
+2024-09-20 17:46:08,925 - Epoch [490/1000], Val Loss: 2.7696
+2024-09-20 17:46:08,925 - Epoch [490/1000], Val metric average : nan
+2024-09-20 17:46:55,966 - Epoch [491/1000], Train Loss: 2.5687
+2024-09-20 17:46:55,966 - Epoch [491/1000], Train metric average : -0.0074
+2024-09-20 17:46:55,967 - Epoch [491/1000], Val Loss: 2.5081
+2024-09-20 17:46:55,967 - Epoch [491/1000], Val metric average : nan
+2024-09-20 17:47:43,530 - Epoch [492/1000], Train Loss: 2.5705
+2024-09-20 17:47:43,530 - Epoch [492/1000], Train metric average : 0.0105
+2024-09-20 17:47:43,530 - Epoch [492/1000], Val Loss: 2.6673
+2024-09-20 17:47:43,530 - Epoch [492/1000], Val metric average : nan
+2024-09-20 17:48:30,712 - Epoch [493/1000], Train Loss: 2.5722
+2024-09-20 17:48:30,712 - Epoch [493/1000], Train metric average : 0.0096
+2024-09-20 17:48:30,712 - Epoch [493/1000], Val Loss: 2.6075
+2024-09-20 17:48:30,712 - Epoch [493/1000], Val metric average : nan
+2024-09-20 17:49:18,331 - Epoch [494/1000], Train Loss: 2.5704
+2024-09-20 17:49:18,331 - Epoch [494/1000], Train metric average : 0.0132
+2024-09-20 17:49:18,332 - Epoch [494/1000], Val Loss: 2.6654
+2024-09-20 17:49:18,332 - Epoch [494/1000], Val metric average : nan
+2024-09-20 17:50:05,445 - Epoch [495/1000], Train Loss: 2.5688
+2024-09-20 17:50:05,445 - Epoch [495/1000], Train metric average : 0.0048
+2024-09-20 17:50:05,445 - Epoch [495/1000], Val Loss: 2.6459
+2024-09-20 17:50:05,445 - Epoch [495/1000], Val metric average : nan
+2024-09-20 17:50:53,013 - Epoch [496/1000], Train Loss: 2.5708
+2024-09-20 17:50:53,013 - Epoch [496/1000], Train metric average : 0.0151
+2024-09-20 17:50:53,013 - Epoch [496/1000], Val Loss: 2.6344
+2024-09-20 17:50:53,013 - Epoch [496/1000], Val metric average : nan
+2024-09-20 17:51:40,470 - Epoch [497/1000], Train Loss: 2.5678
+2024-09-20 17:51:40,470 - Epoch [497/1000], Train metric average : -0.0046
+2024-09-20 17:51:40,470 - Epoch [497/1000], Val Loss: 2.6972
+2024-09-20 17:51:40,470 - Epoch [497/1000], Val metric average : nan
+2024-09-20 17:52:27,548 - Epoch [498/1000], Train Loss: 2.5715
+2024-09-20 17:52:27,548 - Epoch [498/1000], Train metric average : 0.0086
+2024-09-20 17:52:27,548 - Epoch [498/1000], Val Loss: 2.7416
+2024-09-20 17:52:27,548 - Epoch [498/1000], Val metric average : nan
+2024-09-20 17:53:15,226 - Epoch [499/1000], Train Loss: 2.5719
+2024-09-20 17:53:15,226 - Epoch [499/1000], Train metric average : 0.0149
+2024-09-20 17:53:15,226 - Epoch [499/1000], Val Loss: 2.7268
+2024-09-20 17:53:15,226 - Epoch [499/1000], Val metric average : nan
+2024-09-20 17:54:02,333 - Epoch [500/1000], Train Loss: 2.5712
+2024-09-20 17:54:02,334 - Epoch [500/1000], Train metric average : -0.0011
+2024-09-20 17:54:02,334 - Epoch [500/1000], Val Loss: 2.6105
+2024-09-20 17:54:02,334 - Epoch [500/1000], Val metric average : nan
+2024-09-20 17:54:49,810 - Epoch [501/1000], Train Loss: 2.5699
+2024-09-20 17:54:49,810 - Epoch [501/1000], Train metric average : 0.0090
+2024-09-20 17:54:49,810 - Epoch [501/1000], Val Loss: 2.7120
+2024-09-20 17:54:49,811 - Epoch [501/1000], Val metric average : nan
+2024-09-20 17:55:37,608 - Epoch [502/1000], Train Loss: 2.5724
+2024-09-20 17:55:37,608 - Epoch [502/1000], Train metric average : -0.0285
+2024-09-20 17:55:37,608 - Epoch [502/1000], Val Loss: 2.7873
+2024-09-20 17:55:37,608 - Epoch [502/1000], Val metric average : nan
+2024-09-20 17:56:25,066 - Epoch [503/1000], Train Loss: 2.5704
+2024-09-20 17:56:25,066 - Epoch [503/1000], Train metric average : 0.0061
+2024-09-20 17:56:25,066 - Epoch [503/1000], Val Loss: 2.5056
+2024-09-20 17:56:25,066 - Epoch [503/1000], Val metric average : nan
+2024-09-20 17:57:12,377 - Epoch [504/1000], Train Loss: 2.5698
+2024-09-20 17:57:12,378 - Epoch [504/1000], Train metric average : -0.0093
+2024-09-20 17:57:12,378 - Epoch [504/1000], Val Loss: 2.6307
+2024-09-20 17:57:12,378 - Epoch [504/1000], Val metric average : nan
+2024-09-20 17:57:59,860 - Epoch [505/1000], Train Loss: 2.5709
+2024-09-20 17:57:59,860 - Epoch [505/1000], Train metric average : -0.0229
+2024-09-20 17:57:59,860 - Epoch [505/1000], Val Loss: 2.6664
+2024-09-20 17:57:59,860 - Epoch [505/1000], Val metric average : nan
+2024-09-20 17:58:47,401 - Epoch [506/1000], Train Loss: 2.5698
+2024-09-20 17:58:47,401 - Epoch [506/1000], Train metric average : 0.0003
+2024-09-20 17:58:47,401 - Epoch [506/1000], Val Loss: 2.6223
+2024-09-20 17:58:47,401 - Epoch [506/1000], Val metric average : nan
+2024-09-20 17:59:35,122 - Epoch [507/1000], Train Loss: 2.5711
+2024-09-20 17:59:35,123 - Epoch [507/1000], Train metric average : -0.0100
+2024-09-20 17:59:35,123 - Epoch [507/1000], Val Loss: 2.6171
+2024-09-20 17:59:35,123 - Epoch [507/1000], Val metric average : nan
+2024-09-20 18:00:22,771 - Epoch [508/1000], Train Loss: 2.5696
+2024-09-20 18:00:22,772 - Epoch [508/1000], Train metric average : -0.0062
+2024-09-20 18:00:22,772 - Epoch [508/1000], Val Loss: 2.6469
+2024-09-20 18:00:22,772 - Epoch [508/1000], Val metric average : nan
+2024-09-20 18:01:10,182 - Epoch [509/1000], Train Loss: 2.5701
+2024-09-20 18:01:10,182 - Epoch [509/1000], Train metric average : -0.0018
+2024-09-20 18:01:10,182 - Epoch [509/1000], Val Loss: 2.6957
+2024-09-20 18:01:10,182 - Epoch [509/1000], Val metric average : nan
+2024-09-20 18:01:57,374 - Epoch [510/1000], Train Loss: 2.5692
+2024-09-20 18:01:57,375 - Epoch [510/1000], Train metric average : 0.0271
+2024-09-20 18:01:57,375 - Epoch [510/1000], Val Loss: 2.6820
+2024-09-20 18:01:57,375 - Epoch [510/1000], Val metric average : nan
+2024-09-20 18:02:44,890 - Epoch [511/1000], Train Loss: 2.5699
+2024-09-20 18:02:44,890 - Epoch [511/1000], Train metric average : -0.0202
+2024-09-20 18:02:44,890 - Epoch [511/1000], Val Loss: 2.6882
+2024-09-20 18:02:44,890 - Epoch [511/1000], Val metric average : nan
+2024-09-20 18:03:32,393 - Epoch [512/1000], Train Loss: 2.5696
+2024-09-20 18:03:32,394 - Epoch [512/1000], Train metric average : 0.0026
+2024-09-20 18:03:32,394 - Epoch [512/1000], Val Loss: 2.6874
+2024-09-20 18:03:32,394 - Epoch [512/1000], Val metric average : nan
+2024-09-20 18:04:19,986 - Epoch [513/1000], Train Loss: 2.5699
+2024-09-20 18:04:19,986 - Epoch [513/1000], Train metric average : 0.0141
+2024-09-20 18:04:19,986 - Epoch [513/1000], Val Loss: 2.6987
+2024-09-20 18:04:19,986 - Epoch [513/1000], Val metric average : nan
+2024-09-20 18:05:07,702 - Epoch [514/1000], Train Loss: 2.5687
+2024-09-20 18:05:07,702 - Epoch [514/1000], Train metric average : -0.0096
+2024-09-20 18:05:07,702 - Epoch [514/1000], Val Loss: 2.8434
+2024-09-20 18:05:07,703 - Epoch [514/1000], Val metric average : nan
+2024-09-20 18:05:55,004 - Epoch [515/1000], Train Loss: 2.5750
+2024-09-20 18:05:55,004 - Epoch [515/1000], Train metric average : 0.0018
+2024-09-20 18:05:55,004 - Epoch [515/1000], Val Loss: 2.7027
+2024-09-20 18:05:55,004 - Epoch [515/1000], Val metric average : nan
+2024-09-20 18:06:42,173 - Epoch [516/1000], Train Loss: 2.5706
+2024-09-20 18:06:42,174 - Epoch [516/1000], Train metric average : -0.0118
+2024-09-20 18:06:42,174 - Epoch [516/1000], Val Loss: 2.5228
+2024-09-20 18:06:42,174 - Epoch [516/1000], Val metric average : nan
+2024-09-20 18:07:29,563 - Epoch [517/1000], Train Loss: 2.5697
+2024-09-20 18:07:29,563 - Epoch [517/1000], Train metric average : 0.0061
+2024-09-20 18:07:29,563 - Epoch [517/1000], Val Loss: 2.6325
+2024-09-20 18:07:29,563 - Epoch [517/1000], Val metric average : nan
+2024-09-20 18:08:16,842 - Epoch [518/1000], Train Loss: 2.5700
+2024-09-20 18:08:16,842 - Epoch [518/1000], Train metric average : 0.0072
+2024-09-20 18:08:16,843 - Epoch [518/1000], Val Loss: 2.7653
+2024-09-20 18:08:16,843 - Epoch [518/1000], Val metric average : nan
+2024-09-20 18:09:04,354 - Epoch [519/1000], Train Loss: 2.5702
+2024-09-20 18:09:04,355 - Epoch [519/1000], Train metric average : -0.0053
+2024-09-20 18:09:04,355 - Epoch [519/1000], Val Loss: 2.7130
+2024-09-20 18:09:04,355 - Epoch [519/1000], Val metric average : nan
+2024-09-20 18:09:52,009 - Epoch [520/1000], Train Loss: 2.5721
+2024-09-20 18:09:52,009 - Epoch [520/1000], Train metric average : -0.0074
+2024-09-20 18:09:52,009 - Epoch [520/1000], Val Loss: 2.6500
+2024-09-20 18:09:52,010 - Epoch [520/1000], Val metric average : nan
+2024-09-20 18:10:39,087 - Epoch [521/1000], Train Loss: 2.5709
+2024-09-20 18:10:39,088 - Epoch [521/1000], Train metric average : 0.0095
+2024-09-20 18:10:39,088 - Epoch [521/1000], Val Loss: 2.8121
+2024-09-20 18:10:39,088 - Epoch [521/1000], Val metric average : nan
+2024-09-20 18:11:27,140 - Epoch [522/1000], Train Loss: 2.5702
+2024-09-20 18:11:27,141 - Epoch [522/1000], Train metric average : 0.0007
+2024-09-20 18:11:27,141 - Epoch [522/1000], Val Loss: 2.6426
+2024-09-20 18:11:27,142 - Epoch [522/1000], Val metric average : nan
+2024-09-20 18:12:14,823 - Epoch [523/1000], Train Loss: 2.5684
+2024-09-20 18:12:14,823 - Epoch [523/1000], Train metric average : -0.0036
+2024-09-20 18:12:14,824 - Epoch [523/1000], Val Loss: 2.8196
+2024-09-20 18:12:14,824 - Epoch [523/1000], Val metric average : nan
+2024-09-20 18:13:02,343 - Epoch [524/1000], Train Loss: 2.5730
+2024-09-20 18:13:02,343 - Epoch [524/1000], Train metric average : 0.0007
+2024-09-20 18:13:02,343 - Epoch [524/1000], Val Loss: 2.6288
+2024-09-20 18:13:02,343 - Epoch [524/1000], Val metric average : nan
+2024-09-20 18:13:49,633 - Epoch [525/1000], Train Loss: 2.5703
+2024-09-20 18:13:49,634 - Epoch [525/1000], Train metric average : 0.0017
+2024-09-20 18:13:49,634 - Epoch [525/1000], Val Loss: 2.5086
+2024-09-20 18:13:49,634 - Epoch [525/1000], Val metric average : nan
+2024-09-20 18:14:37,544 - Epoch [526/1000], Train Loss: 2.5696
+2024-09-20 18:14:37,544 - Epoch [526/1000], Train metric average : 0.0187
+2024-09-20 18:14:37,544 - Epoch [526/1000], Val Loss: 2.8421
+2024-09-20 18:14:37,545 - Epoch [526/1000], Val metric average : nan
+2024-09-20 18:15:25,034 - Epoch [527/1000], Train Loss: 2.5710
+2024-09-20 18:15:25,034 - Epoch [527/1000], Train metric average : 0.0145
+2024-09-20 18:15:25,035 - Epoch [527/1000], Val Loss: 2.5839
+2024-09-20 18:15:25,035 - Epoch [527/1000], Val metric average : nan
+2024-09-20 18:16:12,779 - Epoch [528/1000], Train Loss: 2.5703
+2024-09-20 18:16:12,779 - Epoch [528/1000], Train metric average : 0.0141
+2024-09-20 18:16:12,779 - Epoch [528/1000], Val Loss: 2.7448
+2024-09-20 18:16:12,779 - Epoch [528/1000], Val metric average : nan
+2024-09-20 18:16:59,997 - Epoch [529/1000], Train Loss: 2.5698
+2024-09-20 18:16:59,997 - Epoch [529/1000], Train metric average : 0.0149
+2024-09-20 18:16:59,997 - Epoch [529/1000], Val Loss: 2.8255
+2024-09-20 18:16:59,997 - Epoch [529/1000], Val metric average : nan
+2024-09-20 18:17:46,874 - Epoch [530/1000], Train Loss: 2.5691
+2024-09-20 18:17:46,874 - Epoch [530/1000], Train metric average : -0.0048
+2024-09-20 18:17:46,874 - Epoch [530/1000], Val Loss: 2.8055
+2024-09-20 18:17:46,874 - Epoch [530/1000], Val metric average : nan
+2024-09-20 18:18:34,096 - Epoch [531/1000], Train Loss: 2.5703
+2024-09-20 18:18:34,096 - Epoch [531/1000], Train metric average : -0.0170
+2024-09-20 18:18:34,096 - Epoch [531/1000], Val Loss: 2.7277
+2024-09-20 18:18:34,097 - Epoch [531/1000], Val metric average : nan
+2024-09-20 18:19:21,450 - Epoch [532/1000], Train Loss: 2.5693
+2024-09-20 18:19:21,450 - Epoch [532/1000], Train metric average : 0.0030
+2024-09-20 18:19:21,450 - Epoch [532/1000], Val Loss: 2.5859
+2024-09-20 18:19:21,450 - Epoch [532/1000], Val metric average : nan
+2024-09-20 18:20:09,184 - Epoch [533/1000], Train Loss: 2.5704
+2024-09-20 18:20:09,184 - Epoch [533/1000], Train metric average : 0.0076
+2024-09-20 18:20:09,184 - Epoch [533/1000], Val Loss: 2.6787
+2024-09-20 18:20:09,184 - Epoch [533/1000], Val metric average : nan
+2024-09-20 18:20:56,513 - Epoch [534/1000], Train Loss: 2.5695
+2024-09-20 18:20:56,513 - Epoch [534/1000], Train metric average : 0.0127
+2024-09-20 18:20:56,513 - Epoch [534/1000], Val Loss: 2.7785
+2024-09-20 18:20:56,513 - Epoch [534/1000], Val metric average : nan
+2024-09-20 18:21:43,946 - Epoch [535/1000], Train Loss: 2.5709
+2024-09-20 18:21:43,946 - Epoch [535/1000], Train metric average : -0.0038
+2024-09-20 18:21:43,946 - Epoch [535/1000], Val Loss: 2.6266
+2024-09-20 18:21:43,946 - Epoch [535/1000], Val metric average : nan
+2024-09-20 18:22:31,929 - Epoch [536/1000], Train Loss: 2.5698
+2024-09-20 18:22:31,930 - Epoch [536/1000], Train metric average : -0.0112
+2024-09-20 18:22:31,930 - Epoch [536/1000], Val Loss: 2.7949
+2024-09-20 18:22:31,930 - Epoch [536/1000], Val metric average : nan
+2024-09-20 18:23:19,161 - Epoch [537/1000], Train Loss: 2.5691
+2024-09-20 18:23:19,161 - Epoch [537/1000], Train metric average : -0.0025
+2024-09-20 18:23:19,161 - Epoch [537/1000], Val Loss: 2.6862
+2024-09-20 18:23:19,161 - Epoch [537/1000], Val metric average : nan
+2024-09-20 18:24:06,405 - Epoch [538/1000], Train Loss: 2.5703
+2024-09-20 18:24:06,405 - Epoch [538/1000], Train metric average : 0.0043
+2024-09-20 18:24:06,406 - Epoch [538/1000], Val Loss: 2.8213
+2024-09-20 18:24:06,406 - Epoch [538/1000], Val metric average : nan
+2024-09-20 18:24:53,688 - Epoch [539/1000], Train Loss: 2.5684
+2024-09-20 18:24:53,689 - Epoch [539/1000], Train metric average : -0.0004
+2024-09-20 18:24:53,689 - Epoch [539/1000], Val Loss: 2.6575
+2024-09-20 18:24:53,689 - Epoch [539/1000], Val metric average : nan
+2024-09-20 18:25:41,127 - Epoch [540/1000], Train Loss: 2.5712
+2024-09-20 18:25:41,127 - Epoch [540/1000], Train metric average : -0.0156
+2024-09-20 18:25:41,127 - Epoch [540/1000], Val Loss: 2.7077
+2024-09-20 18:25:41,128 - Epoch [540/1000], Val metric average : nan
+2024-09-20 18:26:28,459 - Epoch [541/1000], Train Loss: 2.5706
+2024-09-20 18:26:28,459 - Epoch [541/1000], Train metric average : -0.0154
+2024-09-20 18:26:28,459 - Epoch [541/1000], Val Loss: 2.6544
+2024-09-20 18:26:28,459 - Epoch [541/1000], Val metric average : nan
+2024-09-20 18:27:16,260 - Epoch [542/1000], Train Loss: 2.5711
+2024-09-20 18:27:16,260 - Epoch [542/1000], Train metric average : -0.0125
+2024-09-20 18:27:16,260 - Epoch [542/1000], Val Loss: 2.6247
+2024-09-20 18:27:16,260 - Epoch [542/1000], Val metric average : nan
+2024-09-20 18:28:04,133 - Epoch [543/1000], Train Loss: 2.5688
+2024-09-20 18:28:04,133 - Epoch [543/1000], Train metric average : -0.0108
+2024-09-20 18:28:04,133 - Epoch [543/1000], Val Loss: 2.7127
+2024-09-20 18:28:04,133 - Epoch [543/1000], Val metric average : nan
+2024-09-20 18:28:51,520 - Epoch [544/1000], Train Loss: 2.5684
+2024-09-20 18:28:51,521 - Epoch [544/1000], Train metric average : -0.0106
+2024-09-20 18:28:51,521 - Epoch [544/1000], Val Loss: 2.6155
+2024-09-20 18:28:51,521 - Epoch [544/1000], Val metric average : nan
+2024-09-20 18:29:38,970 - Epoch [545/1000], Train Loss: 2.5699
+2024-09-20 18:29:38,970 - Epoch [545/1000], Train metric average : -0.0122
+2024-09-20 18:29:38,970 - Epoch [545/1000], Val Loss: 2.6659
+2024-09-20 18:29:38,971 - Epoch [545/1000], Val metric average : nan
+2024-09-20 18:30:26,208 - Epoch [546/1000], Train Loss: 2.5712
+2024-09-20 18:30:26,208 - Epoch [546/1000], Train metric average : 0.0121
+2024-09-20 18:30:26,208 - Epoch [546/1000], Val Loss: 2.6513
+2024-09-20 18:30:26,208 - Epoch [546/1000], Val metric average : nan
+2024-09-20 18:31:13,594 - Epoch [547/1000], Train Loss: 2.5708
+2024-09-20 18:31:13,594 - Epoch [547/1000], Train metric average : 0.0140
+2024-09-20 18:31:13,594 - Epoch [547/1000], Val Loss: 2.6948
+2024-09-20 18:31:13,594 - Epoch [547/1000], Val metric average : nan
+2024-09-20 18:32:00,766 - Epoch [548/1000], Train Loss: 2.5686
+2024-09-20 18:32:00,766 - Epoch [548/1000], Train metric average : -0.0026
+2024-09-20 18:32:00,766 - Epoch [548/1000], Val Loss: 2.7258
+2024-09-20 18:32:00,767 - Epoch [548/1000], Val metric average : nan
+2024-09-20 18:32:48,098 - Epoch [549/1000], Train Loss: 2.5690
+2024-09-20 18:32:48,098 - Epoch [549/1000], Train metric average : -0.0175
+2024-09-20 18:32:48,098 - Epoch [549/1000], Val Loss: 2.7870
+2024-09-20 18:32:48,098 - Epoch [549/1000], Val metric average : nan
+2024-09-20 18:33:35,551 - Epoch [550/1000], Train Loss: 2.5705
+2024-09-20 18:33:35,551 - Epoch [550/1000], Train metric average : 0.0169
+2024-09-20 18:33:35,552 - Epoch [550/1000], Val Loss: 2.6864
+2024-09-20 18:33:35,552 - Epoch [550/1000], Val metric average : nan
+2024-09-20 18:34:23,126 - Epoch [551/1000], Train Loss: 2.5713
+2024-09-20 18:34:23,126 - Epoch [551/1000], Train metric average : -0.0024
+2024-09-20 18:34:23,127 - Epoch [551/1000], Val Loss: 2.7106
+2024-09-20 18:34:23,127 - Epoch [551/1000], Val metric average : nan
+2024-09-20 18:35:10,428 - Epoch [552/1000], Train Loss: 2.5694
+2024-09-20 18:35:10,428 - Epoch [552/1000], Train metric average : -0.0038
+2024-09-20 18:35:10,428 - Epoch [552/1000], Val Loss: 2.7037
+2024-09-20 18:35:10,428 - Epoch [552/1000], Val metric average : nan
+2024-09-20 18:35:57,717 - Epoch [553/1000], Train Loss: 2.5694
+2024-09-20 18:35:57,717 - Epoch [553/1000], Train metric average : 0.0040
+2024-09-20 18:35:57,717 - Epoch [553/1000], Val Loss: 2.7346
+2024-09-20 18:35:57,717 - Epoch [553/1000], Val metric average : nan
+2024-09-20 18:36:45,227 - Epoch [554/1000], Train Loss: 2.5695
+2024-09-20 18:36:45,228 - Epoch [554/1000], Train metric average : 0.0142
+2024-09-20 18:36:45,228 - Epoch [554/1000], Val Loss: 2.7413
+2024-09-20 18:36:45,228 - Epoch [554/1000], Val metric average : nan
+2024-09-20 18:37:32,835 - Epoch [555/1000], Train Loss: 2.5698
+2024-09-20 18:37:32,835 - Epoch [555/1000], Train metric average : 0.0106
+2024-09-20 18:37:32,835 - Epoch [555/1000], Val Loss: 2.7430
+2024-09-20 18:37:32,835 - Epoch [555/1000], Val metric average : nan
+2024-09-20 18:38:20,641 - Epoch [556/1000], Train Loss: 2.5700
+2024-09-20 18:38:20,641 - Epoch [556/1000], Train metric average : -0.0045
+2024-09-20 18:38:20,641 - Epoch [556/1000], Val Loss: 2.7565
+2024-09-20 18:38:20,641 - Epoch [556/1000], Val metric average : nan
+2024-09-20 18:39:08,545 - Epoch [557/1000], Train Loss: 2.5716
+2024-09-20 18:39:08,546 - Epoch [557/1000], Train metric average : -0.0276
+2024-09-20 18:39:08,546 - Epoch [557/1000], Val Loss: 2.6586
+2024-09-20 18:39:08,546 - Epoch [557/1000], Val metric average : nan
+2024-09-20 18:39:55,648 - Epoch [558/1000], Train Loss: 2.5714
+2024-09-20 18:39:55,649 - Epoch [558/1000], Train metric average : 0.0112
+2024-09-20 18:39:55,649 - Epoch [558/1000], Val Loss: 2.7683
+2024-09-20 18:39:55,649 - Epoch [558/1000], Val metric average : nan
+2024-09-20 18:40:43,032 - Epoch [559/1000], Train Loss: 2.5687
+2024-09-20 18:40:43,032 - Epoch [559/1000], Train metric average : -0.0174
+2024-09-20 18:40:43,033 - Epoch [559/1000], Val Loss: 2.5662
+2024-09-20 18:40:43,033 - Epoch [559/1000], Val metric average : nan
+2024-09-20 18:41:30,689 - Epoch [560/1000], Train Loss: 2.5700
+2024-09-20 18:41:30,689 - Epoch [560/1000], Train metric average : 0.0010
+2024-09-20 18:41:30,690 - Epoch [560/1000], Val Loss: 2.5330
+2024-09-20 18:41:30,690 - Epoch [560/1000], Val metric average : nan
+2024-09-20 18:42:17,910 - Epoch [561/1000], Train Loss: 2.5698
+2024-09-20 18:42:17,910 - Epoch [561/1000], Train metric average : -0.0003
+2024-09-20 18:42:17,910 - Epoch [561/1000], Val Loss: 2.5243
+2024-09-20 18:42:17,910 - Epoch [561/1000], Val metric average : nan
+2024-09-20 18:43:05,559 - Epoch [562/1000], Train Loss: 2.5699
+2024-09-20 18:43:05,559 - Epoch [562/1000], Train metric average : -0.0055
+2024-09-20 18:43:05,560 - Epoch [562/1000], Val Loss: 2.7718
+2024-09-20 18:43:05,560 - Epoch [562/1000], Val metric average : nan
+2024-09-20 18:43:52,685 - Epoch [563/1000], Train Loss: 2.5701
+2024-09-20 18:43:52,685 - Epoch [563/1000], Train metric average : -0.0059
+2024-09-20 18:43:52,685 - Epoch [563/1000], Val Loss: 2.6568
+2024-09-20 18:43:52,685 - Epoch [563/1000], Val metric average : nan
+2024-09-20 18:44:40,035 - Epoch [564/1000], Train Loss: 2.5691
+2024-09-20 18:44:40,035 - Epoch [564/1000], Train metric average : 0.0141
+2024-09-20 18:44:40,035 - Epoch [564/1000], Val Loss: 2.6530
+2024-09-20 18:44:40,035 - Epoch [564/1000], Val metric average : nan
+2024-09-20 18:45:27,642 - Epoch [565/1000], Train Loss: 2.5700
+2024-09-20 18:45:27,642 - Epoch [565/1000], Train metric average : -0.0049
+2024-09-20 18:45:27,642 - Epoch [565/1000], Val Loss: 2.7278
+2024-09-20 18:45:27,642 - Epoch [565/1000], Val metric average : nan
+2024-09-20 18:46:15,392 - Epoch [566/1000], Train Loss: 2.5701
+2024-09-20 18:46:15,392 - Epoch [566/1000], Train metric average : 0.0106
+2024-09-20 18:46:15,392 - Epoch [566/1000], Val Loss: 2.7610
+2024-09-20 18:46:15,392 - Epoch [566/1000], Val metric average : nan
+2024-09-20 18:47:02,669 - Epoch [567/1000], Train Loss: 2.5693
+2024-09-20 18:47:02,670 - Epoch [567/1000], Train metric average : 0.0016
+2024-09-20 18:47:02,670 - Epoch [567/1000], Val Loss: 2.7606
+2024-09-20 18:47:02,670 - Epoch [567/1000], Val metric average : nan
+2024-09-20 18:47:50,326 - Epoch [568/1000], Train Loss: 2.5692
+2024-09-20 18:47:50,326 - Epoch [568/1000], Train metric average : 0.0057
+2024-09-20 18:47:50,326 - Epoch [568/1000], Val Loss: 2.7034
+2024-09-20 18:47:50,327 - Epoch [568/1000], Val metric average : nan
+2024-09-20 18:48:37,595 - Epoch [569/1000], Train Loss: 2.5695
+2024-09-20 18:48:37,595 - Epoch [569/1000], Train metric average : -0.0047
+2024-09-20 18:48:37,595 - Epoch [569/1000], Val Loss: 2.5967
+2024-09-20 18:48:37,595 - Epoch [569/1000], Val metric average : nan
+2024-09-20 18:49:24,849 - Epoch [570/1000], Train Loss: 2.5694
+2024-09-20 18:49:24,849 - Epoch [570/1000], Train metric average : -0.0077
+2024-09-20 18:49:24,849 - Epoch [570/1000], Val Loss: 2.6211
+2024-09-20 18:49:24,849 - Epoch [570/1000], Val metric average : nan
+2024-09-20 18:50:11,919 - Epoch [571/1000], Train Loss: 2.5698
+2024-09-20 18:50:11,919 - Epoch [571/1000], Train metric average : 0.0040
+2024-09-20 18:50:11,919 - Epoch [571/1000], Val Loss: 2.7278
+2024-09-20 18:50:11,919 - Epoch [571/1000], Val metric average : nan
+2024-09-20 18:50:59,592 - Epoch [572/1000], Train Loss: 2.5695
+2024-09-20 18:50:59,592 - Epoch [572/1000], Train metric average : -0.0065
+2024-09-20 18:50:59,593 - Epoch [572/1000], Val Loss: 2.6959
+2024-09-20 18:50:59,593 - Epoch [572/1000], Val metric average : nan
+2024-09-20 18:51:46,870 - Epoch [573/1000], Train Loss: 2.5715
+2024-09-20 18:51:46,871 - Epoch [573/1000], Train metric average : -0.0258
+2024-09-20 18:51:46,871 - Epoch [573/1000], Val Loss: 2.6911
+2024-09-20 18:51:46,871 - Epoch [573/1000], Val metric average : nan
+2024-09-20 18:52:34,210 - Epoch [574/1000], Train Loss: 2.5694
+2024-09-20 18:52:34,210 - Epoch [574/1000], Train metric average : 0.0017
+2024-09-20 18:52:34,210 - Epoch [574/1000], Val Loss: 2.5811
+2024-09-20 18:52:34,210 - Epoch [574/1000], Val metric average : nan
+2024-09-20 18:53:22,001 - Epoch [575/1000], Train Loss: 2.5691
+2024-09-20 18:53:22,001 - Epoch [575/1000], Train metric average : 0.0069
+2024-09-20 18:53:22,002 - Epoch [575/1000], Val Loss: 2.6292
+2024-09-20 18:53:22,002 - Epoch [575/1000], Val metric average : nan
+2024-09-20 18:54:09,467 - Epoch [576/1000], Train Loss: 2.5700
+2024-09-20 18:54:09,467 - Epoch [576/1000], Train metric average : -0.0089
+2024-09-20 18:54:09,467 - Epoch [576/1000], Val Loss: 2.7495
+2024-09-20 18:54:09,467 - Epoch [576/1000], Val metric average : nan
+2024-09-20 18:54:56,668 - Epoch [577/1000], Train Loss: 2.5693
+2024-09-20 18:54:56,668 - Epoch [577/1000], Train metric average : -0.0014
+2024-09-20 18:54:56,668 - Epoch [577/1000], Val Loss: 2.6268
+2024-09-20 18:54:56,668 - Epoch [577/1000], Val metric average : nan
+2024-09-20 18:55:43,757 - Epoch [578/1000], Train Loss: 2.5721
+2024-09-20 18:55:43,757 - Epoch [578/1000], Train metric average : -0.0101
+2024-09-20 18:55:43,757 - Epoch [578/1000], Val Loss: 2.7307
+2024-09-20 18:55:43,757 - Epoch [578/1000], Val metric average : nan
+2024-09-20 18:56:31,063 - Epoch [579/1000], Train Loss: 2.5684
+2024-09-20 18:56:31,063 - Epoch [579/1000], Train metric average : 0.0050
+2024-09-20 18:56:31,063 - Epoch [579/1000], Val Loss: 2.6955
+2024-09-20 18:56:31,063 - Epoch [579/1000], Val metric average : nan
+2024-09-20 18:57:18,513 - Epoch [580/1000], Train Loss: 2.5692
+2024-09-20 18:57:18,513 - Epoch [580/1000], Train metric average : -0.0144
+2024-09-20 18:57:18,513 - Epoch [580/1000], Val Loss: 2.5407
+2024-09-20 18:57:18,513 - Epoch [580/1000], Val metric average : nan
+2024-09-20 18:58:05,291 - Epoch [581/1000], Train Loss: 2.5699
+2024-09-20 18:58:05,291 - Epoch [581/1000], Train metric average : 0.0150
+2024-09-20 18:58:05,291 - Epoch [581/1000], Val Loss: 2.6535
+2024-09-20 18:58:05,291 - Epoch [581/1000], Val metric average : nan
+2024-09-20 18:58:53,290 - Epoch [582/1000], Train Loss: 2.5690
+2024-09-20 18:58:53,290 - Epoch [582/1000], Train metric average : 0.0103
+2024-09-20 18:58:53,290 - Epoch [582/1000], Val Loss: 2.7229
+2024-09-20 18:58:53,290 - Epoch [582/1000], Val metric average : nan
+2024-09-20 18:59:40,676 - Epoch [583/1000], Train Loss: 2.5698
+2024-09-20 18:59:40,676 - Epoch [583/1000], Train metric average : 0.0005
+2024-09-20 18:59:40,676 - Epoch [583/1000], Val Loss: 2.6483
+2024-09-20 18:59:40,676 - Epoch [583/1000], Val metric average : nan
+2024-09-20 19:00:28,019 - Epoch [584/1000], Train Loss: 2.5692
+2024-09-20 19:00:28,020 - Epoch [584/1000], Train metric average : 0.0030
+2024-09-20 19:00:28,020 - Epoch [584/1000], Val Loss: 2.6071
+2024-09-20 19:00:28,020 - Epoch [584/1000], Val metric average : nan
+2024-09-20 19:01:15,398 - Epoch [585/1000], Train Loss: 2.5703
+2024-09-20 19:01:15,398 - Epoch [585/1000], Train metric average : -0.0068
+2024-09-20 19:01:15,398 - Epoch [585/1000], Val Loss: 2.8138
+2024-09-20 19:01:15,398 - Epoch [585/1000], Val metric average : nan
+2024-09-20 19:02:02,901 - Epoch [586/1000], Train Loss: 2.5706
+2024-09-20 19:02:02,901 - Epoch [586/1000], Train metric average : 0.0270
+2024-09-20 19:02:02,901 - Epoch [586/1000], Val Loss: 2.7423
+2024-09-20 19:02:02,901 - Epoch [586/1000], Val metric average : nan
+2024-09-20 19:02:49,867 - Epoch [587/1000], Train Loss: 2.5687
+2024-09-20 19:02:49,867 - Epoch [587/1000], Train metric average : -0.0049
+2024-09-20 19:02:49,867 - Epoch [587/1000], Val Loss: 2.7197
+2024-09-20 19:02:49,867 - Epoch [587/1000], Val metric average : nan
+2024-09-20 19:03:37,147 - Epoch [588/1000], Train Loss: 2.5684
+2024-09-20 19:03:37,147 - Epoch [588/1000], Train metric average : 0.0282
+2024-09-20 19:03:37,147 - Epoch [588/1000], Val Loss: 2.7133
+2024-09-20 19:03:37,147 - Epoch [588/1000], Val metric average : nan
+2024-09-20 19:04:24,643 - Epoch [589/1000], Train Loss: 2.5700
+2024-09-20 19:04:24,643 - Epoch [589/1000], Train metric average : 0.0054
+2024-09-20 19:04:24,643 - Epoch [589/1000], Val Loss: 2.7529
+2024-09-20 19:04:24,643 - Epoch [589/1000], Val metric average : nan
