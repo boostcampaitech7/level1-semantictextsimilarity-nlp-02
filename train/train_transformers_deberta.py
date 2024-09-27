@@ -1,3 +1,4 @@
+import syspath
 import random
 import pandas as pd
 
@@ -46,6 +47,7 @@ if __name__ == '__main__':
     # 예제 학습 과정
     model.train()
     print(train_dataloader)
+    loss_step = []
     for epoch in range(config['max_epoch']):  # 3 에포크 학습
         for batch in tqdm(train_dataloader, desc="Processing", unit="item"):
             # print(batch.keys())
@@ -59,9 +61,11 @@ if __name__ == '__main__':
             # if isinstance(labels, list):
             #     labels = torch.tensor(labels).to('gpu')
             outputs = model(input_ids=input_ids, attention_mask=attention_mask)
+            # print("outputs: ", outputs.squeeze())
             loss = loss_fn(outputs.squeeze(), labels.float())
             loss.backward()
             optimizer.step()
+            loss_step.append(loss.item())
         print(f"Epoch {epoch + 1} - Training Loss: {loss.item()}")
 
     # 검증 데이터셋 평가
@@ -81,7 +85,8 @@ if __name__ == '__main__':
 
             val_predictions.extend(preds)
             val_actuals.extend(labels)
-
+    # step 별 손실률 리스트
+    print(f"Loss list: {loss_step}")
     # 검증 데이터셋에 대한 MSE 및 MAE 계산
     val_mse = mean_squared_error(val_actuals, val_predictions)
     val_mae = mean_absolute_error(val_actuals, val_predictions)

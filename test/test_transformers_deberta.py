@@ -1,3 +1,4 @@
+import syspath
 from utils.util import load_config
 from data_loaders.transformers_bertForRegression_loader import BertDataLoader
 
@@ -33,7 +34,7 @@ if __name__ == '__main__':
     # Inference part
     # 저장된 모델로 예측을 진행합니다.
     model = torch.load(
-        'saves/deberta-model.pt').to(device)
+        'saves/deberta-model-xlarge.pt').to(device)
 
     # predictions = trainer.predict(model=model, datamodule=dataloader)
 
