@@ -1,0 +1,43 @@
+
+# dataset path 
+train_path : "../../data/train.csv"
+val_path : "../../data/dev.csv"
+test_path : "../../data/test.csv"
+submission_path : "../../data/sample_submission.csv"
+
+# trainer 
+trainer : "CNNCatTrainer"
+criterion : "MSE" # 애초에 0~5 사이로 맞추는거라 MSE가 더 나을듯. 그러면 자연스럽게 상관계수도 높아질듯 
+metric : "Pearson"
+optimizer : 
+  type : "Adam"
+  params :
+    lr : 0.001
+    weight_decay : 0.01
+
+early_stopping_patience : 50
+save_intervals : 20
+epochs : 1000
+batch_size : 128 
+attention_based : True
+
+
+# model
+pre_trained_model_path : "monologg/kobert"
+dataset_type : "CNNCat"
+dataloader_type : "CNNCat"
+architecture : "CNNCat"
+num_filters : 100
+filter_sizes :
+  - 3
+  - 4
+  - 5
+fc_sizes :
+  - 600
+  - 600
+  - 900
+  - 600
+  - 300
+  - 150
+  - 1
+dropout_rate : 0.2

@@ -1,0 +1,59 @@
+# 각 문장에 대한 CLS를 두개를 빼고 더해서 총 4개를 concat한 뒤에 FC 통과 
+
+# dataset path 
+train_path : "../../data/train.csv"
+val_path : "../../data/dev.csv"
+test_path : "../../data/test.csv"
+submission_path : "../../data/sample_submission.csv"
+
+# trainer 
+trainer : "CLSDiffMulTrainer"
+criterion : "Pearson"
+metric : "Pearson"
+optimizer : 
+  type : "Adam"
+  params :
+    # 해당 optimizer에 맞는 parameter들 작성 
+    lr : 0.01
+    weight_decay : 0.01
+scheduler :
+  type : "StepLR"
+  params : 
+    step_size : 50
+    gamma : 0.1
+  # type : "Cos"
+  # params : 
+  #   T_max : 50
+  #   eta_min : 0.0001
+    
+
+early_stopping_patience : 1000
+save_intervals : 10
+epochs : 1000
+batch_size : 256 
+attention_based : True # 추후 attention 기반 모델은 시각화 할수 있도록 하기 위해 추가함 
+
+# model
+pre_trained_model_path : 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2' # 사전학습 모델 사용시, 허깅페이스 모델 경로 
+# dataset_type, dataloader_type, architecture은 자신의 모델에 맞게 지정 후 추가
+dataset_type : "CLSDiffMul"
+dataloader_type : "CLSDiffMul"
+architecture : "CLSDiffMul"
+
+# model specific : 각 모델에 맞게 작성 
+
+fc_hidden_sizes : 
+  - 1537
+  - 3072
+  - 1536
+  - 768
+  - 384
+  - 192
+  - 48
+  - 1
+  # - 769
+  # - 1536
+  # - 768
+  # - 384
+  # - 1
+dropout_rate : 0.2

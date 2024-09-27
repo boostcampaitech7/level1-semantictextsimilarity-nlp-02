@@ -1,0 +1,46 @@
+# CNN에는 정규화, 드랍아웃 적용  
+# 두 문장을 더하지 않고 concat한 형태로 진행 
+# FC 조금 더 층 늘리고, 마지막에는 렐루, 클립으로 0~5 범위 맞춰줌(시그모이드에 5 곱하는건 좀 리스크 클듯)
+
+# dataset path 
+train_path : "../../data/train.csv"
+val_path : "../../data/dev.csv"
+test_path : "../../data/test.csv"
+submission_path : "../../data/sample_submission.csv"
+
+# trainer 
+trainer : "CNNTrainer"
+criterion : "MSE" # 애초에 0~5 사이로 맞추는거라 MSE가 더 나을듯. 그러면 자연스럽게 상관계수도 높아질듯 
+metric : "Pearson"
+optimizer : 
+  type : "Adam"
+  params :
+    lr : 0.001
+    weight_decay : 0.01
+
+early_stopping_patience : 50
+save_intervals : 20
+epochs : 1000
+batch_size : 128 
+attention_based : True
+
+
+# model
+pre_trained_model_path : "monologg/kobert"
+dataset_type : "CNN"
+dataloader_type : "CNN"
+architecture : "CNN"
+num_filters : 100
+filter_sizes :
+  - 3
+  - 4
+  - 5
+fc_sizes :
+  - 600
+  - 600
+  - 900
+  - 600
+  - 300
+  - 150
+  - 1
+dropout_rate : 0.2
