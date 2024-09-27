@@ -1,0 +1,35 @@
+# dataset path 
+train_path : "../../data/train.csv"
+val_path : "../../data/dev.csv"
+test_path : "../../data/test.csv"
+submission_path : "../../data/sample_submission.csv"
+
+
+# pre_trained_model
+pre_trained_path : 
+
+# Dataset, Dataloader
+dataset_type :
+dataloader_type : 
+max_length : 
+batch_size : 
+
+# train
+trainer_name : 
+model_name :
+criterion : 
+metric : 
+optimizer : 
+  type : 
+  params : 
+scheduler : 
+  type : 
+  params : 
+
+
+early_stop_patience : 
+save_intervals : 
+epochs : 
+
+# model specific 
+
