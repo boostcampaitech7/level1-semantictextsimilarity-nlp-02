@@ -1,8 +1,8 @@
 #config.yaml
 
-model_name  : "bert-base-uncased"
-batch_size : 128
-max_epoch : 20
+model_name  : "microsoft/deberta-v2-xlarge"
+batch_size : 16
+max_epoch : 1
 shuffle : True   
 learning_rate : !!float 5e-5
 train_path : "./data/train.csv"
