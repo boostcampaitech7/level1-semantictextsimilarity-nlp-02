@@ -45,10 +45,13 @@ if __name__ == '__main__':
         model.parameters(), lr=config['learning_rate'])
 
     # 예제 학습 과정
-    model.train()
     print(train_dataloader)
-    loss_step = []
+
     for epoch in range(config['max_epoch']):  # 3 에포크 학습
+        model.train()
+        loss_step = []
+        train_predictions = []
+        train_actuals = []
         for batch in tqdm(train_dataloader, desc="Processing", unit="item"):
             # print(batch.keys())
             # print(batch.values())
@@ -66,35 +69,52 @@ if __name__ == '__main__':
             loss.backward()
             optimizer.step()
             loss_step.append(loss.item())
-        print(f"Epoch {epoch + 1} - Training Loss: {loss.item()}")
 
-    # 검증 데이터셋 평가
-    model.eval()
-    val_predictions = []
-    val_actuals = []
+            preds = outputs.squeeze().detach().cpu().numpy()
+            labels = labels.detach().cpu().numpy()
+            train_predictions.extend(preds)
+            train_actuals.extend(labels)
+        avg_loss = sum(loss_step) / len(loss_step)
+        # 1 epoch 동안의 loss 평균
+        print(f"Epoch {epoch + 1} - Training Loss: {avg_loss:.3f}")
 
-    with torch.no_grad():
-        for batch in val_dataloader:
-            input_ids = batch['input_ids'].to(device)
-            attention_mask = batch['attention_mask'].to(device)
-            labels = batch['labels'].to(device)
+        # 검증 데이터셋 평가
+        model.eval()
+        val_predictions = []
+        val_actuals = []
 
-            outputs = model(input_ids=input_ids, attention_mask=attention_mask)
-            preds = outputs.squeeze().cpu().numpy()  # 예측 값
-            labels = labels.cpu().numpy()  # 실제 값
+        with torch.no_grad():
+            for batch in val_dataloader:
+                input_ids = batch['input_ids'].to(device)
+                attention_mask = batch['attention_mask'].to(device)
+                labels = batch['labels'].to(device)
 
-            val_predictions.extend(preds)
-            val_actuals.extend(labels)
-    # step 별 손실률 리스트
-    print(f"Loss list: {loss_step}")
-    # 검증 데이터셋에 대한 MSE 및 MAE 계산
-    val_mse = mean_squared_error(val_actuals, val_predictions)
-    val_mae = mean_absolute_error(val_actuals, val_predictions)
-    print(f"Validation MSE: {val_mse:.3f}")
-    print(f"Validation MAE: {val_mae:.3f}")
+                outputs = model(input_ids=input_ids,
+                                attention_mask=attention_mask)
+                preds = outputs.squeeze().cpu().numpy()  # 예측 값
+                labels = labels.cpu().numpy()  # 실제 값
 
-    pearson_corrcoef = torchmetrics.functional.pearson_corrcoef(
-        torch.tensor(val_predictions), torch.tensor(val_actuals))
-    print("test_pearson", pearson_corrcoef)
+                val_predictions.extend(preds)
+                val_actuals.extend(labels)
+         # 훈련 데이터셋에 대한 MSE 및 MAE 계산
+        train_mse = mean_squared_error(train_actuals, train_predictions)
+        train_mae = mean_absolute_error(train_actuals, train_predictions)
+        print(f"Train MSE: {train_mse:.3f}")
+        print(f"Train MAE: {train_mae:.3f}")
+        # 검증 데이터셋에 대한 MSE 및 MAE 계산
+        val_mse = mean_squared_error(val_actuals, val_predictions)
+        val_mae = mean_absolute_error(val_actuals, val_predictions)
+        print(f"Validation MSE: {val_mse:.3f}")
+        print(f"Validation MAE: {val_mae:.3f}")
+
+        # 훈련 데이터셋에 대한 피어슨 상관계수 계산
+        pearson_corrcoef = torchmetrics.functional.pearson_corrcoef(
+            torch.tensor(train_predictions), torch.tensor(train_actuals))
+        print("train_pearson", pearson_corrcoef)
+
+        # 검증 데이터셋에 대한 피어슨 상관계수 계산
+        pearson_corrcoef = torchmetrics.functional.pearson_corrcoef(
+            torch.tensor(val_predictions), torch.tensor(val_actuals))
+        print("test_pearson", pearson_corrcoef)
 
     torch.save(model, 'saves/deberta-model.pt')
