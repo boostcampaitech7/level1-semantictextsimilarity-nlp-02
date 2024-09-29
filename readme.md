@@ -20,15 +20,21 @@ models/bertForRegression_model.py
 ### DataLoader
 data_loaders/transformers_bertForRegression_loader.py
 ### train
-train/train_transformers_regression.py
+train/train_transformers_bert.py
+train/train_transformers_roberta.py
+train/train_transformers_deberta.py
+
 ### test
-test/test_transforemers_regression.py
+test/test_transforemers_bert.py
+test/test_transforemers_roberta.py
+test/test_transforemers_deberta.py
 ### config
 [bert-base-uncased model](configs/config_bert_base-uncased.yaml) - configs/config_bert_base-uncased.yaml
 
 
 ## Installation
-
+* sftp 사용할 경우 ignore 목록에 saves, python_venv 추가
+  
 1. 타겟 폴더에 sftp 파일 업로드 진행
 2. 가상환경 생성
 
@@ -61,16 +67,20 @@ pip install -r requirements.txt
 
 ### Train
 ``` sh
-python train/train_transformers_regression.py
+python train/train_transformers_bert.py ## bert
+python train/train_transformers_roberta.py ## roberta
+python train/train_transformers_deberta.py ## deberta
 ```
 
 ### Test
 ``` sh
-python test/test_transformers_regression.py
+python test/test_transformers_bert.py ## bert
+python test/test_transformers_roberta.py ## roberta
+python test/test_transformers_deberta.py ## deberta
 ```
 
 ### 모델 저장 위치
-
+ex)
 saves/bert_base_advanced_model.pt
 
 ### 모델 성능
@@ -81,7 +91,7 @@ saves/bert_base_advanced_model.pt
 ## Notice
 1. 로그 출력
 
-    tqdm 사용 예정
+    tqdm 사용, 각 epoch 별 mse, mae, pearson corrcoef를 훈련 데이터셋과 검증 데이터셋 둘 다 출력
 
 2. 모델 체크 포인트 추가 예정
 
