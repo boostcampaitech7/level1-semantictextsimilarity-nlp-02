@@ -43,7 +43,7 @@ if __name__ == '__main__':
     # 손실 함수와 옵티마이저 설정
     loss_fn = MSELoss()
     optimizer = torch.optim.AdamW(
-        model.parameters(), lr=config['learning_rate'])
+        model.parameters(), lr=config['learning_rate'], weight_decay=5e-3)
 
     # 예제 학습 과정
     model.train()
