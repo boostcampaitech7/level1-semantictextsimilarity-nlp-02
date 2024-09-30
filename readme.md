@@ -100,3 +100,5 @@ saves/bert_base_advanced_model.pt
 4. 에포크 혹은 스텝마다 측정된 지표들(mse, mae) 등등을 그래프화 예정
 
 5. optuna 혹은 pytorch scheduler를 이용한 하이퍼파라미터 튜닝 자동화 추가 예정  
+
+6. datasets 삭제
